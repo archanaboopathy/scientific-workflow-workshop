@@ -1,6 +1,6 @@
 # Scientific workflow GitHub workshop
 
-This synthetic repository supports two workshops:
+This synthetic repository supports two workshops: I edited this
 
 1. **GitHub Foundations for Scientific Work**
 2. **GitHub Copilot for Data Scientists — VS Code Agent mode**
