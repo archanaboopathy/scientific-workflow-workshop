@@ -1,0 +1,2027 @@
+{
+ "group": "g5_BIC_LEN_NNRTI",
+ "records": [
+  {
+   "product": "BIC/TAF/FTC",
+   "existing_row": 4,
+   "trial_name": "Study 1489 (GS-US-380-1489)",
+   "nct_id": "NCT02607930",
+   "population": "Treatment-naive",
+   "design": "Phase 3, double-blind, multicentre, randomised (1:1), active-controlled non-inferiority (-12% margin); 144-week blinded phase + open-label extension",
+   "experimental_arm": "Coformulated bictegravir 50 mg/emtricitabine 200 mg/tenofovir alafenamide 25 mg once daily (+ placebo)",
+   "comparator_arm": "Coformulated dolutegravir 50 mg/abacavir 600 mg/lamivudine 300 mg once daily (+ placebo)",
+   "publication_citation": "Gallant J et al. Bictegravir, emtricitabine, and tenofovir alafenamide versus dolutegravir, abacavir, and lamivudine for initial treatment of HIV-1 infection (GS-US-380-1489): a double-blind, multicentre, phase 3, randomised controlled non-inferiority trial. Lancet. 2017;390:2063-2072.",
+   "pmid": "28867497",
+   "publication_year": 2017,
+   "approval_year_checked": "2018",
+   "approval_year_source": "Biktarvy US label Highlights 'Initial U.S. Approval: 2018' (DailyMed setid 664cb8f0-1f65-441b-b0d9-ba3d798be309)",
+   "week48_snapshot": "92.4% (290/314) B/F/TAF vs 93.0% (293/315) DTG/ABC/3TC",
+   "week48_snapshot_source": "PMID 28867497 abstract (FDA Snapshot <50 c/mL); CT.gov NCT02607930 posted results primary outcome concordant (92.4 vs 93.0)",
+   "week48_alt_endpoint": "Not applicable",
+   "week48_alt_source": "Not applicable",
+   "te_res_any_component": "No individual developed treatment-emergent resistance to any study drug (either arm) through Week 48",
+   "te_res_new_drug_text": "No treatment-emergent resistance to BIC, FTC or TAF through Week 48",
+   "res_new_drug_n": 0,
+   "res_N_randomized": 316,
+   "res_N_tested": null,
+   "resistance_timepoint": "Week 48 (primary analysis)",
+   "resistance_source": "PMID 28867497 abstract (number genotyped not stated in abstract)",
+   "res_final_text": "Biktarvy US label sec 12.4 (pooled Trials 1489+1490, final resistance analysis through Week 144): no specific substitutions emerged consistently in the 11 participants with treatment failure and evaluable genotypic data; no treatment-emergent NRTI RAS; phenotypic fold-changes below cutoffs for BIC, FTC, TFV. Label sec 14 Week 144 Snapshot <50: 82% vs 84%.",
+   "notes": "Treatment-naive adults (HLA-B*5701-negative, no HBV). Registrational for Biktarvy. 316 randomised to B/F/TAF, 314 treated.",
+   "flags": [
+    "Number of B/F/TAF participants resistance-tested at Week 48 not verified (Lancet full text not open access)"
+   ],
+   "changes": [
+    {
+     "column": "I",
+     "field": "Peer-Reviewed Phase 3 Publication",
+     "previous": "Gallant et al. Bictegravir, emtricitabine, and tenofovir alafenamide versus dolutegravir, abacavir, and lamivudine, Lancet",
+     "new": "Gallant J et al. Bictegravir, emtricitabine, and tenofovir alafenamide versus dolutegravir, abacavir, and lamivudine for initial treatment of HIV-1 infection (GS-US-380-1489): a double-blind, multicentre, phase 3, randomised controlled non-inferiority trial. Lancet. 2017;390:2063-2072.",
+     "reason": "Completed full citation",
+     "source": "PMID 28867497"
+    },
+    {
+     "column": "L",
+     "field": "Week 48 FDA Snapshot",
+     "previous": "92.4% vs 93.0% comparator",
+     "new": "92.4% (290/314) B/F/TAF vs 93.0% (293/315) DTG/ABC/3TC",
+     "reason": "Added stated n/N and named comparator; values unchanged",
+     "source": "PMID 28867497 abstract"
+    },
+    {
+     "column": "M",
+     "field": "TE Resistance - Any Regimen Component",
+     "previous": "No treatment-emergent resistance reported",
+     "new": "No individual developed treatment-emergent resistance to any study drug (either arm) through Week 48",
+     "reason": "Specified scope and timepoint; meaning unchanged",
+     "source": "PMID 28867497 abstract"
+    },
+    {
+     "column": "N",
+     "field": "TE Resistance - Newly Approved Drug/Product",
+     "previous": "No treatment-emergent resistance to BIC/TAF/FTC reported",
+     "new": "No treatment-emergent resistance to BIC, FTC or TAF through Week 48",
+     "reason": "Specified timepoint; meaning unchanged",
+     "source": "PMID 28867497 abstract"
+    },
+    {
+     "column": "O",
+     "field": "Trial/Publication Notes",
+     "previous": "Treatment-naive.",
+     "new": "Treatment-naive adults (HLA-B*5701-negative, no HBV); registrational for Biktarvy; values verified against PMID 28867497 and CT.gov",
+     "reason": "Added population detail after verification",
+     "source": "PMID 28867497; CT.gov NCT02607930"
+    },
+    {
+     "column": "R",
+     "field": "Regulatory/Publication Source Note",
+     "previous": "See NIH source; FDA/peer-reviewed source verification required for blank or Not reported fields.",
+     "new": "Verified: PMID 28867497 abstract; CT.gov NCT02607930 posted results; Biktarvy US label (approval 2018, sec 12.4/14)",
+     "reason": "Sources now named",
+     "source": "as listed"
+    }
+   ]
+  },
+  {
+   "product": "BIC/TAF/FTC",
+   "existing_row": 5,
+   "trial_name": "Study 1490 (GS-US-380-1490)",
+   "nct_id": "NCT02607956",
+   "population": "Treatment-naive",
+   "design": "Phase 3, randomised (1:1), double-blind, placebo-matched, multicentre non-inferiority (-12% margin); 144 weeks + open-label extension",
+   "experimental_arm": "Fixed-dose bictegravir 50 mg/emtricitabine 200 mg/tenofovir alafenamide 25 mg once daily (+ placebo)",
+   "comparator_arm": "Dolutegravir 50 mg + coformulated emtricitabine 200 mg/tenofovir alafenamide 25 mg once daily (+ placebo)",
+   "publication_citation": "Sax PE et al. Coformulated bictegravir, emtricitabine, and tenofovir alafenamide versus dolutegravir with emtricitabine and tenofovir alafenamide, for initial treatment of HIV-1 infection (GS-US-380-1490): a randomised, double-blind, multicentre, phase 3, non-inferiority trial. Lancet. 2017;390:2073-2082.",
+   "pmid": "28867499",
+   "publication_year": 2017,
+   "approval_year_checked": "2018",
+   "approval_year_source": "Biktarvy US label Highlights 'Initial U.S. Approval: 2018' (DailyMed setid 664cb8f0-1f65-441b-b0d9-ba3d798be309)",
+   "week48_snapshot": "89.4% (286/320) B/F/TAF vs 92.9% (302/325) DTG+F/TAF",
+   "week48_snapshot_source": "CT.gov NCT02607956 posted results primary outcome (89.4 vs 92.9, N 320/325); n/N from PMID 28867499 abstract (which rounds to 89% vs 93%)",
+   "week48_alt_endpoint": "Not applicable",
+   "week48_alt_source": "Not applicable",
+   "te_res_any_component": "No treatment-emergent resistance to any study drug observed (either arm) through Week 48",
+   "te_res_new_drug_text": "No treatment-emergent resistance to BIC, FTC or TAF through Week 48",
+   "res_new_drug_n": 0,
+   "res_N_randomized": 327,
+   "res_N_tested": null,
+   "resistance_timepoint": "Week 48 (primary analysis)",
+   "resistance_source": "PMID 28867499 abstract (number genotyped not stated in abstract)",
+   "res_final_text": "Biktarvy US label sec 12.4 (pooled Trials 1489+1490 through Week 144): 11 participants with treatment failure and evaluable genotypic data, no consistent emergent substitutions associated with BIC resistance, no treatment-emergent NRTI RAS. CT.gov Week 144 Snapshot <50: 81.9% vs 84.0%.",
+   "notes": "Treatment-naive adults; chronic HBV/HCV co-infection allowed. Registrational for Biktarvy. 327 randomised to B/F/TAF, 320 in primary analysis.",
+   "flags": [
+    "Number of B/F/TAF participants resistance-tested at Week 48 not verified (Lancet full text not open access)"
+   ],
+   "changes": [
+    {
+     "column": "I",
+     "field": "Peer-Reviewed Phase 3 Publication",
+     "previous": "Sax et al. Coformulated bictegravir, emtricitabine, and tenofovir alafenamide versus dolutegravir with emtricitabine and tenofovir alafenamide, Lancet",
+     "new": "Sax PE et al. Coformulated bictegravir, emtricitabine, and tenofovir alafenamide versus dolutegravir with emtricitabine and tenofovir alafenamide, for initial treatment of HIV-1 infection (GS-US-380-1490): a randomised, double-blind, multicentre, phase 3, non-inferiority trial. Lancet. 2017;390:2073-2082.",
+     "reason": "Completed full citation",
+     "source": "PMID 28867499"
+    },
+    {
+     "column": "L",
+     "field": "Week 48 FDA Snapshot",
+     "previous": "89.4% vs 92.9% comparator",
+     "new": "89.4% (286/320) B/F/TAF vs 92.9% (302/325) DTG+F/TAF",
+     "reason": "Added stated n/N and named comparator; values unchanged",
+     "source": "CT.gov NCT02607956 posted results; PMID 28867499 abstract"
+    },
+    {
+     "column": "M",
+     "field": "TE Resistance - Any Regimen Component",
+     "previous": "No treatment-emergent resistance reported",
+     "new": "No treatment-emergent resistance to any study drug observed (either arm) through Week 48",
+     "reason": "Specified scope and timepoint; meaning unchanged",
+     "source": "PMID 28867499 abstract"
+    },
+    {
+     "column": "N",
+     "field": "TE Resistance - Newly Approved Drug/Product",
+     "previous": "No treatment-emergent resistance to BIC/TAF/FTC reported",
+     "new": "No treatment-emergent resistance to BIC, FTC or TAF through Week 48",
+     "reason": "Specified timepoint; meaning unchanged",
+     "source": "PMID 28867499 abstract"
+    },
+    {
+     "column": "O",
+     "field": "Trial/Publication Notes",
+     "previous": "Treatment-naive.",
+     "new": "Treatment-naive adults (HBV/HCV co-infection allowed); registrational for Biktarvy; values verified against PMID 28867499 and CT.gov",
+     "reason": "Added population detail after verification",
+     "source": "PMID 28867499; CT.gov NCT02607956"
+    },
+    {
+     "column": "R",
+     "field": "Regulatory/Publication Source Note",
+     "previous": "See NIH source; FDA/peer-reviewed source verification required for blank or Not reported fields.",
+     "new": "Verified: PMID 28867499 abstract; CT.gov NCT02607956 posted results; Biktarvy US label (approval 2018, sec 12.4/14)",
+     "reason": "Sources now named",
+     "source": "as listed"
+    }
+   ]
+  },
+  {
+   "product": "BIC/TAF/FTC",
+   "existing_row": null,
+   "trial_name": "Study 1844 (GS-US-380-1844)",
+   "nct_id": "NCT02603120",
+   "population": "Switch",
+   "design": "Phase 3, randomised (1:1), double-blind, active-controlled, multicentre non-inferiority (4% margin on HIV-1 RNA >=50); 48 weeks + OLE",
+   "experimental_arm": "Switch to B/F/TAF 50/200/25 mg once daily (+ placebo)",
+   "comparator_arm": "Continue DTG + ABC/3TC (fixed-dose or multi-tablet) (+ placebo)",
+   "publication_citation": "Molina JM et al. Switching to fixed-dose bictegravir, emtricitabine, and tenofovir alafenamide from dolutegravir plus abacavir and lamivudine in virologically suppressed adults with HIV-1: 48 week results of a randomised, double-blind, multicentre, active-controlled, phase 3, non-inferiority trial. Lancet HIV. 2018;5:e357-e365.",
+   "pmid": "29925489",
+   "publication_year": 2018,
+   "approval_year_checked": "2018",
+   "approval_year_source": "Biktarvy US label Highlights 'Initial U.S. Approval: 2018' (DailyMed setid 664cb8f0-1f65-441b-b0d9-ba3d798be309)",
+   "week48_snapshot": "93.6% B/F/TAF vs 95.0% DTG/ABC/3TC (N=282 vs 281)",
+   "week48_snapshot_source": "CT.gov NCT02603120 posted results, secondary outcome (FDA Snapshot <50 c/mL, Week 48); primary endpoint (>=50 c/mL) 3/282 (1%) vs 1/281 (<1%) per PMID 29925489 abstract",
+   "week48_alt_endpoint": "Not applicable",
+   "week48_alt_source": "Not applicable",
+   "te_res_any_component": "No participant had HIV-1 with treatment-emergent genotypic or phenotypic resistance to BIC, FTC or TAF (pooled Trials 1844 and 1878; 1 rebounder with IN and 2 with RT genotypic/phenotypic data)",
+   "te_res_new_drug_text": "No treatment-emergent resistance to BIC, FTC or TAF",
+   "res_new_drug_n": 0,
+   "res_N_randomized": 282,
+   "res_N_tested": null,
+   "resistance_timepoint": "Week 48 (primary analysis)",
+   "resistance_source": "Biktarvy US label sec 12.4 (pooled 1844+1878, n=572)",
+   "res_final_text": "Not reported",
+   "notes": "Virologically suppressed adults on DTG+ABC/3TC. Registrational switch trial for Biktarvy.",
+   "flags": [
+    "Resistance from label pooled across 1844 and 1878; per-trial resistance-tested count not stated (1 IN / 2 RT genotyped pooled)"
+   ],
+   "changes": []
+  },
+  {
+   "product": "BIC/TAF/FTC",
+   "existing_row": null,
+   "trial_name": "Study 1878 (GS-US-380-1878)",
+   "nct_id": "NCT02603107",
+   "population": "Switch",
+   "design": "Phase 3, randomised (1:1), open-label, active-controlled, multicentre non-inferiority (4% margin on HIV-1 RNA >=50); 48 weeks",
+   "experimental_arm": "Switch to B/F/TAF 50/200/25 mg once daily",
+   "comparator_arm": "Stay on boosted ATV or DRV (cobicistat or ritonavir) + FTC/TDF or ABC/3TC",
+   "publication_citation": "Daar ES et al. Efficacy and safety of switching to fixed-dose bictegravir, emtricitabine, and tenofovir alafenamide from boosted protease inhibitor-based regimens in virologically suppressed adults with HIV-1: 48 week results of a randomised, open-label, multicentre, phase 3, non-inferiority trial. Lancet HIV. 2018;5:e347-e356.",
+   "pmid": "29925490",
+   "publication_year": 2018,
+   "approval_year_checked": "2018",
+   "approval_year_source": "Biktarvy US label Highlights 'Initial U.S. Approval: 2018' (DailyMed setid 664cb8f0-1f65-441b-b0d9-ba3d798be309)",
+   "week48_snapshot": "92.1% B/F/TAF vs 88.9% boosted PI regimen (N=290 vs 287)",
+   "week48_snapshot_source": "CT.gov NCT02603107 posted results, secondary outcome (FDA Snapshot <50 c/mL, Week 48); primary endpoint (>=50 c/mL) 5 (2%) vs 5 (2%) per PMID 29925490 abstract",
+   "week48_alt_endpoint": "Not applicable",
+   "week48_alt_source": "Not applicable",
+   "te_res_any_component": "No participant had HIV-1 with treatment-emergent genotypic or phenotypic resistance to BIC, FTC or TAF (pooled Trials 1844 and 1878)",
+   "te_res_new_drug_text": "No treatment-emergent resistance to BIC, FTC or TAF",
+   "res_new_drug_n": 0,
+   "res_N_randomized": 290,
+   "res_N_tested": null,
+   "resistance_timepoint": "Week 48 (primary analysis)",
+   "resistance_source": "Biktarvy US label sec 12.4 (pooled 1844+1878, n=572)",
+   "res_final_text": "Not reported",
+   "notes": "Virologically suppressed adults on boosted PI regimens. Registrational switch trial for Biktarvy. 578 randomised overall, 577 treated.",
+   "flags": [
+    "Resistance from label pooled across 1844 and 1878; per-trial resistance-tested count not stated",
+    "res_N_randomized = 290 treated in B/F/TAF arm (randomised per arm not stated in abstract)"
+   ],
+   "changes": []
+  },
+  {
+   "product": "BIC/TAF/FTC",
+   "existing_row": null,
+   "trial_name": "Study 1961 (GS-US-380-1961)",
+   "nct_id": "NCT02652624",
+   "population": "Switch",
+   "design": "Phase 3, randomised (1:1), open-label, active-controlled, multicentre non-inferiority (4% margin); women only; 48 weeks + extension",
+   "experimental_arm": "Switch to B/F/TAF 50/200/25 mg once daily",
+   "comparator_arm": "Stay on baseline regimen (E/C/F/TAF, E/C/F/TDF or ATV+RTV+FTC/TDF)",
+   "publication_citation": "Kityo C et al. Switching to Fixed-Dose Bictegravir, Emtricitabine, and Tenofovir Alafenamide (B/F/TAF) in Virologically Suppressed HIV-1 Infected Women: A Randomized, Open-Label, Multicenter, Active-Controlled, Phase 3, Noninferiority Trial. J Acquir Immune Defic Syndr. 2019;82:321-328.",
+   "pmid": "31609930",
+   "publication_year": 2019,
+   "approval_year_checked": "2018",
+   "approval_year_source": "Biktarvy US label Highlights 'Initial U.S. Approval: 2018' (DailyMed setid 664cb8f0-1f65-441b-b0d9-ba3d798be309)",
+   "week48_snapshot": "95.7% B/F/TAF vs 95.3% SBR (N=234 vs 236)",
+   "week48_snapshot_source": "CT.gov NCT02652624 posted results, secondary outcome (FDA Snapshot <50 c/mL, Week 48); primary endpoint (>=50 c/mL) 1.7% (4/234) vs 1.7% (4/236) per PMID 31609930 abstract",
+   "week48_alt_endpoint": "Not applicable",
+   "week48_alt_source": "Not applicable",
+   "te_res_any_component": "No individual receiving B/F/TAF developed treatment-emergent resistance (comparator arm not stated in abstract)",
+   "te_res_new_drug_text": "No treatment-emergent resistance to B/F/TAF",
+   "res_new_drug_n": 0,
+   "res_N_randomized": null,
+   "res_N_tested": null,
+   "resistance_timepoint": "Week 48 (primary analysis)",
+   "resistance_source": "PMID 31609930 abstract",
+   "res_final_text": "Not reported",
+   "notes": "Specific adult group: virologically suppressed women. 472 randomised, 470 treated (234 B/F/TAF).",
+   "flags": [
+    "res_N_randomized per arm not stated (234 treated)"
+   ],
+   "changes": []
+  },
+  {
+   "product": "BIC/TAF/FTC",
+   "existing_row": null,
+   "trial_name": "Study 4030 (GS-US-380-4030)",
+   "nct_id": "NCT03110380",
+   "population": "Switch",
+   "design": "Phase 3, randomised (1:1), double-blind, active-controlled, multicentre non-inferiority (4% margin); pre-existing NRTI resistance (incl. M184V/I) allowed",
+   "experimental_arm": "Switch to B/F/TAF 50/200/25 mg once daily (+ placebo)",
+   "comparator_arm": "DTG + F/TAF once daily (+ placebo)",
+   "publication_citation": "Sax PE et al. Switching to Bictegravir, Emtricitabine, and Tenofovir Alafenamide in Virologically Suppressed Adults With Human Immunodeficiency Virus. Clin Infect Dis. 2021;73:e485-e493.",
+   "pmid": "32668455",
+   "publication_year": 2021,
+   "approval_year_checked": "2018",
+   "approval_year_source": "Biktarvy US label Highlights 'Initial U.S. Approval: 2018' (DailyMed setid 664cb8f0-1f65-441b-b0d9-ba3d798be309)",
+   "week48_snapshot": "93.3% B/F/TAF vs 91.1% DTG+F/TAF (N=284 vs 281)",
+   "week48_snapshot_source": "CT.gov NCT03110380 posted results, secondary outcome (FDA Snapshot <50 c/mL, Week 48); primary endpoint (>=50 c/mL) 0.4% (1/284) vs 1.1% (3/281) per PMID 32668455 abstract",
+   "week48_alt_endpoint": "Not applicable",
+   "week48_alt_source": "Not applicable",
+   "te_res_any_component": "No participant had treatment-emergent drug resistance (either arm) through Week 48",
+   "te_res_new_drug_text": "No treatment-emergent resistance to BIC, FTC or TAF (label: no treatment-emergent phenotypic resistance in B/F/TAF arm)",
+   "res_new_drug_n": 0,
+   "res_N_randomized": null,
+   "res_N_tested": null,
+   "resistance_timepoint": "Week 48 (primary analysis)",
+   "resistance_source": "PMID 32668455 abstract; Biktarvy US label sec 12.4",
+   "res_final_text": "Not reported",
+   "notes": "Virologically suppressed adults on DTG + F/TAF or F/TDF; 47 B/F/TAF participants had pre-existing M184V/I (label). 567 randomised, 565 treated.",
+   "flags": [
+    "res_N_randomized per arm not stated (284 treated)"
+   ],
+   "changes": []
+  },
+  {
+   "product": "BIC/TAF/FTC",
+   "existing_row": null,
+   "trial_name": "Study 4449 (GS-US-380-4449)",
+   "nct_id": "NCT03405935",
+   "population": "Switch",
+   "design": "Phase 3b, open-label, single-arm, 96 weeks; adults >=65 years",
+   "experimental_arm": "Switch to B/F/TAF once daily from E/C/F/TAF or TDF-based regimen",
+   "comparator_arm": "None (single arm)",
+   "publication_citation": "Maggiolo F et al. Bictegravir/Emtricitabine/Tenofovir Alafenamide in Virologically Suppressed People with HIV Aged >= 65 Years: Week 48 Results of a Phase 3b, Open-Label Trial. Infect Dis Ther. 2021;10:775-788.",
+   "pmid": "33686573",
+   "publication_year": 2021,
+   "approval_year_checked": "2018",
+   "approval_year_source": "Biktarvy US label Highlights 'Initial U.S. Approval: 2018' (DailyMed setid 664cb8f0-1f65-441b-b0d9-ba3d798be309)",
+   "week48_snapshot": "90.7% (N=86) B/F/TAF (single arm)",
+   "week48_snapshot_source": "PMID 33686573 abstract (90.7% at week 48); CT.gov NCT03405935 posted results secondary outcome (FDA Snapshot <50 c/mL, Week 48: 90.7%, N=86)",
+   "week48_alt_endpoint": "Primary endpoint: HIV-1 RNA <50 c/mL at Week 24 (FDA Snapshot) 97.7%",
+   "week48_alt_source": "PMID 33686573 abstract",
+   "te_res_any_component": "No treatment-emergent resistance observed",
+   "te_res_new_drug_text": "No treatment-emergent resistance to B/F/TAF",
+   "res_new_drug_n": 0,
+   "res_N_randomized": 86,
+   "res_N_tested": null,
+   "resistance_timepoint": "Week 48 (primary analysis)",
+   "resistance_source": "PMID 33686573 abstract",
+   "res_final_text": "Not reported",
+   "notes": "Specific adult group: virologically suppressed adults aged >=65 years (Europe). Primary endpoint was Week 24 (<50 c/mL 97.7%). 96-week results: PMID 35527425.",
+   "flags": [
+    "Single-arm trial; primary endpoint Week 24, Week 48 Snapshot was secondary"
+   ],
+   "changes": []
+  },
+  {
+   "product": "BIC/TAF/FTC",
+   "existing_row": null,
+   "trial_name": "BRAAVE 2020 (GS-US-380-4580)",
+   "nct_id": "NCT03631732",
+   "population": "Switch",
+   "design": "Phase 3b, randomised (2:1), open-label, multicentre non-inferiority (6% margin) at Week 24; SBR arm delayed switch at Week 24",
+   "experimental_arm": "Switch to B/F/TAF once daily",
+   "comparator_arm": "Stay on baseline regimen (2 NRTIs + third agent) for 24 weeks, then delayed switch to B/F/TAF",
+   "publication_citation": "Hagins D et al. Switching to Bictegravir/Emtricitabine/Tenofovir Alafenamide in Black Americans With HIV-1: A Randomized Phase 3b, Multicenter, Open-Label Study. J Acquir Immune Defic Syndr. 2021;88:86-95.",
+   "pmid": "34397746",
+   "publication_year": 2021,
+   "approval_year_checked": "2018",
+   "approval_year_source": "Biktarvy US label Highlights 'Initial U.S. Approval: 2018' (DailyMed setid 664cb8f0-1f65-441b-b0d9-ba3d798be309)",
+   "week48_snapshot": "Not reported (FDA Snapshot, randomised comparison at Week 48; comparator arm switched at Week 24)",
+   "week48_snapshot_source": "Not applicable",
+   "week48_alt_endpoint": "Primary: HIV-1 RNA >=50 c/mL at Week 24 (Snapshot) 0.6% B/F/TAF vs 1.8% SBR; <50 c/mL at Week 24: 96% vs 95%. CT.gov Week 48 Snapshot <50: 94.5% B/F/TAF (N=328) vs 96.9% delayed B/F/TAF (N=163)",
+   "week48_alt_source": "PMID 34397746 abstract (Week 24); CT.gov NCT03631732 posted results (Week 48, full analysis set)",
+   "te_res_any_component": "No participant had treatment-emergent resistance to study drug",
+   "te_res_new_drug_text": "No treatment-emergent resistance to B/F/TAF",
+   "res_new_drug_n": 0,
+   "res_N_randomized": 330,
+   "res_N_tested": null,
+   "resistance_timepoint": "Through Week 48 (abstract)",
+   "resistance_source": "PMID 34397746 abstract",
+   "res_final_text": "Not reported",
+   "notes": "Specific adult group: Black/African American adults in the US; NRTI/NNRTI/PI resistance permitted (10% M184V/I). 495 randomised/treated (330 B/F/TAF, 165 SBR).",
+   "flags": [
+    "Primary endpoint Week 24 (>=50 c/mL); Week 48 <50 from CT.gov is B/F/TAF vs delayed-switch B/F/TAF (non-randomised comparator by then)"
+   ],
+   "changes": []
+  },
+  {
+   "product": "BIC/TAF/FTC",
+   "existing_row": null,
+   "trial_name": "ALLIANCE",
+   "nct_id": "NCT03547908",
+   "population": "Treatment-naive",
+   "design": "Phase 3, randomised (1:1), double-blind, active-controlled, multicentre non-inferiority (-12% margin); HIV-1/HBV coinfection; 96 weeks blinded + OLE",
+   "experimental_arm": "B/F/TAF 50/200/25 mg once daily (+ placebo)",
+   "comparator_arm": "Dolutegravir 50 mg + emtricitabine 200 mg/TDF 300 mg (+ placebo)",
+   "publication_citation": "Avihingsanon A et al. Bictegravir, emtricitabine, and tenofovir alafenamide versus dolutegravir, emtricitabine, and tenofovir disoproxil fumarate for initial treatment of HIV-1 and hepatitis B coinfection (ALLIANCE): a double-blind, multicentre, randomised controlled, phase 3 non-inferiority trial. Lancet HIV. 2023;10:e640-e652.",
+   "pmid": "37494942",
+   "publication_year": 2023,
+   "approval_year_checked": "2018",
+   "approval_year_source": "Biktarvy US label Highlights 'Initial U.S. Approval: 2018' (DailyMed setid 664cb8f0-1f65-441b-b0d9-ba3d798be309)",
+   "week48_snapshot": "95% (113/119) B/F/TAF vs 91% (111/122) DTG+F/TDF",
+   "week48_snapshot_source": "PMID 37494942 abstract (HIV-1 co-primary, FDA Snapshot <50 c/mL, Week 48); CT.gov NCT03547908 concordant (95.0 vs 91.0)",
+   "week48_alt_endpoint": "Not applicable",
+   "week48_alt_source": "Not applicable",
+   "te_res_any_component": "Not reported in abstract",
+   "te_res_new_drug_text": "Not reported in abstract",
+   "res_new_drug_n": null,
+   "res_N_randomized": 121,
+   "res_N_tested": null,
+   "resistance_timepoint": "Week 48 (primary analysis) - not verified",
+   "resistance_source": "Not reported (abstract); see res_final_text",
+   "res_final_text": "Resistance through OLE reported in D'Antoni ML et al. J Acquir Immune Defic Syndr 2025 (PMID 40857111) - not extracted",
+   "notes": "Specific adult group: treatment-naive adults with HIV-1/HBV coinfection (HIV treatment indication, co-primary HBV endpoint). HBV DNA <29 IU/mL at Week 48: 63% vs 43%.",
+   "flags": [
+    "Inclusion judged: HIV-1 treatment trial in HIV/HBV-coinfected adults (not an HBV-only trial) - confirm scope",
+    "Week 48 resistance not verified; resistance analysis through OLE published separately (PMID 40857111, not read)"
+   ],
+   "changes": []
+  },
+  {
+   "product": "BIC/TAF/FTC",
+   "existing_row": null,
+   "trial_name": "LAPTOP",
+   "nct_id": "NCT03696160",
+   "population": "Treatment-naive",
+   "design": "Phase 3 (CT.gov), randomised, open-label, investigator-initiated (NEAT-ID); late presenters (advanced HIV); primary endpoint treatment failure up to Week 48",
+   "experimental_arm": "Bictegravir/emtricitabine/tenofovir alafenamide (Biktarvy)",
+   "comparator_arm": "Darunavir/cobicistat/emtricitabine/tenofovir alafenamide (Symtuza) (also experimental per CT.gov)",
+   "publication_citation": "Not reported (no peer-reviewed publication identified)",
+   "pmid": "",
+   "publication_year": 0,
+   "approval_year_checked": "2018",
+   "approval_year_source": "Biktarvy US label Highlights 'Initial U.S. Approval: 2018' (DailyMed setid 664cb8f0-1f65-441b-b0d9-ba3d798be309)",
+   "week48_snapshot": "Not reported (FDA Snapshot)",
+   "week48_snapshot_source": "Not applicable",
+   "week48_alt_endpoint": "Primary: treatment failure (composite, earliest Week 12, latest Week 48), mITT: 49/220 participants Biktarvy vs 70/222 Symtuza; secondary HIV-1 RNA <50 c/mL at Week 48: 151/220 vs 136/222 participants",
+   "week48_alt_source": "CT.gov NCT03696160 posted results",
+   "te_res_any_component": "Not reported",
+   "te_res_new_drug_text": "Not reported",
+   "res_new_drug_n": null,
+   "res_N_randomized": null,
+   "res_N_tested": null,
+   "resistance_timepoint": "Not reported",
+   "resistance_source": "Not reported",
+   "res_final_text": "Not reported",
+   "notes": "Treatment-naive late presenters (CD4 <200 or AIDS-defining event). Both arms labelled EXPERIMENTAL on CT.gov.",
+   "flags": [
+    "No peer-reviewed publication found in quick search; CT.gov results only - verify publication",
+    "Resistance not reported in CT.gov results"
+   ],
+   "changes": []
+  },
+  {
+   "product": "BIC/LEN",
+   "existing_row": 16,
+   "trial_name": "ARTISTRY-1 (GS-US-621-6289), Phase 3 part",
+   "nct_id": "NCT05502341",
+   "population": "Switch",
+   "design": "Phase 2/3 study; Phase 3 part: randomised (2:1), open-label, active-controlled non-inferiority (4% margin on HIV-1 RNA >=50 at Week 48), 15 countries",
+   "experimental_arm": "Switch to bictegravir/lenacapavir 75 mg/50 mg single-tablet regimen once daily (with LEN oral loading per label initiation)",
+   "comparator_arm": "Continue complex stable baseline regimen (PI- or NNRTI-containing/multi-tablet)",
+   "publication_citation": "Orkin C et al. Switch to single-tablet bictegravir-lenacapavir from a complex HIV regimen (ARTISTRY-1): a randomised, open-label, phase 3 clinical trial. Lancet. 2026;407:1249-1258.",
+   "pmid": "41763229",
+   "publication_year": 2026,
+   "approval_year_checked": "2026",
+   "approval_year_source": "Bixlenvo (Bixlenvo Sunlenca Starter Pack) US label Highlights 'Initial U.S. Approval: 2026' (DailyMed setid b2a3ef0e-3ded-45d7-9ba6-f33c4d372dc1)",
+   "week48_snapshot": "96.0% BIC/LEN vs 93.5% complex SBR (N=371 vs 186)",
+   "week48_snapshot_source": "CT.gov NCT05502341 posted results, Phase 3 secondary outcome (FDA Snapshot <50 c/mL, Week 48); primary (>=50 c/mL) 3 (1%) vs 2 (1%) per PMID 41763229 abstract (CT.gov 0.8% vs 1.1%)",
+   "week48_alt_endpoint": "Not applicable",
+   "week48_alt_source": "Not applicable",
+   "te_res_any_component": "Publication abstract: no resistance emerged. Label: 2/371 BIC/LEN participants met resistance-testing criteria through Week 48; one had no detectable resistance in capsid or integrase; the other had no capsid resistance and transient low-level (13% mutant) integrase Q148R at Week 24 (1.2-fold reduced BIC susceptibility), not detected at Week 48",
+   "te_res_new_drug_text": "No LEN (capsid) resistance; transient low-level Q148R in integrase in 1 participant (1.2-fold BIC), not detected at Week 48 (label); abstract states no resistance emerged",
+   "res_new_drug_n": null,
+   "res_N_randomized": 371,
+   "res_N_tested": 2,
+   "resistance_timepoint": "Through Week 48 (primary analysis)",
+   "resistance_source": "Bixlenvo US label sec 12.4; PMID 41763229 abstract",
+   "res_final_text": "Not reported",
+   "notes": "Virologically suppressed adults on complex regimens (median age 60, median HIV treatment 28 years). 557 randomised and treated (371 BIC/LEN, 186 SBR). Phase 2 part (BIC 75 + LEN 25/50 mg, PMID 39589133) excluded.",
+   "flags": [
+    "Transient low-level Q148R (label) vs 'no resistance emerged' (publication) - human judgement on whether to count as treatment-emergent BIC resistance (res_new_drug_n left null)",
+    "res_N_randomized = 371 randomised and treated in BIC/LEN arm"
+   ],
+   "changes": [
+    {
+     "column": "G",
+     "field": "Registrational Phase 3 Trial Name",
+     "previous": "ARTISTRY-1",
+     "new": "ARTISTRY-1 (GS-US-621-6289), Phase 3 part",
+     "reason": "Specified study number and that only the Phase 3 part is in scope (Phase 2/3 design)",
+     "source": "Bixlenvo US label sec 14; CT.gov NCT05502341"
+    },
+    {
+     "column": "I",
+     "field": "Peer-Reviewed Phase 3 Publication",
+     "previous": "Orkin et al. ARTISTRY-1, Lancet (as cited in prior research cycle)",
+     "new": "Orkin C et al. Switch to single-tablet bictegravir-lenacapavir from a complex HIV regimen (ARTISTRY-1): a randomised, open-label, phase 3 clinical trial. Lancet. 2026;407:1249-1258.",
+     "reason": "Verified and completed citation",
+     "source": "PMID 41763229"
+    },
+    {
+     "column": "L",
+     "field": "Week 48 FDA Snapshot",
+     "previous": "HIV-1 RNA >=50 copies/mL: 1% vs 1%; <50 value not stated in prior summary",
+     "new": "96.0% BIC/LEN vs 93.5% complex SBR (N=371 vs 186)",
+     "reason": "Snapshot <50 c/mL now available from posted CT.gov results",
+     "source": "CT.gov NCT05502341 posted results"
+    },
+    {
+     "column": "M",
+     "field": "TE Resistance - Any Regimen Component",
+     "previous": "No treatment-emergent resistance reported",
+     "new": "2/371 BIC/LEN participants resistance-tested through Week 48: one with no detectable capsid/integrase resistance; one with transient low-level (13%) integrase Q148R at Week 24 (1.2-fold BIC), not detected at Week 48; publication abstract states no resistance emerged",
+     "reason": "Label provides resistance detail not captured in prior summary",
+     "source": "Bixlenvo US label sec 12.4; PMID 41763229"
+    },
+    {
+     "column": "N",
+     "field": "TE Resistance - Newly Approved Drug/Product",
+     "previous": "No treatment-emergent BIC or LEN resistance reported",
+     "new": "No LEN (capsid) resistance; transient low-level Q148R (1.2-fold BIC) in 1 participant, not detected at Week 48",
+     "reason": "Label resistance detail",
+     "source": "Bixlenvo US label sec 12.4"
+    },
+    {
+     "column": "O",
+     "field": "Trial/Publication Notes",
+     "previous": "Preserved exactly as prior summary; no complement calculation.",
+     "new": "Switch from complex regimens; Phase 2/3 study - Phase 3 part only; values verified against PMID 41763229, CT.gov and Bixlenvo label",
+     "reason": "Replaced placeholder note after verification",
+     "source": "as listed"
+    },
+    {
+     "column": "R",
+     "field": "Regulatory/Publication Source Note",
+     "previous": "See NIH source; FDA/peer-reviewed source verification required for blank or Not reported fields.",
+     "new": "Verified: PMID 41763229 abstract; CT.gov NCT05502341 posted results; Bixlenvo US label (approval 2026, sec 12.4/14)",
+     "reason": "Sources now named",
+     "source": "as listed"
+    }
+   ]
+  },
+  {
+   "product": "BIC/LEN",
+   "existing_row": 17,
+   "trial_name": "ARTISTRY-2 (GS-US-621-6290)",
+   "nct_id": "NCT06333808",
+   "population": "Switch",
+   "design": "Phase 3, randomised (2:1), double-blind, double-dummy, multicentre non-inferiority (4% margin on HIV-1 RNA >=50 at Week 48), 14 countries",
+   "experimental_arm": "Switch to bictegravir/lenacapavir 75/50 mg once daily (+ placebo to B/F/TAF; LEN initiation)",
+   "comparator_arm": "Continue B/F/TAF 50/200/25 mg once daily (+ placebo)",
+   "publication_citation": "Meissner EG et al. Safety and efficacy of switching to bictegravir-lenacapavir versus continuing bictegravir-emtricitabine-tenofovir alafenamide in virologically suppressed people with HIV-1 (ARTISTRY-2): a double-blind, multicentre, randomised, controlled, phase 3, non-inferiority trial. Lancet HIV. 2026;13:e538-e547.",
+   "pmid": "42105781",
+   "publication_year": 2026,
+   "approval_year_checked": "2026",
+   "approval_year_source": "Bixlenvo (Bixlenvo Sunlenca Starter Pack) US label Highlights 'Initial U.S. Approval: 2026' (DailyMed setid b2a3ef0e-3ded-45d7-9ba6-f33c4d372dc1)",
+   "week48_snapshot": "93.5% BIC/LEN vs 90.6% B/F/TAF (N=383 vs 191)",
+   "week48_snapshot_source": "CT.gov NCT06333808 posted results secondary outcome (FDA Snapshot <50 c/mL, Week 48); primary (>=50 c/mL) 5/383 (1.3%) vs 2/191 (1.0%) per PMID 42105781 abstract",
+   "week48_alt_endpoint": "Not applicable",
+   "week48_alt_source": "Not applicable",
+   "te_res_any_component": "2/383 BIC/LEN participants met resistance-testing criteria through Week 48: one had integrase R263K (2-fold reduced BIC susceptibility) with no LEN resistance substitutions in capsid; the other had no detectable resistance in capsid or integrase",
+   "te_res_new_drug_text": "Treatment-emergent BIC resistance (R263K, 2-fold) in 1 participant; no LEN resistance",
+   "res_new_drug_n": 1,
+   "res_N_randomized": 384,
+   "res_N_tested": 2,
+   "resistance_timepoint": "Through Week 48 (primary analysis)",
+   "resistance_source": "Bixlenvo US label sec 12.4 (not stated in PMID 42105781 abstract)",
+   "res_final_text": "Not reported",
+   "notes": "Virologically suppressed adults on B/F/TAF >=6 months. 577 randomised (384 BIC/LEN, 193 B/F/TAF); 574 treated (383/191).",
+   "flags": [
+    "Publication now available (Lancet HIV 2026); prior row said none",
+    "Resistance from label, abstract does not report resistance"
+   ],
+   "changes": [
+    {
+     "column": "G",
+     "field": "Registrational Phase 3 Trial Name",
+     "previous": "ARTISTRY-2",
+     "new": "ARTISTRY-2 (GS-US-621-6290)",
+     "reason": "Added study number",
+     "source": "Bixlenvo US label sec 14"
+    },
+    {
+     "column": "I",
+     "field": "Peer-Reviewed Phase 3 Publication",
+     "previous": "No peer-reviewed publication found in prior research cycle",
+     "new": "Meissner EG et al. Safety and efficacy of switching to bictegravir-lenacapavir versus continuing bictegravir-emtricitabine-tenofovir alafenamide in virologically suppressed people with HIV-1 (ARTISTRY-2): a double-blind, multicentre, randomised, controlled, phase 3, non-inferiority trial. Lancet HIV. 2026;13:e538-e547.",
+     "reason": "Peer-reviewed publication now available",
+     "source": "PMID 42105781"
+    },
+    {
+     "column": "J",
+     "field": "Peer-Reviewed Publication Year",
+     "previous": "",
+     "new": "2026",
+     "reason": "Publication identified",
+     "source": "PMID 42105781"
+    },
+    {
+     "column": "L",
+     "field": "Week 48 FDA Snapshot",
+     "previous": "Not reported",
+     "new": "93.5% BIC/LEN vs 90.6% B/F/TAF (N=383 vs 191)",
+     "reason": "Snapshot <50 c/mL available from posted CT.gov results",
+     "source": "CT.gov NCT06333808 posted results"
+    },
+    {
+     "column": "M",
+     "field": "TE Resistance - Any Regimen Component",
+     "previous": "Not reported",
+     "new": "2/383 BIC/LEN participants resistance-tested through Week 48: one with integrase R263K (2-fold BIC), no capsid LEN RAS; one with no detectable resistance",
+     "reason": "Label resistance data",
+     "source": "Bixlenvo US label sec 12.4"
+    },
+    {
+     "column": "N",
+     "field": "TE Resistance - Newly Approved Drug/Product",
+     "previous": "Not reported",
+     "new": "Treatment-emergent BIC resistance (R263K) in 1/383; no LEN resistance",
+     "reason": "Label resistance data",
+     "source": "Bixlenvo US label sec 12.4"
+    },
+    {
+     "column": "O",
+     "field": "Trial/Publication Notes",
+     "previous": "Prior summary described conference data only; no publication value inserted.",
+     "new": "Switch from B/F/TAF; double-blind; values verified against PMID 42105781, CT.gov and Bixlenvo label",
+     "reason": "Publication and results now available",
+     "source": "as listed"
+    },
+    {
+     "column": "R",
+     "field": "Regulatory/Publication Source Note",
+     "previous": "See NIH source; FDA/peer-reviewed source verification required for blank or Not reported fields.",
+     "new": "Verified: PMID 42105781 abstract; CT.gov NCT06333808 posted results; Bixlenvo US label (approval 2026, sec 12.4/14)",
+     "reason": "Sources now named",
+     "source": "as listed"
+    }
+   ]
+  },
+  {
+   "product": "LEN",
+   "existing_row": 60,
+   "trial_name": "CAPELLA (GS-US-200-4625)",
+   "nct_id": "NCT04150068",
+   "population": "Treatment-experienced",
+   "design": "Phase 2/3; cohort 1 randomised (2:1) double-blind placebo-controlled 14-day functional monotherapy then open-label SC LEN every 26 weeks + optimised background; cohort 2 non-randomised open-label",
+   "experimental_arm": "Oral lenacapavir lead-in then subcutaneous lenacapavir 927 mg every 26 weeks + optimised background regimen",
+   "comparator_arm": "Placebo added to failing regimen for 14 days (cohort 1), then lenacapavir; cohort 2 no comparator",
+   "publication_citation": "Segal-Maurer S et al. Capsid Inhibition with Lenacapavir in Multidrug-Resistant HIV-1 Infection. N Engl J Med. 2022;386:1793-1803.",
+   "pmid": "35544387",
+   "publication_year": 2022,
+   "approval_year_checked": "2022",
+   "approval_year_source": "Sunlenca US label Highlights 'Initial U.S. Approval: 2022' (DailyMed setid e5652804-29c4-40d7-aeb2-0142ed2a7b5b)",
+   "week48_snapshot": "Not reported (FDA Snapshot)",
+   "week48_snapshot_source": "Not applicable",
+   "week48_alt_endpoint": "Primary: >=0.5 log10 c/mL decrease by Day 15 in cohort 1: 21/24 (88%) LEN vs 2/12 (17%) placebo. Closest to Week 48: HIV-1 RNA <50 c/mL at Week 52 (FDA Snapshot), cohort 1: 30/36 (83%)",
+   "week48_alt_source": "PMID 35544387 abstract (Day 15 primary); PMID 37451297 abstract (Ogbuagu, Lancet HIV 2023, Week 52)",
+   "te_res_any_component": "Lenacapavir-related capsid substitutions associated with decreased susceptibility developed in 8 patients (both cohorts) during the maintenance period (6 with M66I); background-regimen resistance not stated in abstract",
+   "te_res_new_drug_text": "Emergent LEN resistance (capsid substitutions, 6 with M66I) in 8 patients by primary (Week 26) analysis",
+   "res_new_drug_n": 8,
+   "res_N_randomized": 72,
+   "res_N_tested": null,
+   "resistance_timepoint": "Primary publication analysis (Week 26 data cut)",
+   "resistance_source": "PMID 35544387 abstract",
+   "res_final_text": "Week 52: emergent LEN resistance in 9 participants (4 cohort 1, 5 cohort 2), 4 resuppressed (PMID 37451297 abstract). Through Week 156: 28/72 met resistance-analysis criteria; LEN RAS in 16 of 28 with post-baseline capsid genotype (M66I in 6) (Sunlenca US label sec 12.4).",
+   "notes": "Heavily treatment-experienced adults with multidrug-resistant HIV-1 (72 enrolled, 36 per cohort). res_N_randomized = total enrolled (all received LEN).",
+   "flags": [
+    "No Week 48 endpoint; Week 52 value from separate publication (PMID 37451297)",
+    "Number resistance-tested at primary analysis not stated in abstract"
+   ],
+   "changes": [
+    {
+     "column": "I",
+     "field": "Peer-Reviewed Phase 3 Publication",
+     "previous": "Segal-Maurer et al. Capsid inhibition with lenacapavir in multidrug-resistant HIV-1 infection, New England Journal of Medicine",
+     "new": "Segal-Maurer S et al. Capsid Inhibition with Lenacapavir in Multidrug-Resistant HIV-1 Infection. N Engl J Med. 2022;386:1793-1803.",
+     "reason": "Completed full citation",
+     "source": "PMID 35544387"
+    },
+    {
+     "column": "L",
+     "field": "Week 48 FDA Snapshot",
+     "previous": "Not a Week 48 FDA Snapshot endpoint; publication reported 83% <50 copies/mL at Week 52 in cohort 1",
+     "new": "Not reported (FDA Snapshot). Week 52 Snapshot <50 c/mL, cohort 1: 30/36 (83%) per Ogbuagu et al. Lancet HIV 2023 (PMID 37451297); primary endpoint Day 15",
+     "reason": "Value confirmed; added n/N and named the actual source publication (Week 52 paper, not the primary NEJM paper)",
+     "source": "PMID 37451297 abstract"
+    },
+    {
+     "column": "M",
+     "field": "TE Resistance - Any Regimen Component",
+     "previous": "Capsid resistance-associated substitutions reported, including M66I, Q67H, or N74D",
+     "new": "LEN capsid RAS in 8 patients at primary analysis (6 with M66I); 9 at Week 52; 16/28 tested through Week 156 (M66I, Q67H/K, K70N/R/H, N74D, T107A/S etc.)",
+     "reason": "Added counts and timepoints",
+     "source": "PMID 35544387; PMID 37451297; Sunlenca US label sec 12.4"
+    },
+    {
+     "column": "N",
+     "field": "TE Resistance - Newly Approved Drug/Product",
+     "previous": "Treatment-emergent LEN resistance-associated substitutions reported",
+     "new": "Treatment-emergent LEN RAS in 8/72 (primary analysis; 6 with M66I)",
+     "reason": "Added stated count",
+     "source": "PMID 35544387 abstract"
+    },
+    {
+     "column": "O",
+     "field": "Trial/Publication Notes",
+     "previous": "Primary endpoint was Day 15; no Week 48 Snapshot value inserted.",
+     "new": "Heavily treatment-experienced MDR HIV-1; Phase 2/3; primary endpoint Day 15 (cohort 1); no Week 48 Snapshot",
+     "reason": "Added population/design detail",
+     "source": "PMID 35544387; CT.gov NCT04150068"
+    },
+    {
+     "column": "R",
+     "field": "Regulatory/Publication Source Note",
+     "previous": "See NIH source; FDA/peer-reviewed source verification required for blank or Not reported fields.",
+     "new": "Verified: PMID 35544387, PMID 37451297 abstracts; CT.gov NCT04150068 posted results; Sunlenca US label (approval 2022, sec 12.4)",
+     "reason": "Sources now named",
+     "source": "as listed"
+    }
+   ]
+  },
+  {
+   "product": "LEN",
+   "existing_row": null,
+   "trial_name": "ARTISTRY-1 (GS-US-621-6289), Phase 3 part",
+   "nct_id": "NCT05502341",
+   "population": "Switch",
+   "design": "Phase 2/3 study; Phase 3 part: randomised (2:1), open-label, active-controlled non-inferiority (4% margin on HIV-1 RNA >=50 at Week 48), 15 countries",
+   "experimental_arm": "Switch to bictegravir/lenacapavir 75 mg/50 mg single-tablet regimen once daily (with LEN oral loading per label initiation)",
+   "comparator_arm": "Continue complex stable baseline regimen (PI- or NNRTI-containing/multi-tablet)",
+   "publication_citation": "Orkin C et al. Switch to single-tablet bictegravir-lenacapavir from a complex HIV regimen (ARTISTRY-1): a randomised, open-label, phase 3 clinical trial. Lancet. 2026;407:1249-1258.",
+   "pmid": "41763229",
+   "publication_year": 2026,
+   "approval_year_checked": "2022",
+   "approval_year_source": "Sunlenca US label Highlights 'Initial U.S. Approval: 2022' (DailyMed setid e5652804-29c4-40d7-aeb2-0142ed2a7b5b)",
+   "week48_snapshot": "96.0% BIC/LEN vs 93.5% complex SBR (N=371 vs 186)",
+   "week48_snapshot_source": "CT.gov NCT05502341 posted results, Phase 3 secondary outcome (FDA Snapshot <50 c/mL, Week 48); primary (>=50 c/mL) 3 (1%) vs 2 (1%) per PMID 41763229 abstract (CT.gov 0.8% vs 1.1%)",
+   "week48_alt_endpoint": "Not applicable",
+   "week48_alt_source": "Not applicable",
+   "te_res_any_component": "Publication abstract: no resistance emerged. Label: 2/371 BIC/LEN participants met resistance-testing criteria through Week 48; one had no detectable resistance in capsid or integrase; the other had no capsid resistance and transient low-level (13% mutant) integrase Q148R at Week 24 (1.2-fold reduced BIC susceptibility), not detected at Week 48",
+   "te_res_new_drug_text": "No LEN (capsid) resistance; transient low-level Q148R in integrase in 1 participant (1.2-fold BIC), not detected at Week 48 (label); abstract states no resistance emerged",
+   "res_new_drug_n": null,
+   "res_N_randomized": 371,
+   "res_N_tested": 2,
+   "resistance_timepoint": "Through Week 48 (primary analysis)",
+   "resistance_source": "Bixlenvo US label sec 12.4; PMID 41763229 abstract",
+   "res_final_text": "Not reported",
+   "notes": "LEN component record: LEN is part of the investigational BIC/LEN single-tablet regimen and absent from the comparator. Virologically suppressed adults on complex regimens (median age 60, median HIV treatment 28 years). 557 randomised and treated (371 BIC/LEN, 186 SBR). Phase 2 part (BIC 75 + LEN 25/50 mg, PMID 39589133) excluded.",
+   "flags": [
+    "Transient low-level Q148R (label) vs 'no resistance emerged' (publication) - human judgement on whether to count as treatment-emergent BIC resistance (res_new_drug_n left null)",
+    "res_N_randomized = 371 randomised and treated in BIC/LEN arm",
+    "Component record (LEN within BIC/LEN FDC, daily oral 50 mg, not Sunlenca SC); human to confirm whether LEN row should carry it (cf. CAB records mirroring CAB/RPV in g3)"
+   ],
+   "changes": []
+  },
+  {
+   "product": "LEN",
+   "existing_row": null,
+   "trial_name": "ARTISTRY-2 (GS-US-621-6290)",
+   "nct_id": "NCT06333808",
+   "population": "Switch",
+   "design": "Phase 3, randomised (2:1), double-blind, double-dummy, multicentre non-inferiority (4% margin on HIV-1 RNA >=50 at Week 48), 14 countries",
+   "experimental_arm": "Switch to bictegravir/lenacapavir 75/50 mg once daily (+ placebo to B/F/TAF; LEN initiation)",
+   "comparator_arm": "Continue B/F/TAF 50/200/25 mg once daily (+ placebo)",
+   "publication_citation": "Meissner EG et al. Safety and efficacy of switching to bictegravir-lenacapavir versus continuing bictegravir-emtricitabine-tenofovir alafenamide in virologically suppressed people with HIV-1 (ARTISTRY-2): a double-blind, multicentre, randomised, controlled, phase 3, non-inferiority trial. Lancet HIV. 2026;13:e538-e547.",
+   "pmid": "42105781",
+   "publication_year": 2026,
+   "approval_year_checked": "2022",
+   "approval_year_source": "Sunlenca US label Highlights 'Initial U.S. Approval: 2022' (DailyMed setid e5652804-29c4-40d7-aeb2-0142ed2a7b5b)",
+   "week48_snapshot": "93.5% BIC/LEN vs 90.6% B/F/TAF (N=383 vs 191)",
+   "week48_snapshot_source": "CT.gov NCT06333808 posted results secondary outcome (FDA Snapshot <50 c/mL, Week 48); primary (>=50 c/mL) 5/383 (1.3%) vs 2/191 (1.0%) per PMID 42105781 abstract",
+   "week48_alt_endpoint": "Not applicable",
+   "week48_alt_source": "Not applicable",
+   "te_res_any_component": "2/383 BIC/LEN participants met resistance-testing criteria through Week 48: one had integrase R263K (2-fold reduced BIC susceptibility) with no LEN resistance substitutions in capsid; the other had no detectable resistance in capsid or integrase",
+   "te_res_new_drug_text": "Treatment-emergent BIC resistance (R263K, 2-fold) in 1 participant; no LEN resistance",
+   "res_new_drug_n": 1,
+   "res_N_randomized": 384,
+   "res_N_tested": 2,
+   "resistance_timepoint": "Through Week 48 (primary analysis)",
+   "resistance_source": "Bixlenvo US label sec 12.4 (not stated in PMID 42105781 abstract)",
+   "res_final_text": "Not reported",
+   "notes": "LEN component record: LEN is part of the investigational BIC/LEN single-tablet regimen and absent from the comparator. Virologically suppressed adults on B/F/TAF >=6 months. 577 randomised (384 BIC/LEN, 193 B/F/TAF); 574 treated (383/191).",
+   "flags": [
+    "Publication now available (Lancet HIV 2026); prior row said none",
+    "Resistance from label, abstract does not report resistance",
+    "Component record (LEN within BIC/LEN FDC, daily oral 50 mg, not Sunlenca SC); human to confirm whether LEN row should carry it (cf. CAB records mirroring CAB/RPV in g3)"
+   ],
+   "changes": []
+  },
+  {
+   "product": "LEN",
+   "existing_row": null,
+   "trial_name": "ISLEND-1",
+   "nct_id": "NCT06630286",
+   "population": "Switch",
+   "design": "Phase 3, randomised (1:1), double-blind, double-dummy, active-controlled non-inferiority (4% margin), 12 countries, 96 weeks",
+   "experimental_arm": "Once-weekly oral islatravir 2 mg/lenacapavir 300 mg single tablet",
+   "comparator_arm": "Continue once-daily B/F/TAF (+ placebo)",
+   "publication_citation": "Rockstroh JK et al. Phase 3 Trial of Weekly Oral Islatravir-Lenacapavir for HIV-1 Treatment. N Engl J Med. 2026;395:1299-1309.",
+   "pmid": "42525925",
+   "publication_year": 2026,
+   "approval_year_checked": "2022",
+   "approval_year_source": "Sunlenca US label Highlights 'Initial U.S. Approval: 2022' (DailyMed setid e5652804-29c4-40d7-aeb2-0142ed2a7b5b)",
+   "week48_snapshot": "93.4% (284/304) ISL/LEN vs 92.4% (280/303) B/F/TAF",
+   "week48_snapshot_source": "PMID 42525925 abstract (FDA Snapshot <50 c/mL, Week 48; secondary); primary >=50 c/mL 0 vs 1 (0.3%)",
+   "week48_alt_endpoint": "Not applicable",
+   "week48_alt_source": "Not applicable",
+   "te_res_any_component": "Not reported in abstract",
+   "te_res_new_drug_text": "Not reported in abstract",
+   "res_new_drug_n": null,
+   "res_N_randomized": 304,
+   "res_N_tested": null,
+   "resistance_timepoint": "Week 48 (primary analysis) - not verified",
+   "resistance_source": "Not reported (abstract)",
+   "res_final_text": "Not reported",
+   "notes": "Virologically suppressed adults on B/F/TAF >=6 months; 607 randomised (304 ISL/LEN, 303 B/F/TAF).",
+   "flags": [
+    "Component record: LEN within investigational weekly ISL/LEN combination (not a column C product; not Sunlenca); human to confirm scope",
+    "Resistance not reported in abstract; full text not checked"
+   ],
+   "changes": []
+  },
+  {
+   "product": "LEN",
+   "existing_row": null,
+   "trial_name": "ISLEND-2",
+   "nct_id": "NCT06630299",
+   "population": "Switch",
+   "design": "Phase 3, randomised (1:1), open-label, active-controlled non-inferiority (4% margin), 14 countries/territories",
+   "experimental_arm": "Once-weekly oral islatravir 2 mg/lenacapavir 300 mg single tablet",
+   "comparator_arm": "Continue daily oral standard of care",
+   "publication_citation": "Colson AE et al. Switch to once-weekly, single-tablet islatravir-lenacapavir from daily standard of care for HIV-1 (ISLEND-2): a multicentre, randomised, open-label, active-controlled, phase 3 non-inferiority trial. Lancet. 2026;408:821-832.",
+   "pmid": "42586113",
+   "publication_year": 2026,
+   "approval_year_checked": "2022",
+   "approval_year_source": "Sunlenca US label Highlights 'Initial U.S. Approval: 2022' (DailyMed setid e5652804-29c4-40d7-aeb2-0142ed2a7b5b)",
+   "week48_snapshot": "Not reported (FDA Snapshot <50 c/mL not stated in abstract)",
+   "week48_snapshot_source": "Not applicable",
+   "week48_alt_endpoint": "Primary: HIV-1 RNA >=50 c/mL at Week 48 (FDA Snapshot): 1/314 (0.3%) ISL/LEN vs 4/312 (1.3%) SOC",
+   "week48_alt_source": "PMID 42586113 abstract",
+   "te_res_any_component": "Not reported in abstract",
+   "te_res_new_drug_text": "Not reported in abstract",
+   "res_new_drug_n": null,
+   "res_N_randomized": null,
+   "res_N_tested": null,
+   "resistance_timepoint": "Week 48 (primary analysis) - not verified",
+   "resistance_source": "Not reported (abstract)",
+   "res_final_text": "Not reported",
+   "notes": "Virologically suppressed adults on oral SOC, no previous virological failure; 634 randomised, 626 treated (314 ISL/LEN, 312 SOC).",
+   "flags": [
+    "Component record: LEN within investigational weekly ISL/LEN combination (not a column C product; not Sunlenca); human to confirm scope",
+    "Resistance not reported in abstract; full text not checked"
+   ],
+   "changes": []
+  },
+  {
+   "product": "DOR/ISL",
+   "existing_row": 18,
+   "trial_name": "Trial 051 (MK-8591A-051)",
+   "nct_id": "NCT05631093",
+   "population": "Switch (virologically suppressed on any oral 2- or 3-drug ART)",
+   "design": "Phase 3, randomised (2:1), active-controlled, open-label, multicentre non-inferiority (4% margin on HIV-1 RNA >=50 endpoint)",
+   "experimental_arm": "Fixed-dose doravirine 100 mg/islatravir 0.25 mg once daily",
+   "comparator_arm": "Continue baseline oral ART (deferred switch to DOR/ISL after Week 48)",
+   "publication_citation": "Orkin C et al. Switch to fixed-dose doravirine (100 mg) and islatravir (0.25 mg) once daily in virologically suppressed adults with HIV-1 on oral antiretroviral therapy: 48-week results of a phase 3, multicentre, randomised, open-label, non-inferiority trial. Lancet. 2026;407:599-610.",
+   "pmid": "41654374",
+   "publication_year": 2026,
+   "approval_year_checked": "2026",
+   "approval_year_source": "Idvynso US label Highlights 'Initial U.S. Approval: 2026' (DailyMed setid 11aaeb53-9848-433c-be7f-db8a5bc0b26f)",
+   "week48_snapshot": "95.6% DOR/ISL (N=366) vs 91.9% baseline ART (N=185) (label rounds to 96% vs 92%)",
+   "week48_snapshot_source": "CT.gov NCT05631093 posted results (secondary outcome <50 c/mL Week 48); Idvynso label sec 14 table",
+   "week48_alt_endpoint": "Primary endpoint HIV-1 RNA >=50 c/mL at Week 48: 1.4% (5/366) vs 4.9% (9/185); difference -3.6% (95% CI -7.8 to -0.8)",
+   "week48_alt_source": "PMID 41654374 abstract; CT.gov primary outcome",
+   "te_res_any_component": "2 DOR/ISL participants (VF at Week 4; ineligible due to prior VF and/or DOR RAS at baseline) had NNRTI RAS, TAMs and M184V/I/T as full substitutions by Week 4; no baseline-ART participants with post-baseline resistance data",
+   "te_res_new_drug_text": "2 DOR/ISL participants with phenotypic resistance to doravirine (>74- to >93-fold) and reduced islatravir susceptibility (8- to 25-fold); both had pre-existing RAS (as mixtures) at baseline",
+   "res_new_drug_n": 2,
+   "res_N_randomized": 368,
+   "res_N_tested": null,
+   "resistance_timepoint": "Week 48",
+   "resistance_source": "Idvynso US label sec 12.4 'In Clinical Trials'",
+   "res_final_text": "Label: of 5 DOR/ISL participants with HIV-1 RNA >=50 at Week 48, 2 developed resistance (pre-existing RAS as mixtures; protocol-ineligible), 2 had no resistance emergence, 1 failed testing.",
+   "notes": "Open-label switch; 368 randomised, 366 treated with DOR/ISL. Registrational for Idvynso (ISL 0.25 mg dose). Randomisation stratified by anchor drug class.",
+   "flags": [
+    "Existing row 18 stated no TE resistance; label reports 2 participants with emergent DOR-resistant virus (pre-existing mixtures at baseline) - human review of how to characterise as 'treatment-emergent'",
+    "Number genotyped not stated"
+   ],
+   "changes": [
+    {
+     "column": "I",
+     "field": "Peer-Reviewed Phase 3 Publication",
+     "previous": "Orkin et al. Doravirine/islatravir switch study, Lancet (as cited in prior research cycle)",
+     "new": "Orkin C et al. Lancet. 2026;407:599-610 (PMID 41654374) - full title as in record",
+     "reason": "Verified citation",
+     "source": "PMID 41654374"
+    },
+    {
+     "column": "L",
+     "field": "Week 48 FDA Snapshot: HIV-1 RNA <50 copies/mL",
+     "previous": "96% vs 92% baseline ART",
+     "new": "95.6% (N=366) vs 91.9% (N=185) baseline ART",
+     "reason": "Added exact values/denominators; consistent with label rounding",
+     "source": "CT.gov NCT05631093; Idvynso label sec 14"
+    },
+    {
+     "column": "M",
+     "field": "Treatment-Emergent Resistance - Any Regimen Component",
+     "previous": "No treatment-emergent resistance reported",
+     "new": "2 DOR/ISL participants developed NNRTI RAS + TAMs + M184V/I/T (full substitutions by Week 4; pre-existing mixtures at baseline, protocol-ineligible)",
+     "reason": "Previous value contradicted by label",
+     "source": "Idvynso label sec 12.4"
+    },
+    {
+     "column": "N",
+     "field": "Treatment-Emergent Resistance - Newly Approved Drug/Product",
+     "previous": "No treatment-emergent DOR or ISL resistance reported",
+     "new": "2 participants with phenotypic DOR resistance (>74- to >93-fold) and reduced ISL susceptibility (8- to 25-fold)",
+     "reason": "Previous value contradicted by label",
+     "source": "Idvynso label sec 12.4"
+    },
+    {
+     "column": "O",
+     "field": "Trial/Publication Notes",
+     "previous": "Switch study.",
+     "new": "Phase 3 open-label switch from any oral ART vs continued baseline ART; 2:1; registrational for Idvynso",
+     "reason": "Added design detail",
+     "source": "PMID 41654374"
+    },
+    {
+     "column": "R",
+     "field": "Regulatory/Publication Source Note",
+     "previous": "See NIH source; FDA/peer-reviewed source verification required for blank or Not reported fields.",
+     "new": "Verified against PMID 41654374, CT.gov NCT05631093 results and Idvynso US label (2026)",
+     "reason": "Sources verified",
+     "source": "as listed"
+    }
+   ]
+  },
+  {
+   "product": "DOR/ISL",
+   "existing_row": 19,
+   "trial_name": "Trial 052 (MK-8591A-052)",
+   "nct_id": "NCT05630755",
+   "population": "Switch (virologically suppressed on BIC/FTC/TAF)",
+   "design": "Phase 3, randomised (2:1), double-blind, double-dummy, active-controlled, multicentre non-inferiority (4% margin)",
+   "experimental_arm": "Fixed-dose doravirine 100 mg/islatravir 0.25 mg once daily (+ placebo to BIC/FTC/TAF)",
+   "comparator_arm": "Continue bictegravir/emtricitabine/tenofovir alafenamide once daily (+ placebo to DOR/ISL)",
+   "publication_citation": "Colson AE et al. Switch to fixed-dose doravirine (100 mg) and islatravir (0.25 mg) once daily in virologically suppressed adults with HIV-1 on bictegravir, emtricitabine, and tenofovir alafenamide: 48-week results of a phase 3, multicentre, randomised, controlled, double-blind, non-inferiority trial. Lancet. 2026;407:611-621.",
+   "pmid": "41654375",
+   "publication_year": 2026,
+   "approval_year_checked": "2026",
+   "approval_year_source": "Idvynso US label Highlights 'Initial U.S. Approval: 2026' (DailyMed setid 11aaeb53-9848-433c-be7f-db8a5bc0b26f)",
+   "week48_snapshot": "91.5% DOR/ISL (N=342) vs 94.2% BIC/FTC/TAF (N=171) (label rounds to 92% vs 94%)",
+   "week48_snapshot_source": "CT.gov NCT05630755 posted results (secondary <50 c/mL Week 48); Idvynso label sec 14",
+   "week48_alt_endpoint": "Primary endpoint HIV-1 RNA >=50 c/mL at Week 48: 1.5% (5/342) vs 0.6% (1/171); difference 0.9% (95% CI -1.9 to 2.9)",
+   "week48_alt_source": "PMID 41654375 abstract; CT.gov primary outcome",
+   "te_res_any_component": "1 DOR/ISL participant (baseline T69T/S, K70K/R, K101K/E, K103K/N, M184M/V) had K103N, M184V, H221Y, M230L, L234I at Week 24; no BIC/FTC/TAF participants with HIV-1 RNA >=50 had post-baseline resistance data",
+   "te_res_new_drug_text": "1 DOR/ISL participant with phenotypic DOR resistance (>104-fold) and 7-fold reduced ISL susceptibility at Week 24 (pre-existing mixtures at baseline)",
+   "res_new_drug_n": 1,
+   "res_N_randomized": 342,
+   "res_N_tested": null,
+   "resistance_timepoint": "Week 48",
+   "resistance_source": "Idvynso US label sec 12.4 'In Clinical Trials'",
+   "res_final_text": "Label: 5 DOR/ISL participants with HIV-1 RNA >=50 at Week 48; 1 with emergent resistance, 3 without evidence of resistance/not testable, 1 resuppressed without post-baseline testing. CT.gov 'treatment-emergent RAS' outcome lists N=1 analysed, 0% - conflicts with label.",
+   "notes": "Double-blind switch from B/F/TAF; 514 randomised, 513 treated. Previous population note ('treatment-naive or per publication') was incorrect.",
+   "flags": [
+    "CT.gov TE-RAS outcome (N=1, 0%) conflicts with label description of emergent K103N/M184V etc. in 1 participant - human review",
+    "Number genotyped not stated"
+   ],
+   "changes": [
+    {
+     "column": "I",
+     "field": "Peer-Reviewed Phase 3 Publication",
+     "previous": "Colson et al. Doravirine/islatravir versus BIC/FTC/TAF, Lancet (as cited in prior research cycle)",
+     "new": "Colson AE et al. Lancet. 2026;407:611-621 (PMID 41654375) - full title as in record",
+     "reason": "Verified citation",
+     "source": "PMID 41654375"
+    },
+    {
+     "column": "L",
+     "field": "Week 48 FDA Snapshot: HIV-1 RNA <50 copies/mL",
+     "previous": "92% vs 94% BIC/FTC/TAF",
+     "new": "91.5% (N=342) vs 94.2% (N=171) BIC/FTC/TAF",
+     "reason": "Added exact values/denominators",
+     "source": "CT.gov NCT05630755; Idvynso label sec 14"
+    },
+    {
+     "column": "M",
+     "field": "Treatment-Emergent Resistance - Any Regimen Component",
+     "previous": "No treatment-emergent resistance reported",
+     "new": "1 DOR/ISL participant with K103N, M184V, H221Y, M230L, L234I at Week 24 (baseline mixtures K101K/E, K103K/N, M184M/V)",
+     "reason": "Previous value contradicted by label",
+     "source": "Idvynso label sec 12.4"
+    },
+    {
+     "column": "N",
+     "field": "Treatment-Emergent Resistance - Newly Approved Drug/Product",
+     "previous": "No treatment-emergent DOR or ISL resistance reported",
+     "new": "1 participant with phenotypic DOR resistance (>104-fold) and 7-fold reduced ISL susceptibility",
+     "reason": "Previous value contradicted by label",
+     "source": "Idvynso label sec 12.4"
+    },
+    {
+     "column": "O",
+     "field": "Trial/Publication Notes",
+     "previous": "Treatment-naive or study population per publication; verify full text.",
+     "new": "Switch study: virologically suppressed adults on BIC/FTC/TAF; double-blind, 2:1; registrational for Idvynso",
+     "reason": "Population corrected (not treatment-naive)",
+     "source": "PMID 41654375"
+    },
+    {
+     "column": "R",
+     "field": "Regulatory/Publication Source Note",
+     "previous": "See NIH source; FDA/peer-reviewed source verification required for blank or Not reported fields.",
+     "new": "Verified against PMID 41654375, CT.gov NCT05630755 results and Idvynso US label (2026)",
+     "reason": "Sources verified",
+     "source": "as listed"
+    }
+   ]
+  },
+  {
+   "product": "DOR/ISL",
+   "existing_row": null,
+   "trial_name": "Trial 053 (MK-8591A-053)",
+   "nct_id": "NCT05705349",
+   "population": "Treatment-naive",
+   "design": "Phase 3, randomised (1:1), double-blind, active-controlled, multicentre non-inferiority (-10% margin)",
+   "experimental_arm": "Doravirine 100 mg/islatravir 0.25 mg once daily",
+   "comparator_arm": "Bictegravir 50 mg/emtricitabine 200 mg/tenofovir alafenamide 25 mg once daily",
+   "publication_citation": "Rockstroh JK et al. Fixed-dose daily doravirine (100 mg) with islatravir (0.25 mg) versus bictegravir, emtricitabine, and tenofovir alafenamide for initial HIV-1 therapy: 48-week results of a phase 3, randomised, controlled, double-blind, non-inferiority trial. Lancet HIV. 2026;13:e440-e451.",
+   "pmid": "41763226",
+   "publication_year": 2026,
+   "approval_year_checked": "2026",
+   "approval_year_source": "Idvynso US label Highlights 'Initial U.S. Approval: 2026' (DailyMed setid 11aaeb53-9848-433c-be7f-db8a5bc0b26f)",
+   "week48_snapshot": "91.8% (247/269) DOR/ISL vs 90.6% (242/267) BIC/FTC/TAF; difference 1.2% (95% CI -3.7 to 6.2)",
+   "week48_snapshot_source": "PMID 41763226 abstract",
+   "week48_alt_endpoint": "Not applicable",
+   "week48_alt_source": "Not applicable",
+   "te_res_any_component": "3 participants with treatment-emergent mutations (2 DOR/ISL, 1 BIC/FTC/TAF), all with baseline HIV-1 RNA >1 million c/mL and CD4 <200",
+   "te_res_new_drug_text": "2 DOR/ISL participants with phenotypic resistance to doravirine (specific substitutions and ISL susceptibility not stated in abstract)",
+   "res_new_drug_n": 2,
+   "res_N_randomized": 269,
+   "res_N_tested": null,
+   "resistance_timepoint": "Week 48",
+   "resistance_source": "PMID 41763226 abstract",
+   "res_final_text": "Not reported (abstract only; no CT.gov results posted)",
+   "notes": "Not in the Idvynso label indication data (label covers 051/052 switch). 269 treated per arm-level counts; 59% had pre-existing RAS.",
+   "flags": [
+    "New record (not in master); treatment-naive trial outside the current Idvynso switch indication - scope review",
+    "No CT.gov results; full text not checked for substitutions/ISL phenotype"
+   ],
+   "changes": []
+  },
+  {
+   "product": "DOR/TDF/3TC",
+   "existing_row": 20,
+   "trial_name": "DRIVE-AHEAD (MK-1439A-021)",
+   "nct_id": "NCT02403674",
+   "population": "Treatment-naive",
+   "design": "Phase 3, randomised (1:1), double-blind, double-dummy, multicentre non-inferiority (-10% margin); 96 weeks + open-label extension",
+   "experimental_arm": "Fixed-dose doravirine 100 mg/lamivudine 300 mg/tenofovir DF 300 mg once daily",
+   "comparator_arm": "Fixed-dose efavirenz 600 mg/emtricitabine 200 mg/tenofovir DF 300 mg (Atripla) once daily",
+   "publication_citation": "Orkin C et al. Doravirine/Lamivudine/Tenofovir Disoproxil Fumarate is Non-inferior to Efavirenz/Emtricitabine/Tenofovir Disoproxil Fumarate in Treatment-naive Adults With Human Immunodeficiency Virus-1 Infection: Week 48 Results of the DRIVE-AHEAD Trial. Clin Infect Dis. 2019;68:535-544.",
+   "pmid": "30184165",
+   "publication_year": 2019,
+   "approval_year_checked": "2018",
+   "approval_year_source": "Delstrigo US label Highlights 'Initial U.S. Approval: 2018' (DailyMed setid cd1e9f84-607a-46d3-b01e-2736018d67b6)",
+   "week48_snapshot": "84.3% (307/364) DOR/3TC/TDF vs 80.8% (294/364) EFV/FTC/TDF; difference 3.5% (95% CI -2.0 to 9.0)",
+   "week48_snapshot_source": "PMID 30184165 abstract; CT.gov NCT02403674 primary outcome (84.3 vs 80.8)",
+   "week48_alt_endpoint": "Not applicable",
+   "week48_alt_source": "Not applicable",
+   "te_res_any_component": "Through Week 96 (label): DOR arm - emergent DOR RAS in 10 of 24 in resistance analysis subset; NRTI RAS in 8 evaluable DOR/3TC/TDF participants (M184V n=5, K65R n=2, M41L, A62A/V, T69T/A, V75V/I). EFV/FTC/TDF arm - EFV RAS in 15 of 25; FTC/TDF RAS in 5",
+   "te_res_new_drug_text": "10 DOR/3TC/TDF participants with emergent DOR RAS (incl. V106A/I/M, F227C, Y188L, H221Y, P225H) among 24 in resistance analysis subset through Week 96; 6 of 10 with phenotypic DOR resistance (>100-fold)",
+   "res_new_drug_n": 10,
+   "res_N_randomized": 364,
+   "res_N_tested": 24,
+   "resistance_timepoint": "Week 96 (label); Week 48 counts not verified",
+   "resistance_source": "Delstrigo US label sec 12.4",
+   "res_final_text": "Label (through Week 96) as stated. Orkin JAIDS 2026 (PMID 41129125) reports DOR resistance patterns through Week 192 (not reviewed).",
+   "notes": "734 randomised, 728 treated (364/arm). Registrational for Delstrigo and Pifeltro.",
+   "flags": [
+    "Week 48-specific resistance counts not verified (PMC full text truncated); label counts are through Week 96",
+    "F227C is among label-listed emergent DOR substitutions; prior wording 'F227C reported in program' retained in substance"
+   ],
+   "changes": [
+    {
+     "column": "I",
+     "field": "Peer-Reviewed Phase 3 Publication",
+     "previous": "Orkin et al. Doravirine/lamivudine/tenofovir disoproxil fumarate versus EFV/FTC/TDF, Clinical Infectious Diseases",
+     "new": "Orkin C et al. Doravirine/Lamivudine/Tenofovir Disoproxil Fumarate is Non-inferior to Efavirenz/Emtricitabine/Tenofovir Disoproxil Fumarate in Treatment-naive Adults With Human Immunodeficiency Virus-1 Infection: Week 48 Results of the DRIVE-AHEAD Trial. Clin Infect Dis. 2019;68:535-544.",
+     "reason": "Completed citation",
+     "source": "PMID 30184165"
+    },
+    {
+     "column": "L",
+     "field": "Week 48 FDA Snapshot: HIV-1 RNA <50 copies/mL",
+     "previous": "84.3% vs 80.8% comparator",
+     "new": "84.3% (307/364) DOR/3TC/TDF vs 80.8% (294/364) EFV/FTC/TDF; difference 3.5% (95% CI -2.0 to 9.0)",
+     "reason": "Added n/N and named comparator; values unchanged",
+     "source": "PMID 30184165"
+    },
+    {
+     "column": "M",
+     "field": "Treatment-Emergent Resistance - Any Regimen Component",
+     "previous": "Rare DOR and NRTI resistance; F227C reported in program",
+     "new": "Through Week 96 (label): DOR arm - emergent DOR RAS in 10 of 24 in resistance analysis subset; NRTI RAS in 8 evaluable DOR/3TC/TDF participants (M184V n=5, K65R n=2, M41L, A62A/V, T69T/A, V75V/I). EFV/FTC/TDF arm - EFV RAS in 15 of 25; FTC/TDF RAS in 5",
+     "reason": "Replaced vague text with label-quantified counts",
+     "source": "Delstrigo/Pifeltro label sec 12.4"
+    },
+    {
+     "column": "N",
+     "field": "Treatment-Emergent Resistance - Newly Approved Drug/Product",
+     "previous": "Treatment-emergent DOR resistance reported rarely",
+     "new": "10 DOR/3TC/TDF participants with emergent DOR RAS (incl. V106A/I/M, F227C, Y188L, H221Y, P225H) among 24 in resistance analysis subset through Week 96; 6 of 10 with phenotypic DOR resistance (>100-fold)",
+     "reason": "Replaced 'rarely' with label count (10/24 subset)",
+     "source": "Delstrigo label sec 12.4"
+    },
+    {
+     "column": "O",
+     "field": "Trial/Publication Notes",
+     "previous": "Treatment-naive.",
+     "new": "Treatment-naive; double-blind vs EFV/FTC/TDF; resistance counts from label through Week 96",
+     "reason": "Added design/source detail",
+     "source": "PMID 30184165; label"
+    },
+    {
+     "column": "R",
+     "field": "Regulatory/Publication Source Note",
+     "previous": "See NIH source; FDA/peer-reviewed source verification required for blank or Not reported fields.",
+     "new": "Verified against PMID 30184165, CT.gov NCT02403674 results and Delstrigo US label (2018)",
+     "reason": "Sources verified",
+     "source": "as listed"
+    }
+   ]
+  },
+  {
+   "product": "DOR/TDF/3TC",
+   "existing_row": null,
+   "trial_name": "DRIVE-SHIFT (MK-1439A-024)",
+   "nct_id": "NCT02397096",
+   "population": "Switch (virologically suppressed >=6 months on 2 NRTIs + boosted PI, boosted EVG or NNRTI)",
+   "design": "Phase 3, randomised (2:1), open-label, active-controlled non-inferiority (-8% margin); immediate vs delayed (Week 24) switch",
+   "experimental_arm": "Immediate switch to fixed-dose doravirine 100 mg/lamivudine 300 mg/tenofovir DF 300 mg once daily",
+   "comparator_arm": "Continue baseline regimen for 24 weeks, then switch (delayed switch)",
+   "publication_citation": "Johnson M et al. Switching to Doravirine/Lamivudine/Tenofovir Disoproxil Fumarate (DOR/3TC/TDF) Maintains HIV-1 Virologic Suppression Through 48 Weeks: Results of the DRIVE-SHIFT Trial. J Acquir Immune Defic Syndr. 2019;81:463-472.",
+   "pmid": "30985556",
+   "publication_year": 2019,
+   "approval_year_checked": "2018",
+   "approval_year_source": "Delstrigo US label Highlights 'Initial U.S. Approval: 2018' (DailyMed setid cd1e9f84-607a-46d3-b01e-2736018d67b6)",
+   "week48_snapshot": "90.8% DOR/3TC/TDF at Week 48 (N=447); comparator not available at Week 48 (baseline regimen only to Week 24)",
+   "week48_snapshot_source": "PMID 30985556 abstract",
+   "week48_alt_endpoint": "Primary comparison DOR/3TC/TDF Week 48 vs baseline regimen Week 24: 90.8% vs 94.6%, difference -3.8 (95% CI -7.9 to 0.3); Week 24: 93.7% vs 94.6%",
+   "week48_alt_source": "PMID 30985556 abstract",
+   "te_res_any_component": "Immediate switch: 6 protocol-defined virologic failures, 2 with resistance data, no DOR/3TC/TDF resistance. Delayed switch: 1 of 2 with data developed M184M/I on baseline regimen",
+   "te_res_new_drug_text": "No emergent doravirine resistance among 2 immediate-switch participants with resistance data",
+   "res_new_drug_n": 0,
+   "res_N_randomized": 447,
+   "res_N_tested": 2,
+   "resistance_timepoint": "Label (study period not specified; Week 48 analysis)",
+   "resistance_source": "Delstrigo US label sec 12.4 (DRIVE-SHIFT)",
+   "res_final_text": "Kumar P JAIDS 2021 (PMID 33633036) Week 144 extension not reviewed.",
+   "notes": "670 treated (447 immediate, 223 baseline). Supports Delstrigo switch indication (label sec 14.2).",
+   "flags": [
+    "New record not in master",
+    "No concurrent randomised comparator at Week 48 (delayed-switch design)"
+   ],
+   "changes": []
+  },
+  {
+   "product": "DOR",
+   "existing_row": 53,
+   "trial_name": "DRIVE-FORWARD (MK-1439-018)",
+   "nct_id": "NCT02275780",
+   "population": "Treatment-naive",
+   "design": "Phase 3, randomised (1:1), double-blind, multicentre non-inferiority (-10% margin); 96 weeks + open-label extension",
+   "experimental_arm": "Doravirine 100 mg once daily + investigator-selected TDF/FTC or ABC/3TC",
+   "comparator_arm": "Darunavir 800 mg + ritonavir 100 mg once daily + TDF/FTC or ABC/3TC",
+   "publication_citation": "Molina JM et al. Doravirine versus ritonavir-boosted darunavir in antiretroviral-naive adults with HIV-1 (DRIVE-FORWARD): 48-week results of a randomised, double-blind, phase 3, non-inferiority trial. Lancet HIV. 2018;5:e211-e220.",
+   "pmid": "29592840",
+   "publication_year": 2018,
+   "approval_year_checked": "2018",
+   "approval_year_source": "Pifeltro US label Highlights 'Initial U.S. Approval: 2018' (DailyMed setid 76ce1f00-28c0-4314-bd2c-d473fe3d0970)",
+   "week48_snapshot": "83.8% (321/383) DOR vs 79.9% (306/383) DRV/r, each + 2 NRTIs; difference 3.9% (95% CI -1.6 to 9.4)",
+   "week48_snapshot_source": "CT.gov NCT02275780 primary outcome (83.8 vs 79.9, N 383/383); PMID 29592840 abstract (321 vs 306)",
+   "week48_alt_endpoint": "Not applicable",
+   "week48_alt_source": "Not applicable",
+   "te_res_any_component": "Pooled DRIVE-FORWARD + DRIVE-AHEAD DOR arms through Week 96 (label): 13 with emergent DOR RAS among 36 in resistance subset; 10 with NRTI resistance (M184I/V n=7, K65R n=2, others). DRV/r arm: no DRV RAS among 15 with data; 2 with 3TC/TDF resistance. DRIVE-FORWARD-only DOR-arm count not separately reported",
+   "te_res_new_drug_text": "Not reported separately for DRIVE-FORWARD; pooled with DRIVE-AHEAD: 13 participants with emergent DOR RAS (8 with phenotypic resistance) through Week 96",
+   "res_new_drug_n": null,
+   "res_N_randomized": 385,
+   "res_N_tested": null,
+   "resistance_timepoint": "Week 96 (label, pooled)",
+   "resistance_source": "Pifeltro US label sec 12.4",
+   "res_final_text": "Orkin JAIDS 2026 (PMID 41129125) DOR resistance through Week 192 not reviewed.",
+   "notes": "769 randomised (385 DOR), 766 treated. Registrational for Pifeltro.",
+   "flags": [
+    "DRIVE-FORWARD-specific resistance count not available from label (pooled) or abstract; not derived by subtraction per no-extrapolation rule"
+   ],
+   "changes": [
+    {
+     "column": "I",
+     "field": "Peer-Reviewed Phase 3 Publication",
+     "previous": "Molina et al., Lancet HIV",
+     "new": "Molina JM et al. Doravirine versus ritonavir-boosted darunavir in antiretroviral-naive adults with HIV-1 (DRIVE-FORWARD): 48-week results of a randomised, double-blind, phase 3, non-inferiority trial. Lancet HIV. 2018;5:e211-e220.",
+     "reason": "Completed citation",
+     "source": "PMID 29592840"
+    },
+    {
+     "column": "L",
+     "field": "Week 48 FDA Snapshot: HIV-1 RNA <50 copies/mL",
+     "previous": "84% vs 80% darunavir/ritonavir",
+     "new": "83.8% (321/383) DOR vs 79.9% (306/383) DRV/r, each + 2 NRTIs; difference 3.9% (95% CI -1.6 to 9.4)",
+     "reason": "Added exact values and n/N; consistent with prior rounding",
+     "source": "CT.gov NCT02275780; PMID 29592840"
+    },
+    {
+     "column": "M",
+     "field": "Treatment-Emergent Resistance - Any Regimen Component",
+     "previous": "Rare DOR and/or NRTI resistance; F227C reported in program",
+     "new": "Pooled DRIVE-FORWARD + DRIVE-AHEAD DOR arms through Week 96 (label): 13 with emergent DOR RAS among 36 in resistance subset; 10 with NRTI resistance (M184I/V n=7, K65R n=2, others). DRV/r arm: no DRV RAS among 15 with data; 2 with 3TC/TDF resistance. DRIVE-FORWARD-only DOR-arm count not separately reported",
+     "reason": "Replaced vague text with label-quantified pooled counts",
+     "source": "Pifeltro label sec 12.4"
+    },
+    {
+     "column": "N",
+     "field": "Treatment-Emergent Resistance - Newly Approved Drug/Product",
+     "previous": "Treatment-emergent DOR resistance reported rarely",
+     "new": "Not reported separately for DRIVE-FORWARD; pooled with DRIVE-AHEAD: 13 participants with emergent DOR RAS (8 with phenotypic resistance) through Week 96",
+     "reason": "Trial-specific count not available; pooled label count given",
+     "source": "Pifeltro label sec 12.4"
+    },
+    {
+     "column": "O",
+     "field": "Trial/Publication Notes",
+     "previous": "Treatment-naive.",
+     "new": "Treatment-naive; double-blind DOR vs DRV/r each with 2 NRTIs; resistance only pooled with DRIVE-AHEAD in label",
+     "reason": "Added design/source detail",
+     "source": "PMID 29592840; label"
+    },
+    {
+     "column": "R",
+     "field": "Regulatory/Publication Source Note",
+     "previous": "See NIH source; FDA/peer-reviewed source verification required for blank or Not reported fields.",
+     "new": "Verified against PMID 29592840, CT.gov NCT02275780 results and Pifeltro US label (2018)",
+     "reason": "Sources verified",
+     "source": "as listed"
+    }
+   ]
+  },
+  {
+   "product": "DOR",
+   "existing_row": 54,
+   "trial_name": "DRIVE-AHEAD (MK-1439A-021)",
+   "nct_id": "NCT02403674",
+   "population": "Treatment-naive",
+   "design": "Phase 3, randomised (1:1), double-blind, double-dummy, multicentre non-inferiority (-10% margin); 96 weeks + open-label extension",
+   "experimental_arm": "Fixed-dose doravirine 100 mg/lamivudine 300 mg/tenofovir DF 300 mg once daily",
+   "comparator_arm": "Fixed-dose efavirenz 600 mg/emtricitabine 200 mg/tenofovir DF 300 mg (Atripla) once daily",
+   "publication_citation": "Orkin C et al. Doravirine/Lamivudine/Tenofovir Disoproxil Fumarate is Non-inferior to Efavirenz/Emtricitabine/Tenofovir Disoproxil Fumarate in Treatment-naive Adults With Human Immunodeficiency Virus-1 Infection: Week 48 Results of the DRIVE-AHEAD Trial. Clin Infect Dis. 2019;68:535-544.",
+   "pmid": "30184165",
+   "publication_year": 2019,
+   "approval_year_checked": "2018",
+   "approval_year_source": "Pifeltro US label Highlights 'Initial U.S. Approval: 2018' (DailyMed setid 76ce1f00-28c0-4314-bd2c-d473fe3d0970)",
+   "week48_snapshot": "84.3% (307/364) DOR/3TC/TDF vs 80.8% (294/364) EFV/FTC/TDF; difference 3.5% (95% CI -2.0 to 9.0)",
+   "week48_snapshot_source": "PMID 30184165 abstract; CT.gov NCT02403674 primary outcome (84.3 vs 80.8)",
+   "week48_alt_endpoint": "Not applicable",
+   "week48_alt_source": "Not applicable",
+   "te_res_any_component": "Through Week 96 (label): DOR arm - emergent DOR RAS in 10 of 24 in resistance analysis subset; NRTI RAS in 8 evaluable DOR/3TC/TDF participants (M184V n=5, K65R n=2, M41L, A62A/V, T69T/A, V75V/I). EFV/FTC/TDF arm - EFV RAS in 15 of 25; FTC/TDF RAS in 5",
+   "te_res_new_drug_text": "10 DOR/3TC/TDF participants with emergent DOR RAS (incl. V106A/I/M, F227C, Y188L, H221Y, P225H) among 24 in resistance analysis subset through Week 96; 6 of 10 with phenotypic DOR resistance (>100-fold)",
+   "res_new_drug_n": 10,
+   "res_N_randomized": 364,
+   "res_N_tested": 24,
+   "resistance_timepoint": "Week 96 (label); Week 48 counts not verified",
+   "resistance_source": "Delstrigo US label sec 12.4 (DRIVE-AHEAD-specific); Pifeltro label pools with DRIVE-FORWARD",
+   "res_final_text": "Label (through Week 96) as stated. Orkin JAIDS 2026 (PMID 41129125) reports DOR resistance patterns through Week 192 (not reviewed).",
+   "notes": "734 randomised, 728 treated (364/arm). Registrational for Delstrigo and Pifeltro. DOR evaluated as component of DOR/3TC/TDF FDC.",
+   "flags": [
+    "Week 48-specific resistance counts not verified (PMC full text truncated); label counts are through Week 96",
+    "F227C is among label-listed emergent DOR substitutions; prior wording 'F227C reported in program' retained in substance"
+   ],
+   "changes": [
+    {
+     "column": "I",
+     "field": "Peer-Reviewed Phase 3 Publication",
+     "previous": "Orkin et al., Clinical Infectious Diseases",
+     "new": "Orkin C et al. Doravirine/Lamivudine/Tenofovir Disoproxil Fumarate is Non-inferior to Efavirenz/Emtricitabine/Tenofovir Disoproxil Fumarate in Treatment-naive Adults With Human Immunodeficiency Virus-1 Infection: Week 48 Results of the DRIVE-AHEAD Trial. Clin Infect Dis. 2019;68:535-544.",
+     "reason": "Completed citation",
+     "source": "PMID 30184165"
+    },
+    {
+     "column": "L",
+     "field": "Week 48 FDA Snapshot: HIV-1 RNA <50 copies/mL",
+     "previous": "84.3% vs 80.8% EFV/FTC/TDF",
+     "new": "84.3% (307/364) DOR/3TC/TDF vs 80.8% (294/364) EFV/FTC/TDF; difference 3.5% (95% CI -2.0 to 9.0)",
+     "reason": "Added n/N and named comparator; values unchanged",
+     "source": "PMID 30184165"
+    },
+    {
+     "column": "M",
+     "field": "Treatment-Emergent Resistance - Any Regimen Component",
+     "previous": "Rare DOR and/or NRTI resistance; F227C reported in program",
+     "new": "Through Week 96 (label): DOR arm - emergent DOR RAS in 10 of 24 in resistance analysis subset; NRTI RAS in 8 evaluable DOR/3TC/TDF participants (M184V n=5, K65R n=2, M41L, A62A/V, T69T/A, V75V/I). EFV/FTC/TDF arm - EFV RAS in 15 of 25; FTC/TDF RAS in 5",
+     "reason": "Replaced vague text with label-quantified counts",
+     "source": "Delstrigo/Pifeltro label sec 12.4"
+    },
+    {
+     "column": "N",
+     "field": "Treatment-Emergent Resistance - Newly Approved Drug/Product",
+     "previous": "Treatment-emergent DOR resistance reported rarely",
+     "new": "10 DOR/3TC/TDF participants with emergent DOR RAS (incl. V106A/I/M, F227C, Y188L, H221Y, P225H) among 24 in resistance analysis subset through Week 96; 6 of 10 with phenotypic DOR resistance (>100-fold)",
+     "reason": "Replaced 'rarely' with label count (10/24 subset)",
+     "source": "Delstrigo label sec 12.4"
+    },
+    {
+     "column": "O",
+     "field": "Trial/Publication Notes",
+     "previous": "Treatment-naive.",
+     "new": "Treatment-naive; double-blind vs EFV/FTC/TDF; resistance counts from label through Week 96",
+     "reason": "Added design/source detail",
+     "source": "PMID 30184165; label"
+    },
+    {
+     "column": "R",
+     "field": "Regulatory/Publication Source Note",
+     "previous": "See NIH source; FDA/peer-reviewed source verification required for blank or Not reported fields.",
+     "new": "Verified against PMID 30184165, CT.gov NCT02403674 results and Pifeltro US label (2018)",
+     "reason": "Sources verified",
+     "source": "as listed"
+    }
+   ]
+  },
+  {
+   "product": "DOR",
+   "existing_row": null,
+   "trial_name": "DRIVE-SHIFT (MK-1439A-024)",
+   "nct_id": "NCT02397096",
+   "population": "Switch (virologically suppressed >=6 months on 2 NRTIs + boosted PI, boosted EVG or NNRTI)",
+   "design": "Phase 3, randomised (2:1), open-label, active-controlled non-inferiority (-8% margin); immediate vs delayed (Week 24) switch",
+   "experimental_arm": "Immediate switch to fixed-dose doravirine 100 mg/lamivudine 300 mg/tenofovir DF 300 mg once daily",
+   "comparator_arm": "Continue baseline regimen for 24 weeks, then switch (delayed switch)",
+   "publication_citation": "Johnson M et al. Switching to Doravirine/Lamivudine/Tenofovir Disoproxil Fumarate (DOR/3TC/TDF) Maintains HIV-1 Virologic Suppression Through 48 Weeks: Results of the DRIVE-SHIFT Trial. J Acquir Immune Defic Syndr. 2019;81:463-472.",
+   "pmid": "30985556",
+   "publication_year": 2019,
+   "approval_year_checked": "2018",
+   "approval_year_source": "Pifeltro US label Highlights 'Initial U.S. Approval: 2018' (DailyMed setid 76ce1f00-28c0-4314-bd2c-d473fe3d0970)",
+   "week48_snapshot": "90.8% DOR/3TC/TDF at Week 48 (N=447); comparator not available at Week 48 (baseline regimen only to Week 24)",
+   "week48_snapshot_source": "PMID 30985556 abstract",
+   "week48_alt_endpoint": "Primary comparison DOR/3TC/TDF Week 48 vs baseline regimen Week 24: 90.8% vs 94.6%, difference -3.8 (95% CI -7.9 to 0.3); Week 24: 93.7% vs 94.6%",
+   "week48_alt_source": "PMID 30985556 abstract",
+   "te_res_any_component": "Immediate switch: 6 protocol-defined virologic failures, 2 with resistance data, no DOR/3TC/TDF resistance. Delayed switch: 1 of 2 with data developed M184M/I on baseline regimen",
+   "te_res_new_drug_text": "No emergent doravirine resistance among 2 immediate-switch participants with resistance data",
+   "res_new_drug_n": 0,
+   "res_N_randomized": 447,
+   "res_N_tested": 2,
+   "resistance_timepoint": "Label (study period not specified; Week 48 analysis)",
+   "resistance_source": "Delstrigo US label sec 12.4 (DRIVE-SHIFT)",
+   "res_final_text": "Kumar P JAIDS 2021 (PMID 33633036) Week 144 extension not reviewed.",
+   "notes": "670 treated (447 immediate, 223 baseline). Supports Delstrigo switch indication (label sec 14.2).",
+   "flags": [
+    "New record not in master",
+    "No concurrent randomised comparator at Week 48 (delayed-switch design)",
+    "DOR component record (trial evaluated DOR/3TC/TDF FDC) - scope review, consistent with existing DOR row for DRIVE-AHEAD"
+   ],
+   "changes": []
+  },
+  {
+   "product": "EFV/TDF/FTC",
+   "existing_row": 21,
+   "trial_name": "Study 934 (GS-01-934)",
+   "nct_id": "NCT00112047",
+   "population": "Treatment-naive",
+   "design": "Phase 3, randomised, open-label, active-controlled, multicentre non-inferiority; 144 weeks",
+   "experimental_arm": "Efavirenz 600 mg + emtricitabine 200 mg + tenofovir DF 300 mg once daily (separate components; FTC/TDF FDC + EFV from Week 96-144)",
+   "comparator_arm": "Fixed-dose zidovudine/lamivudine twice daily + efavirenz 600 mg once daily",
+   "publication_citation": "Gallant JE et al. Tenofovir DF, emtricitabine, and efavirenz vs. zidovudine, lamivudine, and efavirenz for HIV. N Engl J Med. 2006;354:251-260.",
+   "pmid": "16421366",
+   "publication_year": 2006,
+   "approval_year_checked": "2006",
+   "approval_year_source": "Atripla US label Highlights 'Initial U.S. Approval: 2006' (DailyMed setid 2096a07e-8601-4bdc-ba5a-338a40cd02e9, repackager SPL)",
+   "week48_snapshot": "Not applicable (pre-Snapshot; TLOVR). <50 c/mL through Week 48 (TLOVR): 80% EFV+FTC+TDF vs 70% EFV+ZDV/3TC; primary <400 c/mL: 84% vs 73%",
+   "week48_snapshot_source": "PMID 16421366 abstract; Atripla label sec 14 (Week 48 responders <400: 84% vs 73%, N=244/243 excl. baseline EFV resistance)",
+   "week48_alt_endpoint": "Primary: HIV-1 RNA <400 c/mL through Week 48 (TLOVR) 84% vs 73% (95% CI 4 to 19)",
+   "week48_alt_source": "PMID 16421366 abstract",
+   "te_res_any_component": "Through Week 144 (label): EFV resistance (predominantly K103N) in 13/19 analysed FTC+TDF+EFV vs 21/29 ZDV/3TC+EFV; M184V in 2/19 vs 10/29; no K65R through Week 144",
+   "te_res_new_drug_text": "EFV RAS (predominantly K103N) in 13/19 analysed EFV+FTC+TDF virologic failures through Week 144; M184V in 2/19; no K65R",
+   "res_new_drug_n": 13,
+   "res_N_randomized": 257,
+   "res_N_tested": 19,
+   "resistance_timepoint": "Week 144 (label)",
+   "resistance_source": "Atripla US label sec 12.4",
+   "res_final_text": "Abstract: no K65R through Week 48. Label: as stated through Week 144.",
+   "notes": "Atripla FDC itself was not the randomised product (components; FDC bioequivalence-bridged). Primary endpoint TLOVR <400, not FDA Snapshot.",
+   "flags": [
+    "Atripla FDC not administered in randomised phase - registrational use via component regimen + bioequivalence",
+    "Week 48 value is TLOVR, not FDA Snapshot"
+   ],
+   "changes": [
+    {
+     "column": "I",
+     "field": "Peer-Reviewed Phase 3 Publication",
+     "previous": "Gallant et al. Tenofovir DF, emtricitabine, and efavirenz versus zidovudine, lamivudine, and efavirenz, New England Journal of Medicine",
+     "new": "Gallant JE et al. Tenofovir DF, emtricitabine, and efavirenz vs. zidovudine, lamivudine, and efavirenz for HIV. N Engl J Med. 2006;354:251-260.",
+     "reason": "Completed citation",
+     "source": "PMID 16421366"
+    },
+    {
+     "column": "L",
+     "field": "Week 48 FDA Snapshot: HIV-1 RNA <50 copies/mL",
+     "previous": "80% vs 70% comparator",
+     "new": "Not applicable (pre-Snapshot; TLOVR). <50 c/mL through Week 48 (TLOVR): 80% EFV+FTC+TDF vs 70% EFV+ZDV/3TC; primary <400 c/mL: 84% vs 73%",
+     "reason": "80% vs 70% is a TLOVR result, not FDA Snapshot; labelled accordingly",
+     "source": "PMID 16421366; Atripla label sec 14"
+    },
+    {
+     "column": "M",
+     "field": "Treatment-Emergent Resistance - Any Regimen Component",
+     "previous": "K103N and M184V reported",
+     "new": "Through Week 144 (label): EFV resistance (predominantly K103N) in 13/19 analysed FTC+TDF+EFV vs 21/29 ZDV/3TC+EFV; M184V in 2/19 vs 10/29; no K65R through Week 144",
+     "reason": "Quantified from label",
+     "source": "Atripla label sec 12.4"
+    },
+    {
+     "column": "N",
+     "field": "Treatment-Emergent Resistance - Newly Approved Drug/Product",
+     "previous": "EFV resistance-associated substitution K103N reported",
+     "new": "EFV RAS (predominantly K103N) in 13/19 analysed EFV+FTC+TDF virologic failures through Week 144; M184V in 2/19; no K65R",
+     "reason": "Quantified; product is the FDC so all components relevant",
+     "source": "Atripla label sec 12.4"
+    },
+    {
+     "column": "O",
+     "field": "Trial/Publication Notes",
+     "previous": "Endpoint/source predates modern labeling conventions; retained from prior summary.",
+     "new": "Treatment-naive, open-label; components given separately (FTC/TDF FDC + EFV weeks 96-144); TLOVR endpoints",
+     "reason": "Clarified product administration and endpoint",
+     "source": "Atripla label sec 14"
+    },
+    {
+     "column": "R",
+     "field": "Regulatory/Publication Source Note",
+     "previous": "See NIH source; FDA/peer-reviewed source verification required for blank or Not reported fields.",
+     "new": "Verified against PMID 16421366 and Atripla US label (2006); no CT.gov posted results",
+     "reason": "Sources verified",
+     "source": "as listed"
+    }
+   ]
+  },
+  {
+   "product": "EFV/TDF/FTC",
+   "existing_row": null,
+   "trial_name": "Study 073 (GS-US-164-0073)",
+   "nct_id": "Not reported",
+   "population": "Switch (virologically suppressed, HIV-1 RNA <200 for >=12 weeks on PI- or NNRTI-based ART)",
+   "design": "Randomised (2:1), open-label, multicentre, 48 weeks; phase not stated in abstract/label",
+   "experimental_arm": "Switch to fixed-dose efavirenz/emtricitabine/tenofovir DF (Atripla) once daily",
+   "comparator_arm": "Stay on baseline regimen",
+   "publication_citation": "DeJesus E et al. Simplification of antiretroviral therapy to a single-tablet regimen consisting of efavirenz, emtricitabine, and tenofovir disoproxil fumarate versus unmodified antiretroviral therapy in virologically suppressed HIV-1-infected patients. J Acquir Immune Defic Syndr. 2009;51:163-174.",
+   "pmid": "19357529",
+   "publication_year": 2009,
+   "approval_year_checked": "2006",
+   "approval_year_source": "Atripla US label Highlights 'Initial U.S. Approval: 2006' (DailyMed setid 2096a07e-8601-4bdc-ba5a-338a40cd02e9, repackager SPL)",
+   "week48_snapshot": "Not applicable (TLOVR): <50 c/mL at Week 48 87% Atripla (N=203) vs 85% baseline regimen (N=97)",
+   "week48_snapshot_source": "Atripla US label sec 14 (Study 073)",
+   "week48_alt_endpoint": "Primary <200 c/mL (TLOVR) 89% vs 88%; difference 1.1% (95% CI -6.7 to 8.8)",
+   "week48_alt_source": "PMID 19357529 abstract",
+   "te_res_any_component": "Not reported",
+   "te_res_new_drug_text": "Not reported",
+   "res_new_drug_n": null,
+   "res_N_randomized": 203,
+   "res_N_tested": null,
+   "resistance_timepoint": "Not reported",
+   "resistance_source": "Not reported in abstract or label",
+   "res_final_text": "Not reported",
+   "notes": "Only trial in label where the Atripla FDC itself was randomised.",
+   "flags": [
+    "Trial phase and NCT ID not confirmed - inclusion needs human confirmation",
+    "Resistance data not found (full text not reviewed)"
+   ],
+   "changes": []
+  },
+  {
+   "product": "EFV",
+   "existing_row": 55,
+   "trial_name": "DMP 266-006 (Study 006)",
+   "nct_id": "Not applicable (pre-registration)",
+   "population": "Treatment-naive to 3TC, NNRTI and PI (NRTI-naive or limited)",
+   "design": "Phase 3, randomised, open-label, 3-arm, multicentre",
+   "experimental_arm": "Efavirenz 600 mg once daily + zidovudine + lamivudine; or efavirenz + indinavir 1000 mg q8h",
+   "comparator_arm": "Indinavir 800 mg q8h + zidovudine + lamivudine",
+   "publication_citation": "Staszewski S et al. Efavirenz plus zidovudine and lamivudine, efavirenz plus indinavir, and indinavir plus zidovudine and lamivudine in the treatment of HIV-1 infection in adults. Study 006 Team. N Engl J Med. 1999;341:1865-1873.",
+   "pmid": "10601505",
+   "publication_year": 1999,
+   "approval_year_checked": "1998",
+   "approval_year_source": "Sustiva US label Highlights 'Initial U.S. Approval: 1998' (DailyMed setid 04b5c345-c446-43a4-83f0-509bc287e10b, repackager SPL)",
+   "week48_snapshot": "Not applicable (pre-FDA Snapshot). Label: <50 c/mL responders through Week 48 65% EFV+ZDV+3TC vs 50% EFV+IDV vs 45% IDV+ZDV+3TC; <400 c/mL 69% vs 57% vs 50%",
+   "week48_snapshot_source": "Sustiva US label sec 14 Table 10 (N=422/429/415); abstract (450 pts interim) 70% vs 48% undetectable",
+   "week48_alt_endpoint": "Primary label analysis <400 c/mL through Week 48: 69% vs 57% vs 50%",
+   "week48_alt_source": "Sustiva label Table 10",
+   "te_res_any_component": "Label (Study 006 and other trials, not trial-specific counts): RT substitutions at 98, 100, 101, 103, 106, 108, 188, 190, 225, 227 in patients failing EFV+IDV or EFV+ZDV+3TC; K103N most frequent",
+   "te_res_new_drug_text": "EFV RAS with K103N most frequent (trial-specific count not reported)",
+   "res_new_drug_n": null,
+   "res_N_randomized": 422,
+   "res_N_tested": null,
+   "resistance_timepoint": "Not specified",
+   "resistance_source": "Sustiva US label sec 12.4",
+   "res_final_text": "Not reported trial-specifically",
+   "notes": "Publication (NEJM 1999) reports 450-patient interim; label reports 1266 enrolled. Registrational for Sustiva.",
+   "flags": [
+    "Publication year 1999 post-dates 1998 approval",
+    "Resistance counts not trial-specific"
+   ],
+   "changes": [
+    {
+     "column": "I",
+     "field": "Peer-Reviewed Phase 3 Publication",
+     "previous": "Staszewski et al. Efavirenz plus zidovudine and lamivudine, New England Journal of Medicine",
+     "new": "Staszewski S et al. Efavirenz plus zidovudine and lamivudine, efavirenz plus indinavir, and indinavir plus zidovudine and lamivudine in the treatment of HIV-1 infection in adults. Study 006 Team. N Engl J Med. 1999;341:1865-1873.",
+     "reason": "Completed citation",
+     "source": "PMID 10601505"
+    },
+    {
+     "column": "L",
+     "field": "Week 48 FDA Snapshot: HIV-1 RNA <50 copies/mL",
+     "previous": "Not applicable (pre-FDA Snapshot; publication used a different virologic threshold)",
+     "new": "Not applicable (pre-FDA Snapshot). Label: <50 c/mL responders through Week 48 65% EFV+ZDV+3TC vs 50% EFV+IDV vs 45% IDV+ZDV+3TC; <400 c/mL 69% vs 57% vs 50%",
+     "reason": "Kept 'Not applicable' and added label <50 responder values",
+     "source": "Sustiva label Table 10"
+    },
+    {
+     "column": "M",
+     "field": "Treatment-Emergent Resistance - Any Regimen Component",
+     "previous": "K103N reported",
+     "new": "Label (Study 006 and other trials, not trial-specific counts): RT substitutions at 98, 100, 101, 103, 106, 108, 188, 190, 225, 227 in patients failing EFV+IDV or EFV+ZDV+3TC; K103N most frequent",
+     "reason": "Specified label wording",
+     "source": "Sustiva label sec 12.4"
+    },
+    {
+     "column": "O",
+     "field": "Trial/Publication Notes",
+     "previous": "Pre-ClinicalTrials.gov registration era.",
+     "new": "Pre-ClinicalTrials.gov registration era; 3-arm open-label; label n=1266 vs publication interim n=450",
+     "reason": "Added design detail",
+     "source": "PMID 10601505; Sustiva label"
+    },
+    {
+     "column": "R",
+     "field": "Regulatory/Publication Source Note",
+     "previous": "See NIH source; FDA/peer-reviewed source verification required for blank or Not reported fields.",
+     "new": "Verified against PMID 10601505 and Sustiva US label (1998)",
+     "reason": "Sources verified",
+     "source": "as listed"
+    }
+   ]
+  },
+  {
+   "product": "EFV",
+   "existing_row": null,
+   "trial_name": "ENCORE1",
+   "nct_id": "NCT01011413",
+   "population": "Treatment-naive",
+   "design": "Phase 3 (CT.gov), randomised, double-blind, placebo-controlled non-inferiority (-10% margin)",
+   "experimental_arm": "Efavirenz 400 mg once daily + tenofovir DF/emtricitabine",
+   "comparator_arm": "Efavirenz 600 mg once daily + tenofovir DF/emtricitabine",
+   "publication_citation": "ENCORE1 Study Group. Efficacy of 400 mg efavirenz versus standard 600 mg dose in HIV-infected, antiretroviral-naive adults (ENCORE1): a randomised, double-blind, placebo-controlled, non-inferiority trial. Lancet. 2014;383:1474-1482.",
+   "pmid": "24522178",
+   "publication_year": 2014,
+   "approval_year_checked": "1998",
+   "approval_year_source": "Sustiva US label Highlights 'Initial U.S. Approval: 1998' (DailyMed setid 04b5c345-c446-43a4-83f0-509bc287e10b, repackager SPL)",
+   "week48_snapshot": "Not reported (FDA Snapshot <50 not reported; primary endpoint <200 c/mL)",
+   "week48_snapshot_source": "PMID 24522178 abstract; CT.gov NCT01011413",
+   "week48_alt_endpoint": "HIV-1 RNA <200 c/mL at Week 48: 94.1% EFV400 (N=321) vs 92.2% EFV600 (N=309); difference 1.85% (95% CI -2.1 to 5.79)",
+   "week48_alt_source": "PMID 24522178 abstract; CT.gov primary outcome",
+   "te_res_any_component": "Not reported",
+   "te_res_new_drug_text": "Not reported",
+   "res_new_drug_n": null,
+   "res_N_randomized": 321,
+   "res_N_tested": null,
+   "resistance_timepoint": "Not reported",
+   "resistance_source": "Not reported in abstract/CT.gov",
+   "res_final_text": "Not reported (96-week Lancet Infect Dis 2015 PMID 25877963 not reviewed)",
+   "notes": "Dose-comparison trial; EFV 400 mg is not the Sustiva labelled dose (400 mg used in Symfi Lo). Academic (Kirby Institute).",
+   "flags": [
+    "EFV 400 mg dose not the Sustiva-labelled dose - scope review",
+    "Resistance not extracted"
+   ],
+   "changes": []
+  },
+  {
+   "product": "ETR",
+   "existing_row": 56,
+   "trial_name": "DUET-1 (TMC125-C206)",
+   "nct_id": "NCT00254046",
+   "population": "Treatment-experienced (NNRTI resistance, >=3 primary PI mutations, VL >5000)",
+   "design": "Phase 3, randomised, double-blind, placebo-controlled, multinational",
+   "experimental_arm": "Etravirine 200 mg twice daily + DRV/r + investigator-selected NRTIs +/- enfuvirtide",
+   "comparator_arm": "Placebo + same background regimen",
+   "publication_citation": "Madruga JV et al. Efficacy and safety of TMC125 (etravirine) in treatment-experienced HIV-1-infected patients in DUET-1: 24-week results from a randomised, double-blind, placebo-controlled trial. Lancet. 2007;370:29-38.",
+   "pmid": "17617270",
+   "publication_year": 2007,
+   "approval_year_checked": "2008",
+   "approval_year_source": "Intelence US label Highlights 'Initial U.S. Approval: 2008' (DailyMed setid 6a9cbc29-9f15-4b24-8d86-206b82887f3d)",
+   "week48_snapshot": "Pooled DUET-1/DUET-2 Week 48: 60% (359/599) ETR+BR vs 38% (232/604) placebo+BR (label Table 14); Katlama 2009 pooled TLOVR 61% vs 40%",
+   "week48_snapshot_source": "Intelence US label sec 14 Table 14 (pooled, N=599/604); PMID 19710593 abstract",
+   "week48_alt_endpoint": "Trial-specific primary Week 24 (TLOVR) <50 c/mL: 56% (170/304) vs 39% (119/308)",
+   "week48_alt_source": "PMID 17617270 abstract",
+   "te_res_any_component": "Pooled label: in virologic failures at Week 48 on ETR regimen, most common emergent substitutions V179F, V179I, Y181C, usually on a background of multiple NNRTI RAS; counts not reported",
+   "te_res_new_drug_text": "Emergent ETR-associated substitutions V179F, V179I, Y181C most common (pooled; counts not reported)",
+   "res_new_drug_n": null,
+   "res_N_randomized": 304,
+   "res_N_tested": null,
+   "resistance_timepoint": "Week 48 (pooled)",
+   "resistance_source": "Intelence US label sec 12.4",
+   "res_final_text": "Trial-specific Week 48 values not available from label (pooled only); Week 96 Katlama Antivir Ther 2010 (PMID 21041921) not reviewed",
+   "notes": "Primary publication reports Week 24; Week 48 only pooled across DUET-1/2.",
+   "flags": [
+    "Week 48 only pooled across DUET-1 and DUET-2; label 60% vs 38% differs from prior 61% vs 40% (TLOVR, Katlama 2009)",
+    "Trial-specific resistance counts not reported"
+   ],
+   "changes": [
+    {
+     "column": "I",
+     "field": "Peer-Reviewed Phase 3 Publication",
+     "previous": "Madruga et al., Lancet",
+     "new": "Madruga JV et al. Efficacy and safety of TMC125 (etravirine) in treatment-experienced HIV-1-infected patients in DUET-1: 24-week results from a randomised, double-blind, placebo-controlled trial. Lancet. 2007;370:29-38.",
+     "reason": "Completed citation (24-week primary report)",
+     "source": "PMID 17617270"
+    },
+    {
+     "column": "L",
+     "field": "Week 48 FDA Snapshot: HIV-1 RNA <50 copies/mL",
+     "previous": "61% vs 40% placebo (pooled Week 48)",
+     "new": "Pooled DUET-1/DUET-2 Week 48: 60% (359/599) ETR+BR vs 38% (232/604) placebo+BR (label Table 14); Katlama 2009 pooled TLOVR 61% vs 40%",
+     "reason": "Label pooled Week 48 values differ (60% vs 38%); 61% vs 40% is TLOVR from Katlama 2009",
+     "source": "Intelence label Table 14; PMID 19710593"
+    },
+    {
+     "column": "M",
+     "field": "Treatment-Emergent Resistance - Any Regimen Component",
+     "previous": "NNRTI/ETR resistance-associated substitutions reported",
+     "new": "Pooled label: in virologic failures at Week 48 on ETR regimen, most common emergent substitutions V179F, V179I, Y181C, usually on a background of multiple NNRTI RAS; counts not reported",
+     "reason": "Specified label substitutions",
+     "source": "Intelence label sec 12.4"
+    },
+    {
+     "column": "N",
+     "field": "Treatment-Emergent Resistance - Newly Approved Drug/Product",
+     "previous": "Treatment-emergent ETR resistance-associated substitutions reported",
+     "new": "Emergent ETR-associated substitutions V179F, V179I, Y181C most common (pooled; counts not reported)",
+     "reason": "Specified label substitutions",
+     "source": "Intelence label sec 12.4"
+    },
+    {
+     "column": "O",
+     "field": "Trial/Publication Notes",
+     "previous": "Treatment-experienced; pooled Week 48 value preserved from prior summary.",
+     "new": "Treatment-experienced; primary publication Week 24 (56% (170/304) vs 39% (119/308)); Week 48 pooled only",
+     "reason": "Added trial-specific primary result",
+     "source": "PMID 17617270"
+    },
+    {
+     "column": "R",
+     "field": "Regulatory/Publication Source Note",
+     "previous": "See NIH source; FDA/peer-reviewed source verification required for blank or Not reported fields.",
+     "new": "Verified against PMID 17617270, PMID 19710593 and Intelence US label (2008); no CT.gov posted results",
+     "reason": "Sources verified",
+     "source": "as listed"
+    }
+   ]
+  },
+  {
+   "product": "ETR",
+   "existing_row": 57,
+   "trial_name": "DUET-2 (TMC125-C216)",
+   "nct_id": "NCT00255099",
+   "population": "Treatment-experienced (NNRTI resistance, >=3 primary PI mutations, VL >5000)",
+   "design": "Phase 3, randomised, double-blind, placebo-controlled, multinational",
+   "experimental_arm": "Etravirine 200 mg twice daily + DRV/r + investigator-selected NRTIs +/- enfuvirtide",
+   "comparator_arm": "Placebo + same background regimen",
+   "publication_citation": "Lazzarin A et al. Efficacy and safety of TMC125 (etravirine) in treatment-experienced HIV-1-infected patients in DUET-2: 24-week results from a randomised, double-blind, placebo-controlled trial. Lancet. 2007;370:39-48.",
+   "pmid": "17617271",
+   "publication_year": 2007,
+   "approval_year_checked": "2008",
+   "approval_year_source": "Intelence US label Highlights 'Initial U.S. Approval: 2008' (DailyMed setid 6a9cbc29-9f15-4b24-8d86-206b82887f3d)",
+   "week48_snapshot": "Pooled DUET-1/DUET-2 Week 48: 60% (359/599) ETR+BR vs 38% (232/604) placebo+BR (label Table 14); Katlama 2009 pooled TLOVR 61% vs 40%",
+   "week48_snapshot_source": "Intelence US label sec 14 Table 14 (pooled, N=599/604); PMID 19710593 abstract",
+   "week48_alt_endpoint": "Trial-specific primary Week 24 (TLOVR) <50 c/mL: 62% (183/295) vs 44% (129/296)",
+   "week48_alt_source": "PMID 17617271 abstract",
+   "te_res_any_component": "Pooled label: in virologic failures at Week 48 on ETR regimen, most common emergent substitutions V179F, V179I, Y181C, usually on a background of multiple NNRTI RAS; counts not reported",
+   "te_res_new_drug_text": "Emergent ETR-associated substitutions V179F, V179I, Y181C most common (pooled; counts not reported)",
+   "res_new_drug_n": null,
+   "res_N_randomized": 295,
+   "res_N_tested": null,
+   "resistance_timepoint": "Week 48 (pooled)",
+   "resistance_source": "Intelence US label sec 12.4",
+   "res_final_text": "Trial-specific Week 48 values not available from label (pooled only); Week 96 Katlama Antivir Ther 2010 (PMID 21041921) not reviewed",
+   "notes": "Primary publication reports Week 24; Week 48 only pooled across DUET-1/2.",
+   "flags": [
+    "Week 48 only pooled across DUET-1 and DUET-2; label 60% vs 38% differs from prior 61% vs 40% (TLOVR, Katlama 2009)",
+    "Trial-specific resistance counts not reported"
+   ],
+   "changes": [
+    {
+     "column": "I",
+     "field": "Peer-Reviewed Phase 3 Publication",
+     "previous": "Lazzarin et al., Lancet",
+     "new": "Lazzarin A et al. Efficacy and safety of TMC125 (etravirine) in treatment-experienced HIV-1-infected patients in DUET-2: 24-week results from a randomised, double-blind, placebo-controlled trial. Lancet. 2007;370:39-48.",
+     "reason": "Completed citation (24-week primary report)",
+     "source": "PMID 17617271"
+    },
+    {
+     "column": "L",
+     "field": "Week 48 FDA Snapshot: HIV-1 RNA <50 copies/mL",
+     "previous": "61% vs 40% placebo (pooled Week 48)",
+     "new": "Pooled DUET-1/DUET-2 Week 48: 60% (359/599) ETR+BR vs 38% (232/604) placebo+BR (label Table 14); Katlama 2009 pooled TLOVR 61% vs 40%",
+     "reason": "Label pooled Week 48 values differ (60% vs 38%); 61% vs 40% is TLOVR from Katlama 2009",
+     "source": "Intelence label Table 14; PMID 19710593"
+    },
+    {
+     "column": "M",
+     "field": "Treatment-Emergent Resistance - Any Regimen Component",
+     "previous": "NNRTI/ETR resistance-associated substitutions reported",
+     "new": "Pooled label: in virologic failures at Week 48 on ETR regimen, most common emergent substitutions V179F, V179I, Y181C, usually on a background of multiple NNRTI RAS; counts not reported",
+     "reason": "Specified label substitutions",
+     "source": "Intelence label sec 12.4"
+    },
+    {
+     "column": "N",
+     "field": "Treatment-Emergent Resistance - Newly Approved Drug/Product",
+     "previous": "Treatment-emergent ETR resistance-associated substitutions reported",
+     "new": "Emergent ETR-associated substitutions V179F, V179I, Y181C most common (pooled; counts not reported)",
+     "reason": "Specified label substitutions",
+     "source": "Intelence label sec 12.4"
+    },
+    {
+     "column": "O",
+     "field": "Trial/Publication Notes",
+     "previous": "Treatment-experienced; pooled Week 48 value preserved from prior summary.",
+     "new": "Treatment-experienced; primary publication Week 24 (62% (183/295) vs 44% (129/296)); Week 48 pooled only",
+     "reason": "Added trial-specific primary result",
+     "source": "PMID 17617271"
+    },
+    {
+     "column": "R",
+     "field": "Regulatory/Publication Source Note",
+     "previous": "See NIH source; FDA/peer-reviewed source verification required for blank or Not reported fields.",
+     "new": "Verified against PMID 17617271, PMID 19710593 and Intelence US label (2008); no CT.gov posted results",
+     "reason": "Sources verified",
+     "source": "as listed"
+    }
+   ]
+  }
+ ],
+ "excluded": [
+  {
+   "product": "BIC/TAF/FTC",
+   "trial": "GS-US-380-1474 (pediatric)",
+   "nct_id": "NCT02881320",
+   "pmid": "",
+   "reason": "Pediatric/adolescent trial"
+  },
+  {
+   "product": "BIC/TAF/FTC",
+   "trial": "BIC-T&T",
+   "nct_id": "NCT04653194",
+   "pmid": "",
+   "reason": "no results reported (completed; no posted results or publication identified)"
+  },
+  {
+   "product": "BIC/TAF/FTC",
+   "trial": "Test&Treat",
+   "nct_id": "NCT04416906",
+   "pmid": "",
+   "reason": "Primary endpoint not efficacy (eligibility for regimen at week 4); no results reported"
+  },
+  {
+   "product": "BIC/TAF/FTC",
+   "trial": "BETTER",
+   "nct_id": "NCT03656783",
+   "pmid": "",
+   "reason": "Primary endpoint coronary flow reserve (not antiviral efficacy); single-arm mechanistic study"
+  },
+  {
+   "product": "BIC/TAF/FTC",
+   "trial": "DOBINeuro",
+   "nct_id": "NCT04155554",
+   "pmid": "",
+   "reason": "Primary neuropsychiatric endpoint; status unknown; no results reported"
+  },
+  {
+   "product": "BIC/TAF/FTC",
+   "trial": "ALTAR",
+   "nct_id": "NCT04051970",
+   "pmid": "",
+   "reason": "Terminated; no results reported"
+  },
+  {
+   "product": "BIC/TAF/FTC",
+   "trial": "MIND",
+   "nct_id": "",
+   "pmid": "42055353",
+   "reason": "Phase 4 (per publication)"
+  },
+  {
+   "product": "BIC/TAF/FTC",
+   "trial": "INSTINCT/GESIDA10918",
+   "nct_id": "",
+   "pmid": "41070447",
+   "reason": "Phase 4 (per publication)"
+  },
+  {
+   "product": "BIC/TAF/FTC",
+   "trial": "bifast",
+   "nct_id": "",
+   "pmid": "41703498",
+   "reason": "Phase 4, non-randomised (per publication)"
+  },
+  {
+   "product": "BIC/TAF/FTC",
+   "trial": "PIBIK",
+   "nct_id": "",
+   "pmid": "39930490",
+   "reason": "Phase 4 (per publication)"
+  },
+  {
+   "product": "BIC/TAF/FTC",
+   "trial": "B/F/TAF-Elderly (Kenya)",
+   "nct_id": "",
+   "pmid": "41280315",
+   "reason": "Phase not stated as 3/3b in abstract and not returned by CT.gov Phase 3 search - verify"
+  },
+  {
+   "product": "BIC/TAF/FTC",
+   "trial": "(mo)BETTA",
+   "nct_id": "",
+   "pmid": "37096146",
+   "reason": "Phase not stated as 3/3b; small pilot (n=21) not returned by CT.gov Phase 3 search; safety primary"
+  },
+  {
+   "product": "BIC/TAF/FTC",
+   "trial": "HIV/HBV single-arm switch (Kwakwa)",
+   "nct_id": "",
+   "pmid": "40284953",
+   "reason": "Phase not stated as 3/3b; not returned by CT.gov Phase 3 search"
+  },
+  {
+   "product": "BIC/TAF/FTC",
+   "trial": "SOLAR / EYEWITNESS / VOGUE / B/F/TAF->DTG/3TC switch / DOR/ISL 018, 052, 053 / ARTISTRY-2",
+   "nct_id": "NCT04542070; NCT05911360; NCT05979311; NCT06444620",
+   "pmid": "",
+   "reason": "B/F/TAF is comparator (continued/baseline regimen) only, not investigational"
+  },
+  {
+   "product": "BIC/TAF/FTC",
+   "trial": "INSIGHT (B/F/TAF twice daily with rifampicin)",
+   "nct_id": "",
+   "pmid": "41344350",
+   "reason": "Phase 2b"
+  },
+  {
+   "product": "BIC/TAF/FTC",
+   "trial": "FOTO / reduced-frequency B/F/TAF pilots",
+   "nct_id": "",
+   "pmid": "40470796; 42668592",
+   "reason": "Pilot / phase 2"
+  },
+  {
+   "product": "BIC/LEN",
+   "trial": "ARTISTRY-1 Phase 2 part",
+   "nct_id": "NCT05502341",
+   "pmid": "39589133",
+   "reason": "Phase 2 part of Phase 2/3 study"
+  },
+  {
+   "product": "LEN",
+   "trial": "PURPOSE 1 / PURPOSE 2 / PURPOSE 365",
+   "nct_id": "NCT04994509; NCT04925752; NCT07047716",
+   "pmid": "",
+   "reason": "PrEP trials"
+  },
+  {
+   "product": "LEN",
+   "trial": "CALIBRATE",
+   "nct_id": "NCT04143594",
+   "pmid": "36566079",
+   "reason": "Phase 2 (treatment-naive)"
+  },
+  {
+   "product": "LEN",
+   "trial": "ISL+LEN weekly phase 2 (Colson, Ann Intern Med 2026)",
+   "nct_id": "",
+   "pmid": "41429026",
+   "reason": "Phase 2"
+  },
+  {
+   "product": "LEN",
+   "trial": "LEN + teropavimab + zinlirvimab vs CAB+RPV",
+   "nct_id": "NCT07682961",
+   "pmid": "",
+   "reason": "Recruiting; no results reported"
+  },
+  {
+   "product": "DOR/ISL",
+   "trial": "MK-8591A-017",
+   "nct_id": "NCT04223778",
+   "pmid": "38734015",
+   "reason": "ISL 0.75 mg dose (discontinued for CD4/lymphocyte decreases); not the approved Idvynso 100/0.25 mg product"
+  },
+  {
+   "product": "DOR/ISL",
+   "trial": "MK-8591A-018",
+   "nct_id": "NCT04223791",
+   "pmid": "38734016",
+   "reason": "ISL 0.75 mg dose; not the approved product dose"
+  },
+  {
+   "product": "DOR/ISL",
+   "trial": "MK-8591A-020",
+   "nct_id": "NCT04233879",
+   "pmid": "40079835",
+   "reason": "ISL 0.75 mg dose; development of this dose stopped"
+  },
+  {
+   "product": "DOR/ISL",
+   "trial": "MK-8591A-019 (heavily treatment-experienced)",
+   "nct_id": "NCT04233216",
+   "pmid": "",
+   "reason": "ISL 0.75 mg (+ISL monotherapy lead-in) in HTE; not approved product dose"
+  },
+  {
+   "product": "DOR/ISL",
+   "trial": "MK-8591A-054 (rollover)",
+   "nct_id": "NCT05766501",
+   "pmid": "42861969",
+   "reason": "Single-arm open-label rollover of 0.75 mg participants; no comparator, extension study; no CT.gov results"
+  },
+  {
+   "product": "DOR/TDF/3TC",
+   "trial": "COATL",
+   "nct_id": "NCT07075146",
+   "pmid": "",
+   "reason": "Recruiting; no results"
+  },
+  {
+   "product": "DOR",
+   "trial": "DAWN",
+   "nct_id": "NCT05457530",
+   "pmid": "",
+   "reason": "Withdrawn"
+  },
+  {
+   "product": "DOR/TDF/3TC",
+   "trial": "DORA (women of reproductive potential)",
+   "nct_id": "NCT04433780",
+   "pmid": "",
+   "reason": "Single-arm phase 3; no posted results and no publication found"
+  },
+  {
+   "product": "DOR",
+   "trial": "ADORE",
+   "nct_id": "NCT04429152",
+   "pmid": "",
+   "reason": "Status unknown, n=25; no posted results/publication found"
+  },
+  {
+   "product": "DOR",
+   "trial": "DORDOL (DOR+DTG switch)",
+   "nct_id": "NCT04892654",
+   "pmid": "",
+   "reason": "Recruiting; no results"
+  },
+  {
+   "product": "DOR",
+   "trial": "DRIVE-FORWARD/DRIVE-AHEAD open-label extensions (PMID 38141637)",
+   "nct_id": "",
+   "pmid": "38141637",
+   "reason": "Extension analyses of included trials, not separate trials"
+  },
+  {
+   "product": "DOR/TDF/3TC",
+   "trial": "Opti-DOR (South Africa; DOR/3TC/TDF vs DTG/FTC/TAF, weight gain)",
+   "nct_id": "",
+   "pmid": "42536019",
+   "reason": "Trial phase not stated in abstract and registry not checked; investigator-initiated weight-gain trial - flagged for human review (potential inclusion)"
+  },
+  {
+   "product": "EFV/TDF/3TC",
+   "trial": "ENCORE1",
+   "nct_id": "NCT01011413",
+   "pmid": "24522178",
+   "reason": "EFV 400 vs 600 with TDF/FTC (not 3TC); included under EFV instead"
+  },
+  {
+   "product": "EFV/TDF/3TC",
+   "trial": "NAMSAL",
+   "nct_id": "",
+   "pmid": "",
+   "reason": "EFV400/TDF/3TC is the comparator (DTG-based arm investigational)"
+  },
+  {
+   "product": "EFV/TDF/3TC",
+   "trial": "Study 903 (Gallant JAMA 2004)",
+   "nct_id": "",
+   "pmid": "15249568",
+   "reason": "Investigational comparison was TDF vs d4T (each + EFV + 3TC); EFV/TDF/3TC combination not the investigational regimen per user rule - flagged (Symfi label sec 14 cites it; analogous to Study 934 for Atripla)"
+  },
+  {
+   "product": "EFV",
+   "trial": "2NN",
+   "nct_id": "",
+   "pmid": "",
+   "reason": "NVP vs EFV comparison where EFV is standard/comparator arm; not screened further"
+  },
+  {
+   "product": "EFV",
+   "trial": "ACTG 364",
+   "nct_id": "",
+   "pmid": "",
+   "reason": "Phase not confirmed (label describes 48-week double-blind trial); not screened in time - flagged"
+  },
+  {
+   "product": "EFV",
+   "trial": "INSTI/NNRTI trials with EFV/FTC/TDF comparator (e.g. SINGLE, STARTMRK, ECHO/THRIVE, DRIVE-AHEAD)",
+   "nct_id": "",
+   "pmid": "",
+   "reason": "EFV comparator only"
+  },
+  {
+   "product": "ETR",
+   "trial": "SENSE (TMC125-C227 etc.)",
+   "nct_id": "",
+   "pmid": "",
+   "reason": "Phase 2 / exploratory"
+  },
+  {
+   "product": "EFV/TDF/FTC",
+   "trial": "Switch-from-Atripla trials (e.g. NCT02345226, NCT01495702)",
+   "nct_id": "",
+   "pmid": "",
+   "reason": "Atripla is the pre-switch/comparator regimen"
+  }
+ ],
+ "product_notes": {
+  "BIC/TAF/FTC": "10 records: 1489, 1490 (existing rows 4,5), 1844, 1878, 1961, 4030, 4449 (>=65y, phase 3b), BRAAVE 2020 (phase 3b), ALLIANCE (HIV/HBV), and LAPTOP (investigator-initiated, CT.gov results only). Approval 2018 per Biktarvy label. Pediatric 1474 excluded.",
+  "BIC/LEN": "2 records: ARTISTRY-1 (Phase 3 part) and ARTISTRY-2 (existing rows 16,17). Both published 2026 (Lancet; Lancet HIV). Approval 2026 per Bixlenvo label. Phase 2 part of ARTISTRY-1 excluded.",
+  "LEN": "1 primary record CAPELLA (existing row 60; Phase 2/3, heavily treatment-experienced; no Week 48 Snapshot - Week 52 value from PMID 37451297). Plus 4 component records (existing_row null, flagged for human scope decision): ARTISTRY-1, ARTISTRY-2 (LEN within BIC/LEN), ISLEND-1, ISLEND-2 (LEN within weekly ISL/LEN). Approval 2022 per Sunlenca label. PURPOSE PrEP trials and CALIBRATE (phase 2) excluded. ctsearch 'lenacapavir' returned only PrEP and one recruiting trial.",
+  "DOR/ISL": "3 records: Trial 051 (row 18), Trial 052 (row 19; population corrected to switch from B/F/TAF), Trial 053 (new, treatment-naive, publication only). Approval 2026 per Idvynso label. Earlier ISL 0.75 mg Phase 3 trials (017, 018, 020, 019) and the 054 rollover excluded as different dose - flagged for human scope confirmation. Label reports emergent DOR resistance in 2 (051) and 1 (052) participants, contradicting prior 'none' entries.",
+  "DOR/TDF/3TC": "2 records: DRIVE-AHEAD (row 20) and DRIVE-SHIFT (new, switch). Approval 2018 per Delstrigo label. COATL (recruiting) and DORA (no results) excluded. Resistance from label through Week 96. Opti-DOR (JAMA 2026, PMID 42536019) excluded pending phase confirmation - flagged.",
+  "DOR": "3 records: DRIVE-FORWARD (row 53), DRIVE-AHEAD (row 54, DOR as FDC component), DRIVE-SHIFT (new component record, flagged). Approval 2018 per Pifeltro label. DRIVE-FORWARD resistance only pooled in label.",
+  "EFV/TDF/FTC": "2 records: Study 934 (row 21; components not FDC in randomised phase, TLOVR endpoints - L corrected) and Study 073 (new, Atripla FDC switch; phase/NCT unconfirmed - flagged). Approval 2006 per Atripla label.",
+  "EFV/TDF/3TC": "Placeholder (row 27) kept: no Phase 3 adult trial found with EFV/TDF/3TC as the investigational regimen. Symfi approval 2018 (label). ENCORE1 (TDF/FTC) and NAMSAL (comparator) excluded. Symfi label sec 14 relies on Study 903 (TDF vs d4T with EFV+3TC) - flagged for human decision as it parallels Study 934 for Atripla.",
+  "EFV": "2 records: DMP 266-006 (row 55) and ENCORE1 (new; 400 mg dose, flagged). Approval 1998 per Sustiva label. ACTG 364, DMP 266-020 and 2NN not fully screened (time) - listed for human follow-up.",
+  "ETR": "2 records: DUET-1 (row 56), DUET-2 (row 57). Approval 2008 per Intelence label. Week 48 only pooled (label 60% vs 38%; prior 61% vs 40% is Katlama TLOVR) - L changed. SENSE excluded (phase 2).",
+  "BIC": "Placeholder (row 38) kept per user decision; no records extracted. BIC is only marketed in Biktarvy (BIC/TAF/FTC) and Bixlenvo (BIC/LEN); no standalone HIV approval."
+ }
+}
