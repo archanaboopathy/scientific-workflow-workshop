@@ -1,0 +1,9 @@
+{
+ "g1_DTG": ["DTG/3TC", "DTG/ABC/3TC", "DTG/RPV", "DTG"],
+ "g2_EVG_RAL": ["EVG/c/TAF/FTC", "EVG/c/TDF/FTC", "EVG", "RAL"],
+ "g3_CAB_RPV": ["CAB/RPV", "CAB", "RPV/TAF/FTC", "RPV/TDF/FTC", "RPV"],
+ "g4_NRTI": ["ABC/3TC", "TAF/FTC", "TDF/FTC", "TDF/3TC", "ABC", "FTC", "ISL", "3TC", "TAF", "TDF"],
+ "g5_BIC_LEN_NNRTI": ["BIC/TAF/FTC", "BIC/LEN", "BIC", "LEN", "DOR/ISL", "DOR/TDF/3TC", "DOR", "EFV/TDF/FTC", "EFV/TDF/3TC", "EFV", "ETR"],
+ "g6_PI": ["DRV/c/TAF/FTC", "ATV", "DRV", "RTV"],
+ "g7_ENTRY": ["FTR", "IBA", "MVC"]
+}
