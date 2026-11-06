@@ -13,11 +13,16 @@ prod_info = {}
 for m in master:
     prod_info.setdefault(m['NIH Abbreviation/Components'], m)
 
-recs, excl, pnotes = [], [], {}
+recs, excl, pnotes, recon, drop_ex = [], [], {}, [], []
 for f in sorted(glob.glob(W + 'out/g*.json')):
     d = json.load(open(f))
     recs += d.get('records', []); excl += d.get('excluded', [])
     pnotes.update(d.get('product_notes', {}))
+    recon += d.get('reconciliation', []); drop_ex += d.get('drop_excluded', [])
+
+# Exclusions overridden by the session-2 supplement (user decision) are removed from Excluded Trials.
+drop_keys = {(x['product'], x.get('trial'), x.get('nct_id')) for x in drop_ex}
+excl = [e for e in excl if (e.get('product'), e.get('trial'), e.get('nct_id')) not in drop_keys]
 
 # User decision: component rows without a standalone HIV product keep their placeholder.
 PLACEHOLDER_ONLY = {'BIC', 'ISL', 'TAF'}
@@ -142,6 +147,12 @@ for p in order: pn.append([p, s(pnotes.get(p, ''))])
 for c in pn[1]: c.font = bold
 pn.column_dimensions['A'].width = 16; pn.column_dimensions['B'].width = 140
 
+rc = wb.create_sheet('Reconciliation')
+rc.append(['Product', 'Trial', 'NCT ID', 'Base run (hiv_review g1-g7) decision', 'Session-2 decision', 'Kept in this workbook', 'Session-2 flags'])
+for x in recon: rc.append([s(x.get(k)) for k in ('product', 'trial', 'nct_id', 'base_decision', 'session2_decision', 'kept', 'session2_flags')])
+for c in rc[1]: c.font = bold
+for col in 'ABCDEFG': rc.column_dimensions[col].width = 32
+
 rm = wb.create_sheet('Read Me', 0)
 for l in [
     'HIV-1 Phase 3 Trial Review - generated ' + datetime.date.today().isoformat(),
@@ -153,6 +164,7 @@ for l in [
     'No extrapolation: no complements, cross-timepoint conversions or derived values other than the two resistance percentages above.',
     'Source priority: peer-reviewed paper > FDA label/review > CROI/IAS abstract > ClinicalTrials.gov posted results. Each row names its sources.',
     'Existing rows were re-checked against primary sources; every change is listed on "Sources & Changes". Row Status column: New row / Existing verified / Existing changed / Placeholder.',
+    'Merge: base = hiv_review/out/g1-g7 results. g8_supplement adds trials found only in a second research run (session2/) and DOR/ISL 017-020 (unapproved ISL 0.75 mg dose, included per user decision). Disagreements between the runs are on the "Reconciliation" sheet. See hiv_review/README.md.',
     'Limitations: many full texts are paywalled; values were taken from abstracts, open-access full text, FDA labels and ClinicalTrials.gov results where full text was unavailable. Orange "Flags" cells need human review.',
     'This compilation was produced with AI assistance and is NOT scientific validation. A qualified reviewer must verify values against the primary sources before any use.',
 ]: rm.append([l])
