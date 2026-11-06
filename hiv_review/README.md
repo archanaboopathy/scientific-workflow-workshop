@@ -168,6 +168,8 @@ Run after `build_final.py`, using a Python environment with openpyxl and matplot
 
 Symbol colour and shape show the drug class (column B).
 
+Each figure also has a `*_trendline.png` version with an unweighted ordinary least-squares line of best fit (one point per trial). The line is drawn only across the observed data range. The slope, R² and n are shown in the panel title. These lines are descriptive, not statistical tests. Fits through the 2026 build: efficacy +0.55 %-points/year (R² 0.14, n 64); resistance −0.09 %-points/year (R² 0.02, n 62); resistance vs efficacy −0.02 per efficacy %-point (R² 0.03, n 41). Both versions are embedded in the workbook's Figures sheet.
+
 Rules: values are plotted only as stated in the workbook; nothing is extrapolated.
 - "Not reported", "Not applicable", pooled and non-Snapshot efficacy values are not plotted.
 - Resistance % is plotted only when the source states the counts.
