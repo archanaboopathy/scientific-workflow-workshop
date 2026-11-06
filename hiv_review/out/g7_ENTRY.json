@@ -1,0 +1,637 @@
+{
+ "group": "g7_ENTRY",
+ "records": [
+  {
+   "product": "FTR",
+   "existing_row": 61,
+   "trial_name": "BRIGHTE",
+   "nct_id": "NCT02362503",
+   "population": "Treatment-experienced",
+   "design": "Phase 3, multinational; randomized cohort (3:1 fostemsavir vs placebo added to failing regimen for 8 days, double-blind, then open-label fostemsavir + OBT) plus nonrandomized open-label cohort (no remaining fully active approved options); heavily treatment-experienced adults with multidrug-resistant HIV-1",
+   "experimental_arm": "Fostemsavir 600 mg twice daily (+ failing regimen Days 1-8, then + optimized background therapy); nonrandomized cohort fostemsavir + OBT from Day 1",
+   "comparator_arm": "Placebo + failing regimen for 8 days (randomized cohort), then open-label fostemsavir + OBT",
+   "publication_citation": "Kozal M et al. Fostemsavir in Adults with Multidrug-Resistant HIV-1 Infection. N Engl J Med. 2020;382:1232-1243.",
+   "pmid": "32212519",
+   "publication_year": 2020,
+   "approval_year_checked": "2020",
+   "approval_year_source": "Rukobia US label Highlights 'Initial U.S. Approval: 2020' (DailyMed setid a21006b7-6d6f-4f06-81b4-17978756452b)",
+   "week48_snapshot": "Not reported (FDA Snapshot <50 c/mL)",
+   "week48_snapshot_source": "PMID 32212519 abstract; CT.gov NCT02362503 posted results; Rukobia US label sec 14 (all use <40 c/mL threshold)",
+   "week48_alt_endpoint": "HIV-1 RNA <40 copies/mL at Week 48 (FDA Snapshot algorithm, ITT-E): 54% randomized cohort (N=272); 38% nonrandomized cohort (PMID abstract, n/N not stated). Primary endpoint: mean change in HIV-1 RNA Day 1 to Day 8, -0.79 fostemsavir vs -0.17 log10 c/mL placebo (P<0.001)",
+   "week48_alt_source": "PMID 32212519 abstract (54% randomized / 38% nonrandomized, <40 c/mL); CT.gov NCT02362503 posted results secondary outcome (Randomized Cohort N=272, Week 48 54%, FDA snapshot, <40 c/mL)",
+   "te_res_any_component": "Randomized cohort: gp120 substitutions found in 20 of 47 patients (43%) with virologic failure through Week 48 (abstract; 'emergent' not specified in abstract). OBT resistance at Week 48 not reported in abstract",
+   "te_res_new_drug_text": "Temsavir-associated gp120 substitutions in 20/47 randomized-cohort virologic failures through Week 48 (PMID 32212519 abstract). Through Week 96 (label sec 12.4): emergent gp120 RAS at key sites S375, M426, M434, M475 in 29/53 randomized and 33/45 nonrandomized evaluable virologic failures; median temsavir EC50 fold change at failure 1,142-fold (randomized, with emergent substitutions)",
+   "res_new_drug_n": null,
+   "res_N_randomized": 272,
+   "res_N_tested": 47,
+   "resistance_timepoint": "Week 48 (primary NEJM publication)",
+   "resistance_source": "PMID 32212519 abstract",
+   "res_final_text": "Rukobia US label sec 12.4 (Week 96): virologic failure 69/272 randomized, 50/99 nonrandomized; emergent gp120 RAS 29/53 randomized, 33/45 nonrandomized evaluable failures (S375H/I/M/N/T 19/53 vs 21/45; M426L/I 18/53 vs 23/45; M434I/L 6/53 vs 5/45; M475I/L/V 8/53 vs 5/45); emergent resistance to >=1 OBT drug 31/64 randomized and 27/49 nonrandomized failures with post-baseline data. CT.gov posted results: 24/50 randomized-cohort PDVF participants with treatment-emergent gp160 substitutions of interest at Week 96. Week 96 Snapshot <40: 60% (label Table 12); Week 240 published (PMID 37751019, not extracted).",
+   "notes": "Heavily treatment-experienced adults with MDR HIV-1; registrational for Rukobia. Threshold <40 c/mL preserved; no conversion to <50. Randomized cohort N=272 per abstract (label: 271 dosed with fostemsavir).",
+   "flags": [
+    "res_new_drug_n left null: abstract states gp120 substitutions in 20/47 virologic failures at Week 48 but does not explicitly say 'emergent'; NEJM full text not open access - human to verify Week 48 emergent count",
+    "Week 48 FDA Snapshot <50 not reported; <40 c/mL used"
+   ],
+   "changes": [
+    {
+     "column": "I",
+     "field": "Peer-Reviewed Phase 3 Publication",
+     "previous": "Kozal et al. Fostemsavir in adults with multidrug-resistant HIV-1 infection, New England Journal of Medicine",
+     "new": "Kozal M et al. Fostemsavir in Adults with Multidrug-Resistant HIV-1 Infection. N Engl J Med. 2020;382:1232-1243.",
+     "reason": "Completed citation (volume, pages)",
+     "source": "PMID 32212519"
+    },
+    {
+     "column": "L",
+     "field": "Week 48 FDA Snapshot",
+     "previous": "Not a Week 48 FDA Snapshot endpoint; publication reported 54% <40 copies/mL at Week 48",
+     "new": "Not reported (FDA Snapshot <50 c/mL); alternative: 54% randomized cohort (N=272) and 38% nonrandomized cohort HIV-1 RNA <40 c/mL at Week 48 (Snapshot, ITT-E)",
+     "reason": "Clarified that <40 c/mL Week 48 result is by Snapshot algorithm (CT.gov) and added nonrandomized cohort; value 54% unchanged",
+     "source": "PMID 32212519 abstract; CT.gov NCT02362503 posted results"
+    },
+    {
+     "column": "M",
+     "field": "TE Resistance - Any Regimen Component",
+     "previous": "gp120 resistance-associated substitutions reported in some virologic failures",
+     "new": "Week 48: gp120 substitutions in 20/47 randomized-cohort virologic failures; Week 96: emergent resistance to >=1 OBT drug in 31/64 randomized and 27/49 nonrandomized failures with post-baseline data",
+     "reason": "Replaced qualitative text with stated counts",
+     "source": "PMID 32212519 abstract; Rukobia US label sec 12.4"
+    },
+    {
+     "column": "N",
+     "field": "TE Resistance - Newly Approved Drug/Product",
+     "previous": "Reduced susceptibility/resistance to temsavir reported in some failures",
+     "new": "Week 48: gp120 substitutions in 20/47 randomized-cohort virologic failures; Week 96: emergent gp120 RAS (S375, M426, M434, M475) in 29/53 randomized and 33/45 nonrandomized evaluable failures; median temsavir EC50 fold change 1,142-fold (randomized, with emergent RAS)",
+     "reason": "Replaced qualitative text with stated counts",
+     "source": "PMID 32212519 abstract; Rukobia US label sec 12.4"
+    }
+   ]
+  },
+  {
+   "product": "IBA",
+   "existing_row": 62,
+   "trial_name": "TMB-301",
+   "nct_id": "NCT02475629",
+   "population": "Treatment-experienced",
+   "design": "Phase 3, single-group, open-label, multicenter; 7-day control period on current failing therapy, then ibalizumab loading dose; MDR HIV-1, HIV-1 RNA >1000 c/mL; through Week 25",
+   "experimental_arm": "Ibalizumab 2000 mg IV loading dose (Day 7), then 800 mg IV every 14 days + optimized background regimen (>=1 fully active agent) through Week 25",
+   "comparator_arm": "None (single-arm; control period on current failing regimen Days 0-7)",
+   "publication_citation": "Emu B et al. Phase 3 Study of Ibalizumab for Multidrug-Resistant HIV-1. N Engl J Med. 2018;379:645-654.",
+   "pmid": "30110589",
+   "publication_year": 2018,
+   "approval_year_checked": "2018",
+   "approval_year_source": "Trogarzo US label Highlights 'Initial U.S. Approval: 2018' (DailyMed setid c548ad82-9d1f-4d16-95b6-4e6106badf43)",
+   "week48_snapshot": "Not reported (FDA Snapshot)",
+   "week48_snapshot_source": "PMID 30110589 abstract; CT.gov NCT02475629 posted results (study ended at Week 25)",
+   "week48_alt_endpoint": "Week 25: 43% HIV-1 RNA <50 c/mL and 50% <200 c/mL (abstract, N=40 ITT; algorithm not stated). CT.gov ITT-MEF Week 25/end of study: <50 c/mL 0.425 (N=40). Primary: 33/40 (83%) with >=0.5 log10 decrease from Day 7 to Day 14",
+   "week48_alt_source": "PMID 30110589 abstract; CT.gov NCT02475629 posted results",
+   "te_res_any_component": "Not reported for OBR components (abstract); ibalizumab: 9 of 10 patients with virologic failure or rebound had lower in vitro susceptibility to ibalizumab than at baseline",
+   "te_res_new_drug_text": "9 of 10 patients with virologic failure/rebound had decreased in vitro ibalizumab susceptibility vs baseline (definition: phenotypic decrease in susceptibility; label sec 12.4: decrease in maximal percent inhibition (MPI), possibly associated with loss of potential N-linked glycosylation sites in the gp120 V5 loop)",
+   "res_new_drug_n": 9,
+   "res_N_randomized": 40,
+   "res_N_tested": 10,
+   "resistance_timepoint": "Through Week 25 (end of study)",
+   "resistance_source": "PMID 30110589 abstract; Trogarzo US label sec 12.4 (mechanism)",
+   "res_final_text": "Not applicable (no later analysis extracted)",
+   "notes": "Heavily treatment-experienced adults with MDR HIV-1; registrational for Trogarzo. res_new_drug_n = participants with decreased phenotypic ibalizumab susceptibility (not genotypic resistance); res_N_randomized = enrolled ITT (single-arm, not randomized).",
+   "flags": [
+    "No Week 48 data (trial ended Week 25); Week 25 <50 analysis algorithm not stated in abstract",
+    "res_new_drug_n uses phenotypic decreased susceptibility definition"
+   ],
+   "changes": [
+    {
+     "column": "I",
+     "field": "Peer-Reviewed Phase 3 Publication",
+     "previous": "Emu et al. Phase 3 study of ibalizumab for multidrug-resistant HIV-1, New England Journal of Medicine",
+     "new": "Emu B et al. Phase 3 Study of Ibalizumab for Multidrug-Resistant HIV-1. N Engl J Med. 2018;379:645-654.",
+     "reason": "Completed citation (volume, pages)",
+     "source": "PMID 30110589"
+    },
+    {
+     "column": "L",
+     "field": "Week 48 FDA Snapshot",
+     "previous": "Not a Week 48 endpoint; publication reported 43% <50 copies/mL at Week 25",
+     "new": "Not reported (FDA Snapshot); alternative: Week 25 43% <50 c/mL and 50% <200 c/mL (N=40)",
+     "reason": "Standardized wording and added <200 result; value unchanged",
+     "source": "PMID 30110589 abstract"
+    },
+    {
+     "column": "M",
+     "field": "TE Resistance - Any Regimen Component",
+     "previous": "Reduced ibalizumab susceptibility reported in 9 of 10 virologic failures",
+     "new": "Not reported for OBR components; ibalizumab: decreased in vitro susceptibility in 9 of 10 patients with virologic failure or rebound",
+     "reason": "Clarified that resistance to background regimen components was not reported",
+     "source": "PMID 30110589 abstract"
+    },
+    {
+     "column": "N",
+     "field": "TE Resistance - Newly Approved Drug/Product",
+     "previous": "Reduced susceptibility to ibalizumab reported in 9 of 10 failures",
+     "new": "Decreased in vitro ibalizumab susceptibility (vs baseline) in 9 of 10 patients with virologic failure or rebound through Week 25; associated with loss of potential N-linked glycosylation sites in gp120 V5 loop (label)",
+     "reason": "Added time point and mechanism; count unchanged",
+     "source": "PMID 30110589 abstract; Trogarzo US label sec 12.4"
+    }
+   ]
+  },
+  {
+   "product": "IBA",
+   "existing_row": null,
+   "trial_name": "TMB-311 (expanded access)",
+   "nct_id": "NCT02707861",
+   "population": "Treatment-experienced",
+   "design": "Phase 3, multicenter, open-label, single-arm expanded access study; Cohort 1 = patients continuing ibalizumab from prior studies; Cohort 2 = ibalizumab-naive compassionate access",
+   "experimental_arm": "Ibalizumab IV + optimized background regimen",
+   "comparator_arm": "None (single-arm)",
+   "publication_citation": "Emu B et al. Ibalizumab plus an optimized background regimen in treatment-experienced patients infected with multidrug resistant HIV-1: A phase 3, multicenter, expanded access study. J Acquir Immune Defic Syndr. 2025; volume/pages not yet assigned (epub 2025 Jun 04).",
+   "pmid": "40465394",
+   "publication_year": 2025,
+   "approval_year_checked": "2018",
+   "approval_year_source": "Trogarzo US label Highlights 'Initial U.S. Approval: 2018'",
+   "week48_snapshot": "Not reported (FDA Snapshot)",
+   "week48_snapshot_source": "PMID 40465394 abstract; CT.gov NCT02707861 posted results",
+   "week48_alt_endpoint": "CT.gov: Cohort 2 HIV-1 RNA <50 c/mL at Week 48: 11 of 17 participants analysed (observed; not Snapshot). Abstract Week 24 <50 c/mL: prior-exposure 26/34 (76%); ibalizumab-naive 11/24 (46%). Primary effectiveness (Cohort 2): 28/38 with >=0.5 log10 decrease at Day 7",
+   "week48_alt_source": "CT.gov NCT02707861 posted results; PMID 40465394 abstract",
+   "te_res_any_component": "Not reported",
+   "te_res_new_drug_text": "Not reported",
+   "res_new_drug_n": null,
+   "res_N_randomized": 79,
+   "res_N_tested": null,
+   "resistance_timepoint": "Not reported",
+   "resistance_source": "PMID 40465394 abstract; CT.gov NCT02707861 (no resistance outcome)",
+   "res_final_text": "Not reported",
+   "notes": "Expanded access protocol labelled Phase 3 on CT.gov and in publication; primary endpoints safety/tolerability (both cohorts) and Day 7 effectiveness (Cohort 2). Enrollment 79 (41 Cohort 1, 38 Cohort 2). Post-approval publication.",
+   "flags": [
+    "Inclusion questionable: expanded-access design with safety primary endpoint; human to confirm in-scope",
+    "Week 48 <50 from CT.gov is 11/17 analysed (not ITT/Snapshot)",
+    "Citation volume/pages not available"
+   ],
+   "changes": []
+  },
+  {
+   "product": "MVC",
+   "existing_row": 63,
+   "trial_name": "MOTIVATE-1",
+   "nct_id": "NCT00098306",
+   "population": "Treatment-experienced",
+   "design": "Phase 3 (CT.gov lists Phase 2/Phase 3), randomized 2:2:1, double-blind, placebo-controlled; treatment-experienced adults (>=16 y) with R5-only HIV-1, triple-class experience/resistance, HIV-1 RNA >5000 c/mL; twin of MOTIVATE-2 (NCT00098722)",
+   "experimental_arm": "Maraviroc once daily or maraviroc twice daily (two arms; dose per OBT interactions) + optimized background therapy",
+   "comparator_arm": "Placebo + optimized background therapy",
+   "publication_citation": "Gulick RM et al. Maraviroc for previously treated patients with R5 HIV-1 infection. N Engl J Med. 2008;359:1429-1441.",
+   "pmid": "18832244",
+   "publication_year": 2008,
+   "approval_year_checked": "2007",
+   "approval_year_source": "Selzentry US label Highlights 'Initial U.S. Approval: 2007' (DailyMed setid 46f30ac5-c96b-429e-976d-8c5ee1c0761b)",
+   "week48_snapshot": "Not reported (FDA Snapshot)",
+   "week48_snapshot_source": "PMID 18832244 abstract; CT.gov NCT00098306 posted results (pre-Snapshot era trial)",
+   "week48_alt_endpoint": "HIV-1 RNA <50 c/mL at Week 48: 42% MVC QD, 47% MVC BID vs 16% placebo (abstract); CT.gov: 41.8% MVC QD (N=232), 46.8% MVC BID (N=235), 16.1% placebo (N=118)",
+   "week48_alt_source": "PMID 18832244 abstract (percentages; analysis algorithm not stated in abstract); CT.gov NCT00098306 posted results secondary outcome 'Percentage of Participants With HIV-1 RNA <50 copies/mL, Week 48' (N=232/235/118)",
+   "te_res_any_component": "Tropism at failure through Week 48 (CT.gov; failures with data N=51 QD, 58 BID, 62 placebo): baseline R5 -> X4 at failure 6 QD, 7 BID, 0 placebo; R5 -> dual/mixed 19 QD, 22 BID, 3 placebo; R5 -> R5 16, 15, 49. OBT resistance not reported",
+   "te_res_new_drug_text": "Emergence of CXCR4-using (X4 or dual/mixed) virus at failure in maraviroc arms (R5->X4: 6 QD, 7 BID; R5->DM: 19 QD, 22 BID through Week 48); CCR5-tropic maraviroc resistance reported only pooled with MOTIVATE-2 (see res_final_text)",
+   "res_new_drug_n": null,
+   "res_N_randomized": 585,
+   "res_N_tested": null,
+   "resistance_timepoint": "Through Week 48 (time of treatment failure)",
+   "resistance_source": "CT.gov NCT00098306 posted results (tropism at baseline and at treatment failure through Week 48)",
+   "res_final_text": "Pooled MOTIVATE 1+2 post hoc (PMID 31856576 abstract): among 392 participants with assigned gwOBTSS, through Week 48 48/392 had CXCR4-using virus at failure and 18/392 had maraviroc-resistant R5 virus (MPI plateau <95%). PMID 18832245 (Fatkenheuer subgroup analyses): more maraviroc failures had CXCR4-binding virus at failure.",
+   "notes": "Treatment-experienced adults with R5 HIV-1; registrational for Selzentry. Single NEJM paper (Gulick 2008) reports both MOTIVATE 1 and 2. No res_new_drug_n: tropism shift is reported per tropism category (not as a single resistance count) and OBT resistance not reported; MVC-resistance definition in pooled analysis = R5 virus with MPI plateau <95%.",
+   "flags": [
+    "Week 48 <50 c/mL not FDA Snapshot (2008 trial); algorithm not stated in abstract - verify in NEJM full text (PMC3078519 fetch failed)",
+    "Resistance to OBT components not extracted",
+    "Existing NCT IDs for rows 63/64 were swapped relative to CT.gov acronyms - corrected"
+   ],
+   "changes": [
+    {
+     "column": "H",
+     "field": "ClinicalTrials.gov ID",
+     "previous": "NCT00098722",
+     "new": "NCT00098306",
+     "reason": "CT.gov registry lists NCT00098306 as 'MOTIVATE 1' (NCT00098722 is MOTIVATE 2); Week 48 <50 values (41.8/46.8/16.1%) match MOTIVATE 1 in PMID 18832244",
+     "source": "CT.gov NCT00098306 and NCT00098722 records"
+    },
+    {
+     "column": "Q",
+     "field": "ClinicalTrials.gov URL",
+     "previous": "https://clinicaltrials.gov/study/NCT00098722",
+     "new": "https://clinicaltrials.gov/study/NCT00098306",
+     "reason": "Follows NCT ID correction",
+     "source": "CT.gov NCT00098306"
+    },
+    {
+     "column": "I",
+     "field": "Peer-Reviewed Phase 3 Publication",
+     "previous": "Gulick et al., New England Journal of Medicine",
+     "new": "Gulick RM et al. Maraviroc for previously treated patients with R5 HIV-1 infection. N Engl J Med. 2008;359:1429-1441.",
+     "reason": "Completed citation",
+     "source": "PMID 18832244"
+    },
+    {
+     "column": "L",
+     "field": "Week 48 FDA Snapshot",
+     "previous": "Not reported in prior research summary",
+     "new": "Not reported (FDA Snapshot); <50 c/mL at Week 48: 42% MVC QD, 47% MVC BID vs 16% placebo",
+     "reason": "Stated Week 48 <50 values added (non-Snapshot)",
+     "source": "PMID 18832244 abstract; CT.gov NCT00098306 posted results"
+    },
+    {
+     "column": "M",
+     "field": "TE Resistance - Any Regimen Component",
+     "previous": "CXCR4 emergence/tropism shift and CCR5-tropic resistance described",
+     "new": "Through Week 48: R5->X4 at failure 6 QD/7 BID/0 placebo; R5->dual/mixed 19 QD/22 BID/3 placebo (failures with data 51/58/62); OBT resistance not reported",
+     "reason": "Replaced qualitative text with stated counts",
+     "source": "CT.gov NCT00098306 posted results"
+    },
+    {
+     "column": "N",
+     "field": "TE Resistance - Newly Approved Drug/Product",
+     "previous": "Treatment-emergent maraviroc resistance mechanisms described",
+     "new": "CXCR4-using virus emergence at failure in MVC arms (R5->X4 6 QD/7 BID; R5->DM 19 QD/22 BID through Week 48); pooled MOTIVATE 1+2: CCR5-tropic MVC-resistant virus in 18/392 (gwOBTSS-assigned)",
+     "reason": "Replaced qualitative text with stated counts",
+     "source": "CT.gov NCT00098306 posted results; PMID 31856576 abstract"
+    }
+   ]
+  },
+  {
+   "product": "MVC",
+   "existing_row": 64,
+   "trial_name": "MOTIVATE-2",
+   "nct_id": "NCT00098722",
+   "population": "Treatment-experienced",
+   "design": "Phase 3 (CT.gov lists Phase 2/Phase 3), randomized 2:2:1, double-blind, placebo-controlled; treatment-experienced adults (>=16 y) with R5-only HIV-1, triple-class experience/resistance, HIV-1 RNA >5000 c/mL; twin of MOTIVATE-1 (NCT00098306)",
+   "experimental_arm": "Maraviroc once daily or maraviroc twice daily (two arms; dose per OBT interactions) + optimized background therapy",
+   "comparator_arm": "Placebo + optimized background therapy",
+   "publication_citation": "Gulick RM et al. Maraviroc for previously treated patients with R5 HIV-1 infection. N Engl J Med. 2008;359:1429-1441.",
+   "pmid": "18832244",
+   "publication_year": 2008,
+   "approval_year_checked": "2007",
+   "approval_year_source": "Selzentry US label Highlights 'Initial U.S. Approval: 2007' (DailyMed setid 46f30ac5-c96b-429e-976d-8c5ee1c0761b)",
+   "week48_snapshot": "Not reported (FDA Snapshot)",
+   "week48_snapshot_source": "PMID 18832244 abstract; CT.gov NCT00098722 posted results (pre-Snapshot era trial)",
+   "week48_alt_endpoint": "HIV-1 RNA <50 c/mL at Week 48: 45% MVC QD and 45% MVC BID vs 18% placebo (abstract); CT.gov: 45.05% MVC QD (N=182), 44.50% MVC BID (N=191), 17.58% placebo (N=91)",
+   "week48_alt_source": "PMID 18832244 abstract (percentages; analysis algorithm not stated in abstract); CT.gov NCT00098722 posted results secondary outcome 'Percentage of Participants With HIV-1 RNA <50 copies/mL, Week 48' (N=182/191/91)",
+   "te_res_any_component": "Tropism at failure through Week 48 (CT.gov; failures with data N=41 QD, 38 BID, 49 placebo): baseline R5 -> X4 at failure 2 QD, 2 BID, 0 placebo; R5 -> dual/mixed 8 QD, 10 BID, 3 placebo; R5 -> R5 17, 9, 40. OBT resistance not reported",
+   "te_res_new_drug_text": "Emergence of CXCR4-using (X4 or dual/mixed) virus at failure in maraviroc arms (R5->X4: 2 QD, 2 BID; R5->DM: 8 QD, 10 BID through Week 48); CCR5-tropic maraviroc resistance reported only pooled with MOTIVATE-1 (see res_final_text)",
+   "res_new_drug_n": null,
+   "res_N_randomized": 464,
+   "res_N_tested": null,
+   "resistance_timepoint": "Through Week 48 (time of treatment failure)",
+   "resistance_source": "CT.gov NCT00098722 posted results (tropism at baseline and at treatment failure through Week 48)",
+   "res_final_text": "Pooled MOTIVATE 1+2 post hoc (PMID 31856576 abstract): among 392 participants with assigned gwOBTSS, through Week 48 48/392 had CXCR4-using virus at failure and 18/392 had maraviroc-resistant R5 virus (MPI plateau <95%). PMID 18832245 (Fatkenheuer subgroup analyses): more maraviroc failures had CXCR4-binding virus at failure.",
+   "notes": "Treatment-experienced adults with R5 HIV-1; registrational for Selzentry. Single NEJM paper (Gulick 2008) reports both MOTIVATE 1 and 2. No res_new_drug_n: tropism shift is reported per tropism category (not as a single resistance count) and OBT resistance not reported; MVC-resistance definition in pooled analysis = R5 virus with MPI plateau <95%.",
+   "flags": [
+    "Week 48 <50 c/mL not FDA Snapshot (2008 trial); algorithm not stated in abstract - verify in NEJM full text (PMC3078519 fetch failed)",
+    "Resistance to OBT components not extracted",
+    "Row 64 publication changed from Fätkenheuer (subgroup analyses) to Gulick (primary results) - confirm intended citation"
+   ],
+   "changes": [
+    {
+     "column": "H",
+     "field": "ClinicalTrials.gov ID",
+     "previous": "NCT00098306",
+     "new": "NCT00098722",
+     "reason": "CT.gov registry lists NCT00098722 as 'MOTIVATE 2'; Week 48 <50 values (45.05/44.50/17.58%) match MOTIVATE 2 in PMID 18832244",
+     "source": "CT.gov NCT00098722 record"
+    },
+    {
+     "column": "Q",
+     "field": "ClinicalTrials.gov URL",
+     "previous": "https://clinicaltrials.gov/study/NCT00098306",
+     "new": "https://clinicaltrials.gov/study/NCT00098722",
+     "reason": "Follows NCT ID correction",
+     "source": "CT.gov NCT00098722"
+    },
+    {
+     "column": "I",
+     "field": "Peer-Reviewed Phase 3 Publication",
+     "previous": "Fätkenheuer et al., New England Journal of Medicine",
+     "new": "Gulick RM et al. Maraviroc for previously treated patients with R5 HIV-1 infection. N Engl J Med. 2008;359:1429-1441.",
+     "reason": "Primary Week 48 results for MOTIVATE 2 are reported in Gulick et al. (both trials); Fätkenheuer et al. (PMID 18832245) is pooled subgroup analyses",
+     "source": "PMID 18832244; PMID 18832245"
+    },
+    {
+     "column": "L",
+     "field": "Week 48 FDA Snapshot",
+     "previous": "Not reported in prior research summary",
+     "new": "Not reported (FDA Snapshot); <50 c/mL at Week 48: 45% MVC QD, 45% MVC BID vs 18% placebo",
+     "reason": "Stated Week 48 <50 values added (non-Snapshot)",
+     "source": "PMID 18832244 abstract; CT.gov NCT00098722 posted results"
+    },
+    {
+     "column": "M",
+     "field": "TE Resistance - Any Regimen Component",
+     "previous": "CXCR4 emergence/tropism shift and CCR5-tropic resistance described",
+     "new": "Through Week 48: R5->X4 at failure 2 QD/2 BID/0 placebo; R5->dual/mixed 8 QD/10 BID/3 placebo (failures with data 41/38/49); OBT resistance not reported",
+     "reason": "Replaced qualitative text with stated counts",
+     "source": "CT.gov NCT00098722 posted results"
+    },
+    {
+     "column": "N",
+     "field": "TE Resistance - Newly Approved Drug/Product",
+     "previous": "Treatment-emergent maraviroc resistance mechanisms described",
+     "new": "CXCR4-using virus emergence at failure in MVC arms (R5->X4 2 QD/2 BID; R5->DM 8 QD/10 BID through Week 48); pooled MOTIVATE 1+2: CCR5-tropic MVC-resistant virus in 18/392 (gwOBTSS-assigned)",
+     "reason": "Replaced qualitative text with stated counts",
+     "source": "CT.gov NCT00098722 posted results; PMID 31856576 abstract"
+    }
+   ]
+  },
+  {
+   "product": "MVC",
+   "existing_row": null,
+   "trial_name": "MERIT",
+   "nct_id": "NCT00098293",
+   "population": "Treatment-naive",
+   "design": "Phase 3 (CT.gov; 5-year paper describes phase IIb/III), randomized, double-blind, multicenter, non-inferiority (-10% margin); ART-naive adults with CCR5-tropic HIV-1 (original Trofile); coprimary <400 and <50 c/mL at Week 48",
+   "experimental_arm": "Maraviroc 300 mg twice daily + zidovudine/lamivudine (once-daily maraviroc arm discontinued for not meeting non-inferiority criteria)",
+   "comparator_arm": "Efavirenz 600 mg once daily + zidovudine/lamivudine",
+   "publication_citation": "Cooper DA et al. Maraviroc versus efavirenz, both in combination with zidovudine-lamivudine, for the treatment of antiretroviral-naive subjects with CCR5-tropic HIV-1 infection. J Infect Dis. 2010;201:803-813.",
+   "pmid": "20151839",
+   "publication_year": 2010,
+   "approval_year_checked": "2007",
+   "approval_year_source": "Selzentry US label Highlights 'Initial U.S. Approval: 2007' (DailyMed setid 46f30ac5-c96b-429e-976d-8c5ee1c0761b)",
+   "week48_snapshot": "Not reported (FDA Snapshot)",
+   "week48_snapshot_source": "PMID 20151839 abstract; CT.gov NCT00098293 posted results",
+   "week48_alt_endpoint": "Coprimary HIV-1 RNA <50 c/mL at Week 48 (primary analysis n=721): 65.3% MVC BID vs 69.3% EFV (non-inferiority not met); <400 c/mL 70.6% vs 73.1%. CT.gov FAS: MVC BID N=360, EFV N=361; MVC QD (N=174) <50 55.8%",
+   "week48_alt_source": "PMID 20151839 abstract; CT.gov NCT00098293 posted results primary outcome (FAS)",
+   "te_res_any_component": "Through Week 48 at failure (CT.gov; tested n=43 MVC BID, 15 EFV): phenotypic lamivudine resistance 27 MVC BID vs 3 EFV; M184V/I 27 vs 3; zidovudine resistance 0 vs 0; efavirenz resistance 0 MVC BID vs 7 EFV; maraviroc resistance 12 MVC BID. Tropism at failure (n=42 MVC BID): R5->dual/mixed 10, R5->X4 0, DM->X4 2",
+   "te_res_new_drug_text": "Phenotypic maraviroc resistance at time of failure through Week 48 in 12 MVC BID participants (of 43 failures tested); R5->dual/mixed tropism at failure in 10 of 42 MVC BID failures with tropism data",
+   "res_new_drug_n": 12,
+   "res_N_randomized": 360,
+   "res_N_tested": 43,
+   "resistance_timepoint": "Through Week 48 (time of treatment failure)",
+   "resistance_source": "CT.gov NCT00098293 posted results (phenotypic resistance and tropism at failure through Week 48)",
+   "res_final_text": "CT.gov Week 96 (n=55 MVC BID failures tested): lamivudine resistance 33; maraviroc resistance NA; tropism R5->DM 11, R5->X4 1 (n=54). Week 240 (PMID 24983542 abstract): <50 c/mL 50.8% MVC vs 45.9% EFV (re-confirmed R5 population).",
+   "notes": "Treatment-naive adults with R5 HIV-1. res_new_drug_n = participants with phenotypic maraviroc resistance at failure (CT.gov 'Resistance to Maraviroc: Week 48'), not specifically labelled 'emergent'. Post hoc reanalysis excluding 15% with non-R5 virus by enhanced Trofile met non-inferiority.",
+   "flags": [
+    "Week 48 <50 not FDA Snapshot (pre-Snapshot); algorithm not stated",
+    "res_new_drug_n from CT.gov phenotypic resistance at failure; whether treatment-emergent not explicit",
+    "Phase IIb/III per PMID 24983542; CT.gov Phase 3"
+   ],
+   "changes": []
+  },
+  {
+   "product": "MVC",
+   "existing_row": null,
+   "trial_name": "MODERN",
+   "nct_id": "NCT01345630",
+   "population": "Treatment-naive",
+   "design": "Phase 3, multicentre, double-blind, non-inferiority; ART-naive adults with CCR5-tropic HIV-1 (randomized genotypic vs phenotypic tropism testing); terminated early by DMC for inferior efficacy",
+   "experimental_arm": "Maraviroc 150 mg once daily + darunavir/ritonavir 800/100 mg once daily (NRTI-sparing)",
+   "comparator_arm": "Tenofovir DF/emtricitabine once daily + darunavir/ritonavir 800/100 mg once daily",
+   "publication_citation": "Stellbrink HJ et al. Once-daily maraviroc versus tenofovir/emtricitabine each combined with darunavir/ritonavir for initial HIV-1 treatment. AIDS. 2016;30:1229-1238.",
+   "pmid": "26854810",
+   "publication_year": 2016,
+   "approval_year_checked": "2007",
+   "approval_year_source": "Selzentry US label Highlights 'Initial U.S. Approval: 2007' (DailyMed setid 46f30ac5-c96b-429e-976d-8c5ee1c0761b)",
+   "week48_snapshot": "77.3% MVC+DRV/r (N=396 dosed) vs 86.8% TDF/FTC+DRV/r (N=401 dosed); difference -9.54% (95% CI -14.83 to -4.24); inferior",
+   "week48_snapshot_source": "PMID 26854810 abstract (FDA snapshot <50 c/mL, primary endpoint); CT.gov NCT01345630 posted results primary outcome concordant",
+   "week48_alt_endpoint": "Not applicable",
+   "week48_alt_source": "Not applicable",
+   "te_res_any_component": "Participants meeting PDTF through Week 48 (CT.gov; tested n=15 MVC, 3 TDF/FTC): NRTI resistance 0 vs 0; PI resistance 0 vs 0; NNRTI (delavirdine/nevirapine/efavirenz) 1 MVC at both baseline and PDTF. Abstract: lack of efficacy discontinuations not associated with non-R5 tropism or resistance",
+   "te_res_new_drug_text": "No maraviroc resistance among 12 MVC-arm PDTF participants analysable (MPI <95%: 0; IC50 FC >=3.0: 0). Tropism at PDTF (randomized assay, n=17): non-R5 1 at baseline and 1 at failure",
+   "res_new_drug_n": 0,
+   "res_N_randomized": 396,
+   "res_N_tested": 12,
+   "resistance_timepoint": "Week 48 (PDTF)",
+   "resistance_source": "CT.gov NCT01345630 posted results (viral resistance to maraviroc in PDTF participants, Week 48)",
+   "res_final_text": "Not reported (study terminated early)",
+   "notes": "Treatment-naive adults with R5 HIV-1. N randomized = dosed (396) per abstract. Post-approval Phase 3 trial.",
+   "flags": [],
+   "changes": []
+  },
+  {
+   "product": "MVC",
+   "existing_row": null,
+   "trial_name": "Switch to Maraviroc + Integrase Inhibitor (single-arm pilot)",
+   "nct_id": "NCT01896921",
+   "population": "Switch",
+   "design": "Phase 3 (per CT.gov), single-arm, open-label switch; enrollment 7",
+   "experimental_arm": "Switch to maraviroc + raltegravir or dolutegravir",
+   "comparator_arm": "None (single-arm)",
+   "publication_citation": "Not reported (no peer-reviewed publication identified)",
+   "pmid": "",
+   "publication_year": 0,
+   "approval_year_checked": "2007",
+   "approval_year_source": "Selzentry US label Highlights 'Initial U.S. Approval: 2007' (DailyMed setid 46f30ac5-c96b-429e-976d-8c5ee1c0761b)",
+   "week48_snapshot": "Not reported (FDA Snapshot)",
+   "week48_snapshot_source": "CT.gov NCT01896921 posted results",
+   "week48_alt_endpoint": "Primary: number of patients virologically suppressed (HIV RNA <50 c/mL) at 48 weeks: 5 of 7 (algorithm not stated)",
+   "week48_alt_source": "CT.gov NCT01896921 posted results primary outcome",
+   "te_res_any_component": "Not reported",
+   "te_res_new_drug_text": "Not reported",
+   "res_new_drug_n": null,
+   "res_N_randomized": 7,
+   "res_N_tested": null,
+   "resistance_timepoint": "Not reported",
+   "resistance_source": "CT.gov NCT01896921 posted results (no resistance outcome)",
+   "res_final_text": "Not reported",
+   "notes": "Very small (n=7) switch study registered as Phase 3; results only on CT.gov.",
+   "flags": [
+    "n=7 single-arm study labelled Phase 3 on CT.gov - human to confirm inclusion",
+    "No publication identified (PubMed not searched exhaustively)"
+   ],
+   "changes": []
+  }
+ ],
+ "excluded": [
+  {
+   "product": "FTR",
+   "trial": "AI438011 (Phase 2b dose-finding)",
+   "nct_id": "",
+   "pmid": "",
+   "reason": "Phase 2b (not Phase 3/3b); excluded per scope instruction (NCT not verified)"
+  },
+  {
+   "product": "FTR",
+   "trial": "Continued access study (PATH)",
+   "nct_id": "NCT07393659",
+   "pmid": "",
+   "reason": "Rollover/continued-access study, recruiting; no results reported"
+  },
+  {
+   "product": "IBA",
+   "trial": "TMB-202",
+   "nct_id": "",
+   "pmid": "39250331",
+   "reason": "Phase 2b (not Phase 3/3b)"
+  },
+  {
+   "product": "IBA",
+   "trial": "Trogarzo IV push / IM injection study",
+   "nct_id": "NCT03913195",
+   "pmid": "",
+   "reason": "Phase 3 administration-route safety/PK study (primary safety endpoint; includes HIV-uninfected participants); no primary HIV-1 efficacy endpoint"
+  },
+  {
+   "product": "MVC",
+   "trial": "A4001029 (non-R5, treatment-experienced)",
+   "nct_id": "NCT00098748",
+   "pmid": "25636934",
+   "reason": "Phase 2b per publications (CT.gov lists Phase 2/Phase 3); excluded per scope instruction"
+  },
+  {
+   "product": "MVC",
+   "trial": "HPTN 069/ACTG A5305",
+   "nct_id": "",
+   "pmid": "27811319",
+   "reason": "PrEP (and Phase 2)"
+  },
+  {
+   "product": "MVC",
+   "trial": "MARCH (Maraviroc Switch Collaborative Study)",
+   "nct_id": "NCT01384682",
+   "pmid": "27048747",
+   "reason": "Phase 4 per CT.gov"
+  },
+  {
+   "product": "MVC",
+   "trial": "Hepatic safety in HIV/HCV-HBV coinfection (A4001081)",
+   "nct_id": "NCT01327547",
+   "pmid": "25923596",
+   "reason": "Phase 4 per CT.gov"
+  },
+  {
+   "product": "MVC",
+   "trial": "CADIRIS",
+   "nct_id": "NCT00988780",
+   "pmid": "26366430",
+   "reason": "Phase NA per CT.gov; IRIS-prevention primary endpoint"
+  },
+  {
+   "product": "MVC",
+   "trial": "ACTG A5303",
+   "nct_id": "NCT01400412",
+   "pmid": "27333088",
+   "reason": "Phase 2 per CT.gov"
+  },
+  {
+   "product": "MVC",
+   "trial": "OPTIMAL (ANRS)",
+   "nct_id": "NCT01348308",
+   "pmid": "32040959",
+   "reason": "MVC as immunomodulatory add-on to standard c-ART in advanced HIV; primary endpoint clinical morbidity, not HIV-1 regimen virologic efficacy (flag: Phase 3, human to confirm exclusion)"
+  },
+  {
+   "product": "MVC",
+   "trial": "Multicenter safety study of maraviroc",
+   "nct_id": "NCT00478231",
+   "pmid": "",
+   "reason": "Single-arm safety study; primary endpoints safety only (no primary efficacy)"
+  },
+  {
+   "product": "MVC",
+   "trial": "MeritRate",
+   "nct_id": "NCT03178084",
+   "pmid": "28993335",
+   "reason": "Secondary/post hoc analysis of MERIT (CD4/CD8 ratio); not a separate trial"
+  },
+  {
+   "product": "MVC",
+   "trial": "OPTIONS (ACTG A5241)",
+   "nct_id": "NCT00537394",
+   "pmid": "",
+   "reason": "MVC only as optional background agent (NRTI-omission strategy)"
+  },
+  {
+   "product": "MVC",
+   "trial": "CIT2 (CNS-targeted HAART)",
+   "nct_id": "NCT00624195",
+   "pmid": "24352352",
+   "reason": "Phase 2/3; MVC only one possible background component; neurocognitive primary endpoint"
+  },
+  {
+   "product": "MVC",
+   "trial": "Maraviroc endothelial function",
+   "nct_id": "NCT00844519",
+   "pmid": "",
+   "reason": "Intensification for endothelial function (FMD primary); not HIV-1 treatment efficacy"
+  },
+  {
+   "product": "MVC",
+   "trial": "TROPISMVC",
+   "nct_id": "NCT01060618",
+   "pmid": "",
+   "reason": "10-day diagnostic tropism-assay study (Phase 2/3)"
+  },
+  {
+   "product": "MVC",
+   "trial": "MVC intensification in recent infection (latency)",
+   "nct_id": "NCT00808002",
+   "pmid": "",
+   "reason": "Reservoir/latency primary endpoint; not treatment efficacy"
+  },
+  {
+   "product": "MVC",
+   "trial": "Intensive cART in acute/early HIV",
+   "nct_id": "NCT01154673",
+   "pmid": "",
+   "reason": "Phase 2/3; reservoir (HIV DNA) primary endpoint"
+  },
+  {
+   "product": "MVC",
+   "trial": "OPTIPRIM ANRS 147",
+   "nct_id": "NCT01033760",
+   "pmid": "",
+   "reason": "Primary HIV infection; reservoir primary endpoint"
+  },
+  {
+   "product": "MVC",
+   "trial": "IntensVIH",
+   "nct_id": "NCT00935480",
+   "pmid": "",
+   "reason": "Reservoir/residual viremia intensification study (n=17)"
+  },
+  {
+   "product": "MVC",
+   "trial": "VIRECURE",
+   "nct_id": "NCT02588820",
+   "pmid": "",
+   "reason": "Functional cure/reservoir; status unknown, no results"
+  },
+  {
+   "product": "MVC",
+   "trial": "MAVMET",
+   "nct_id": "NCT03129113",
+   "pmid": "38819839",
+   "reason": "MVC for hepatic steatosis; non-virologic primary endpoint"
+  },
+  {
+   "product": "MVC",
+   "trial": "Maraviroc expanded access program",
+   "nct_id": "NCT00426660",
+   "pmid": "",
+   "reason": "Expanded access program (safety); not efficacy trial"
+  },
+  {
+   "product": "MVC",
+   "trial": "Maraviroc compassionate use",
+   "nct_id": "NCT00719823",
+   "pmid": "",
+   "reason": "Withdrawn; no results reported"
+  },
+  {
+   "product": "MVC",
+   "trial": "MVC + ATV/r PK study",
+   "nct_id": "NCT03708861",
+   "pmid": "",
+   "reason": "Withdrawn; PK; no results"
+  },
+  {
+   "product": "MVC",
+   "trial": "Gilead F/TAF switch studies, EVG vs RAL (NCT00708162), SPRING tipranavir TDM (NCT00440271), pediatric ATV/co study (NCT02016924)",
+   "nct_id": "NCT02469246; NCT02121795; NCT00708162; NCT00440271; NCT02016924",
+   "pmid": "",
+   "reason": "MVC background/permitted agent only, or pediatric"
+  },
+  {
+   "product": "MVC",
+   "trial": "TRULIGHT",
+   "nct_id": "NCT02302547",
+   "pmid": "",
+   "reason": "Dual-therapy strategy; MVC not confirmed as investigational component (arm drugs not specified on CT.gov) - flag for human check"
+  }
+ ],
+ "product_notes": {
+  "FTR": "1 record (BRIGHTE). ctsearch fostemsavir: 2 studies (BRIGHTE; continued-access NCT07393659 excluded). Phase 2b AI438011 excluded. Approval 2020 per Rukobia label.",
+  "IBA": "2 records (TMB-301, TMB-311). Approval 2018 per Trogarzo label.",
+  "MVC": "5 records (MOTIVATE-1, MOTIVATE-2, MERIT, MODERN, NCT01896921). Approval 2007 per Selzentry label. ctsearch maraviroc: 29 studies screened; PubMed 'maraviroc[ti] phase 3/randomized' (137 hits, top 60 titles screened). Existing rows 63/64 NCT IDs swapped vs CT.gov acronyms - corrected. NOT fully screened (need human check): GUSTA (PMID 29161288, MVC+DRV/r switch; phase not verified), VEMAN (PMID 25656621), MAIN (PMID 27865174), A4001078 (MVC+ATV/r, believed Phase 2b, not verified), PROTEST (PMID 28035758), OSCAR (PMID 27704143), van Lelyveld intensification (NCT00875368), TRULIGHT arm composition."
+ }
+}
