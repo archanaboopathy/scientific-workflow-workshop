@@ -1,0 +1,1572 @@
+{
+ "group": "g3_CAB_RPV",
+ "records": [
+  {
+   "product": "CAB/RPV",
+   "existing_row": 11,
+   "trial_name": "FLAIR",
+   "nct_id": "NCT02938520",
+   "population": "Treatment-naive",
+   "design": "Phase 3, multicentre, open-label, randomised (1:1), non-inferiority (6% margin); ART-naive adults received 20 weeks of DTG/ABC/3TC induction; those suppressed (<50 c/mL) randomised to switch to monthly IM CAB LA + RPV LA (after 4-week oral CAB+RPV lead-in) or continue DTG/ABC/3TC",
+   "experimental_arm": "Monthly IM cabotegravir LA 400 mg + rilpivirine LA 600 mg (after 600/900 mg loading; oral CAB 30 mg + RPV 25 mg lead-in)",
+   "comparator_arm": "Continue oral dolutegravir/abacavir/lamivudine",
+   "publication_citation": "Orkin C et al. Long-Acting Cabotegravir and Rilpivirine after Oral Induction for HIV-1 Infection. N Engl J Med. 2020;382:1124-1135.",
+   "pmid": "32130806",
+   "publication_year": 2020,
+   "approval_year_checked": "2021",
+   "approval_year_source": "Cabenuva US label Highlights 'Initial U.S. Approval: 2021' (DailyMed setid 1698baf3-f895-4c42-a1b1-e9ee3f20da36)",
+   "week48_snapshot": "93.6% (265/283) CAB+RPV LA vs 93.3% (264/283) DTG/ABC/3TC",
+   "week48_snapshot_source": "PMID 32130806 abstract (ITT-E, Snapshot <50 c/mL); CT.gov NCT02938520 posted results (94 vs 93) and Cabenuva label Table (94% vs 93%) concordant",
+   "week48_alt_endpoint": "Not applicable",
+   "week48_alt_source": "Not applicable",
+   "te_res_any_component": "LA arm 3/283 participants with CVF had treatment-emergent resistance at Week 48: NNRTI E138E/A/K/T + INSTI Q148R; K101E + INSTI G140R; E138K + INSTI Q148R (all Russia, subtype A1, L74I). Comparator DTG/ABC/3TC: 3 CVF, no emergent resistance.",
+   "te_res_new_drug_text": "3/283 with treatment-emergent RPV (NNRTI) RAMs and 3/283 with CAB (INSTI) RAMs (Q148R x2, G140R); CT.gov: 3/3 tested RPV-resistant and 3/3 phenotypically CAB-resistant",
+   "res_new_drug_n": 3,
+   "res_N_randomized": 283,
+   "res_N_tested": 3,
+   "resistance_timepoint": "Week 48",
+   "resistance_source": "Pooled FLAIR/ATLAS Week 48 analysis PMID 33136751 (full text Table 3); CT.gov NCT02938520 posted results (genotypic/phenotypic resistance in CVF)",
+   "res_final_text": "Cabenuva label sec 12.4: pooled FLAIR (Week 124)/ATLAS (Week 96) 8/591 CVF on CAB+RPV; 7 had NNRTI RAMs (6 with reduced RPV susceptibility) and 5 had INSTI RAMs (Q148R x2, G140R, N155H, N155H+R263K). One additional FLAIR participant (direct-to-injection extension) had CVF at Week 112 without INSTI RAMs. Later publications: Week 96 PMID 33794181; Week 124 PMID 34656207.",
+   "notes": "ART-naive at entry; randomised after 20-week oral DTG/ABC/3TC induction (maintenance after induction); registrational for Cabenuva/Vocabria.",
+   "flags": [
+    "One additional LA-arm CVF occurred during oral lead-in (never injected; subtype AG, no RAMs) and is excluded from the 3 with resistance",
+    "All 3 resistant CVF were in Russia, subtype A1 with baseline integrase L74I polymorphism"
+   ],
+   "changes": [
+    {
+     "column": "I",
+     "field": "Peer-Reviewed Phase 3 Publication",
+     "previous": "Orkin et al. Long-acting cabotegravir and rilpivirine after oral induction, New England Journal of Medicine",
+     "new": "Orkin C et al. Long-Acting Cabotegravir and Rilpivirine after Oral Induction for HIV-1 Infection. N Engl J Med. 2020;382:1124-1135.",
+     "reason": "Full citation (authors, title, journal, volume, pages)",
+     "source": "PMID 32130806"
+    },
+    {
+     "column": "L",
+     "field": "Week 48 FDA Snapshot: HIV-1 RNA <50 copies/mL",
+     "previous": "93.6% vs 93.3% comparator",
+     "new": "93.6% (265/283) CAB+RPV LA vs 93.3% (264/283) DTG/ABC/3TC",
+     "reason": "Verified/added counts and source",
+     "source": "see week48_snapshot_source"
+    },
+    {
+     "column": "M",
+     "field": "Treatment-Emergent Resistance - Any Regimen Component",
+     "previous": "Confirmed virologic failures with NNRTI and/or INSTI substitutions reported",
+     "new": "LA arm 3/283 participants with CVF had treatment-emergent resistance at Week 48: NNRTI E138E/A/K/T + INSTI Q148R; K101E + INSTI G140R; E138K + INSTI Q148R (all Russia, subtype A1, L74I). Comparator DTG/ABC/3TC: 3 CVF, no emergent resistance.",
+     "reason": "Specified counts, mutations, denominator and timepoint",
+     "source": "see resistance_source"
+    },
+    {
+     "column": "N",
+     "field": "Treatment-Emergent Resistance - Newly Approved Drug/Product",
+     "previous": "CAB and RPV resistance-associated substitutions reported in some failures",
+     "new": "3/283 with treatment-emergent RPV (NNRTI) RAMs and 3/283 with CAB (INSTI) RAMs (Q148R x2, G140R); CT.gov: 3/3 tested RPV-resistant and 3/3 phenotypically CAB-resistant",
+     "reason": "Specified counts and mutations for evaluated drug",
+     "source": "see resistance_source"
+    },
+    {
+     "column": "O",
+     "field": "Trial/Publication Notes",
+     "previous": "Maintenance after induction.",
+     "new": "ART-naive at entry; randomised after 20-week oral DTG/ABC/3TC induction (maintenance after induction); registrational for Cabenuva/Vocabria.",
+     "reason": "Clarified population/design context",
+     "source": "PMID 32130806"
+    },
+    {
+     "column": "R",
+     "field": "Regulatory/Publication Source Note",
+     "previous": "See NIH source; FDA/peer-reviewed source verification required for blank or Not reported fields.",
+     "new": "Verified: PMID 32130806; CT.gov NCT02938520 posted results; Cabenuva US label (approval 2021, sec 12.4/14); pooled resistance PMID 33136751",
+     "reason": "Sources now named",
+     "source": "as listed"
+    }
+   ]
+  },
+  {
+   "product": "CAB/RPV",
+   "existing_row": 12,
+   "trial_name": "ATLAS",
+   "nct_id": "NCT02951052",
+   "population": "Switch",
+   "design": "Phase 3, multicentre, open-label, randomised (1:1), non-inferiority (6% margin); virologically suppressed adults on oral 2 NRTI + INSTI/NNRTI/PI regimen for >=6 months",
+   "experimental_arm": "Monthly IM cabotegravir LA 400 mg + rilpivirine LA 600 mg (after loading and 4-week oral lead-in)",
+   "comparator_arm": "Continue current oral antiretroviral regimen (CAR)",
+   "publication_citation": "Swindells S et al. Long-Acting Cabotegravir and Rilpivirine for Maintenance of HIV-1 Suppression. N Engl J Med. 2020;382:1112-1123.",
+   "pmid": "32130809",
+   "publication_year": 2020,
+   "approval_year_checked": "2021",
+   "approval_year_source": "Cabenuva US label Highlights 'Initial U.S. Approval: 2021' (DailyMed setid 1698baf3-f895-4c42-a1b1-e9ee3f20da36)",
+   "week48_snapshot": "92.5% (285/308) CAB+RPV LA vs 95.5% (294/308) current oral ART",
+   "week48_snapshot_source": "PMID 32130809 abstract (ITT-E, Snapshot <50 c/mL); counts from CT.gov NCT02951052 posted results; Cabenuva label 93% vs 95%",
+   "week48_alt_endpoint": "Not applicable",
+   "week48_alt_source": "Not applicable",
+   "te_res_any_component": "LA arm 3/308 CVF, all with NNRTI RAMs at failure (E138A; V108I+E138K; E138E/K), 1 also INSTI N155H. CAR arm 4 CVF, 3 with RT mutations (M184I; M184V+G190S; M230M/I).",
+   "te_res_new_drug_text": "3/308 with RPV (NNRTI) RAMs; 1/308 with CAB (INSTI) RAM N155H; CT.gov: RPV-resistant 3/3, phenotypic CAB resistance 1/3",
+   "res_new_drug_n": 3,
+   "res_N_randomized": 308,
+   "res_N_tested": 3,
+   "resistance_timepoint": "Week 48",
+   "resistance_source": "Pooled FLAIR/ATLAS Week 48 analysis PMID 33136751 (full text Table 3); CT.gov NCT02951052 posted results",
+   "res_final_text": "Cabenuva label sec 12.4 pooled FLAIR Week 124/ATLAS Week 96: 8/591 CVF on CAB+RPV; 7 with NNRTI RAMs, 5 with INSTI RAMs (see FLAIR). ATLAS Week 96 data reported within ATLAS-2M rollover; no separate ATLAS W96 primary paper verified.",
+   "notes": "Virologically suppressed switch population; registrational for Cabenuva/Vocabria.",
+   "flags": [
+    "2 of 3 LA-arm CVF had NNRTI RAMs detected at baseline in PBMC proviral DNA (E138E/A; V108V/I+E138K)",
+    "Only 1 of 3 LA CVF had INSTI RAM (N155H); CT.gov phenotypic CAB resistance 1/3"
+   ],
+   "changes": [
+    {
+     "column": "I",
+     "field": "Peer-Reviewed Phase 3 Publication",
+     "previous": "Swindells et al. Long-acting cabotegravir and rilpivirine for maintenance of HIV-1 suppression, New England Journal of Medicine",
+     "new": "Swindells S et al. Long-Acting Cabotegravir and Rilpivirine for Maintenance of HIV-1 Suppression. N Engl J Med. 2020;382:1112-1123.",
+     "reason": "Full citation (authors, title, journal, volume, pages)",
+     "source": "PMID 32130809"
+    },
+    {
+     "column": "L",
+     "field": "Week 48 FDA Snapshot: HIV-1 RNA <50 copies/mL",
+     "previous": "92.5% vs 95.5% comparator",
+     "new": "92.5% (285/308) CAB+RPV LA vs 95.5% (294/308) current oral ART",
+     "reason": "Verified/added counts and source",
+     "source": "see week48_snapshot_source"
+    },
+    {
+     "column": "M",
+     "field": "Treatment-Emergent Resistance - Any Regimen Component",
+     "previous": "Confirmed virologic failures with NNRTI and/or INSTI substitutions reported",
+     "new": "LA arm 3/308 CVF, all with NNRTI RAMs at failure (E138A; V108I+E138K; E138E/K), 1 also INSTI N155H. CAR arm 4 CVF, 3 with RT mutations (M184I; M184V+G190S; M230M/I).",
+     "reason": "Specified counts, mutations, denominator and timepoint",
+     "source": "see resistance_source"
+    },
+    {
+     "column": "N",
+     "field": "Treatment-Emergent Resistance - Newly Approved Drug/Product",
+     "previous": "CAB and RPV resistance-associated substitutions reported in some failures",
+     "new": "3/308 with RPV (NNRTI) RAMs; 1/308 with CAB (INSTI) RAM N155H; CT.gov: RPV-resistant 3/3, phenotypic CAB resistance 1/3",
+     "reason": "Specified counts and mutations for evaluated drug",
+     "source": "see resistance_source"
+    },
+    {
+     "column": "O",
+     "field": "Trial/Publication Notes",
+     "previous": "Virologically suppressed switch population.",
+     "new": "Virologically suppressed switch population; registrational for Cabenuva/Vocabria.",
+     "reason": "Clarified population/design context",
+     "source": "PMID 32130809"
+    },
+    {
+     "column": "R",
+     "field": "Regulatory/Publication Source Note",
+     "previous": "See NIH source; FDA/peer-reviewed source verification required for blank or Not reported fields.",
+     "new": "Verified: PMID 32130809; CT.gov NCT02951052 posted results; Cabenuva US label (approval 2021, sec 12.4/14); pooled resistance PMID 33136751",
+     "reason": "Sources now named",
+     "source": "as listed"
+    }
+   ]
+  },
+  {
+   "product": "CAB/RPV",
+   "existing_row": 13,
+   "trial_name": "ATLAS-2M",
+   "nct_id": "NCT03299049",
+   "population": "Switch",
+   "design": "Phase 3b, multicentre, open-label, randomised (1:1), non-inferiority (10% margin on >=50 c/mL); suppressed adults (oral SOC or ATLAS CAB+RPV Q4W rollover) randomised to Q8W vs Q4W CAB+RPV LA",
+   "experimental_arm": "Every-2-month IM cabotegravir LA 600 mg + rilpivirine LA 900 mg",
+   "comparator_arm": "Monthly IM cabotegravir LA 400 mg + rilpivirine LA 600 mg",
+   "publication_citation": "Overton ET et al. Long-acting cabotegravir and rilpivirine dosed every 2 months in adults with HIV-1 infection (ATLAS-2M), 48-week results: a randomised, multicentre, open-label, phase 3b, non-inferiority study. Lancet. 2020;396(10267):1994-2005.",
+   "pmid": "33308425",
+   "publication_year": 2020,
+   "approval_year_checked": "2021",
+   "approval_year_source": "Cabenuva US label Highlights 'Initial U.S. Approval: 2021' (DailyMed setid 1698baf3-f895-4c42-a1b1-e9ee3f20da36)",
+   "week48_snapshot": "94% Q8W (n=522) vs 93% Q4W (n=523)",
+   "week48_snapshot_source": "CT.gov NCT03299049 posted results (ITT-E Snapshot <50 c/mL: 94 vs 93); Cabenuva label Table reports 94% vs 94%",
+   "week48_alt_endpoint": "Not applicable",
+   "week48_alt_source": "Not applicable",
+   "te_res_any_component": "Q8W: 8/9 CVF had NNRTI RAMs, 6 also INSTI RAMs; Q4W: 2/2 CVF had NNRTI and INSTI RAMs (label, Week 48).",
+   "te_res_new_drug_text": "8/522 Q8W with RPV (NNRTI) RAMs; 6/522 with CAB (INSTI) RAMs (L74I+Q148Q/R+N155N/H x2, L74I+T97A+N155H, L74I+N155H, N155H, L74I+Q148R)",
+   "res_new_drug_n": 8,
+   "res_N_randomized": 522,
+   "res_N_tested": null,
+   "resistance_timepoint": "Week 48",
+   "resistance_source": "Cabenuva US label sec 12.4 (ATLAS-2M Week 48); PMID 33308425 abstract; CT.gov NCT03299049 posted results",
+   "res_final_text": "Week 96 PMID 34648734 (values not extracted). Week 152 PMID 36660819. Label sec 12.4: 8/9 Q8W CVF had NNRTI RAMs (RPV FC 2-30), 6 of these also INSTI RAMs (L74I+Q148Q/R+N155N/H x2, L74I+T97A+N155H, L74I+N155H, N155H, L74I+Q148R); both Q4W CVF had NNRTI (K101E+M230L; Y188F+G190Q) and INSTI (N155N/H; Q148R+E138E/K) RAMs.",
+   "notes": "Every-8-week vs every-4-week dosing; primary endpoint HIV-1 RNA >=50 c/mL (2% vs 1%); registrational basis for Q2M dosing.",
+   "flags": [
+    "CVF count discrepancy: abstract 8 Q8W vs 2 Q4W; label 9 Q8W vs 2 Q4W through Week 48",
+    "Snapshot <50 discrepancy: CT.gov 94 vs 93; label 94 vs 94",
+    "5 of 8 Q8W CVF had archived NNRTI RAMs at baseline (abstract)",
+    "Publication year: Lancet vol 396 issue dated 19 Dec 2020 (PubMed lists 2021 Dec 19 in parse); 2020 retained"
+   ],
+   "changes": [
+    {
+     "column": "I",
+     "field": "Peer-Reviewed Phase 3 Publication",
+     "previous": "Overton et al. Long-acting cabotegravir and rilpivirine dosed every 2 months, Lancet",
+     "new": "Overton ET et al. Long-acting cabotegravir and rilpivirine dosed every 2 months in adults with HIV-1 infection (ATLAS-2M), 48-week results: a randomised, multicentre, open-label, phase 3b, non-inferiority study. Lancet. 2020;396(10267):1994-2005.",
+     "reason": "Full citation (authors, title, journal, volume, pages)",
+     "source": "PMID 33308425"
+    },
+    {
+     "column": "L",
+     "field": "Week 48 FDA Snapshot: HIV-1 RNA <50 copies/mL",
+     "previous": "Not reported in prior summary",
+     "new": "94% Q8W (n=522) vs 93% Q4W (n=523)",
+     "reason": "Verified/added counts and source",
+     "source": "see week48_snapshot_source"
+    },
+    {
+     "column": "M",
+     "field": "Treatment-Emergent Resistance - Any Regimen Component",
+     "previous": "Pooled long-acting program: 6/7 confirmed virologic failures had CAB and RPV resistance-associated substitutions",
+     "new": "Q8W: 8/9 CVF had NNRTI RAMs, 6 also INSTI RAMs; Q4W: 2/2 CVF had NNRTI and INSTI RAMs (label, Week 48).",
+     "reason": "Specified counts, mutations, denominator and timepoint",
+     "source": "see resistance_source"
+    },
+    {
+     "column": "N",
+     "field": "Treatment-Emergent Resistance - Newly Approved Drug/Product",
+     "previous": "CAB and RPV resistance-associated substitutions reported",
+     "new": "8/522 Q8W with RPV (NNRTI) RAMs; 6/522 with CAB (INSTI) RAMs (L74I+Q148Q/R+N155N/H x2, L74I+T97A+N155H, L74I+N155H, N155H, L74I+Q148R)",
+     "reason": "Specified counts and mutations for evaluated drug",
+     "source": "see resistance_source"
+    },
+    {
+     "column": "O",
+     "field": "Trial/Publication Notes",
+     "previous": "Every-8-week versus every-4-week dosing.",
+     "new": "Every-8-week vs every-4-week dosing; primary endpoint HIV-1 RNA >=50 c/mL (2% vs 1%); registrational basis for Q2M dosing.",
+     "reason": "Clarified population/design context",
+     "source": "PMID 33308425"
+    },
+    {
+     "column": "R",
+     "field": "Regulatory/Publication Source Note",
+     "previous": "See NIH source; FDA/peer-reviewed source verification required for blank or Not reported fields.",
+     "new": "Verified: PMID 33308425; CT.gov NCT03299049 posted results; Cabenuva US label (approval 2021, sec 12.4/14); pooled resistance PMID 33136751",
+     "reason": "Sources now named",
+     "source": "as listed"
+    }
+   ]
+  },
+  {
+   "product": "CAB/RPV",
+   "existing_row": null,
+   "trial_name": "SOLAR",
+   "nct_id": "NCT04542070",
+   "population": "Switch",
+   "design": "Phase 3b, multicentre, open-label, randomised (2:1), non-inferiority (4% margin on >=50 c/mL); suppressed adults on BIC/FTC/TAF",
+   "experimental_arm": "Every-2-month IM cabotegravir LA 600 mg + rilpivirine LA 900 mg (optional oral lead-in)",
+   "comparator_arm": "Continue bictegravir/emtricitabine/tenofovir alafenamide",
+   "publication_citation": "Ramgopal MN et al. Efficacy, safety, and tolerability of switching to long-acting cabotegravir plus rilpivirine versus continuing fixed-dose bictegravir, emtricitabine, and tenofovir alafenamide in virologically suppressed adults with HIV, 12-month results (SOLAR): a randomised, open-label, phase 3b, non-inferiority trial. Lancet HIV. 2023;10:e566-e577.",
+   "pmid": "37567205",
+   "publication_year": 2023,
+   "approval_year_checked": "2021",
+   "approval_year_source": "Cabenuva US label Highlights 'Initial U.S. Approval: 2021' (DailyMed setid 1698baf3-f895-4c42-a1b1-e9ee3f20da36)",
+   "week48_snapshot": "Not reported",
+   "week48_snapshot_source": "No Week 48 Snapshot; primary analysis at Month 11 (LA) / Month 12 (BIC/FTC/TAF)",
+   "week48_alt_endpoint": "Snapshot HIV-1 RNA <50 c/mL at Month 11/12 (mITT-E): 90.2% (n=447) CAB+RPV LA vs 92.8% (n=223) BIC/FTC/TAF; primary >=50 c/mL: 5/447 (1%) vs 1/223 (<1%)",
+   "week48_alt_source": "CT.gov NCT04542070 posted results; PMID 37567205 abstract",
+   "te_res_any_component": "LA arm: 2 participants with CVF, both with emergent NNRTI and INSTI resistance (M230L, K101E, Q148R, G118R). BIC/FTC/TAF: not reported with resistance.",
+   "te_res_new_drug_text": "2/447 with RPV (NNRTI) and CAB (INSTI) RAMs; phenotypic resistance 2/2",
+   "res_new_drug_n": 2,
+   "res_N_randomized": 447,
+   "res_N_tested": 2,
+   "resistance_timepoint": "Month 11/12",
+   "resistance_source": "CT.gov NCT04542070 posted results (resistance in CVF)",
+   "res_final_text": "Not reported",
+   "notes": "Switch from BIC/FTC/TAF; mITT-E excluded one site (ITT-E 454 LA).",
+   "flags": [
+    "No Week 48 Snapshot; Month 11/12 used as alternative endpoint",
+    "res_N_randomized uses mITT-E (447); ITT-E 454"
+   ],
+   "changes": []
+  },
+  {
+   "product": "CAB/RPV",
+   "existing_row": null,
+   "trial_name": "CARES",
+   "nct_id": "Not registered on CT.gov (PACTR202104874490818)",
+   "population": "Switch",
+   "design": "Phase 3b, multicentre (sub-Saharan Africa), open-label, randomised (1:1), non-inferiority; suppressed adults on oral NNRTI- or DTG-based 2NRTI regimen; no baseline genotype",
+   "experimental_arm": "Every-2-month IM cabotegravir LA 600 mg + rilpivirine LA 900 mg",
+   "comparator_arm": "Continue oral 2 NRTI + NNRTI or DTG",
+   "publication_citation": "Kityo C et al. Switch to long-acting cabotegravir and rilpivirine in virologically suppressed adults with HIV in Africa (CARES): week 48 results from a randomised, multicentre, open-label, non-inferiority trial. Lancet Infect Dis. 2024;24:1083-1092.",
+   "pmid": "38821073",
+   "publication_year": 2024,
+   "approval_year_checked": "2021",
+   "approval_year_source": "Cabenuva US label Highlights 'Initial U.S. Approval: 2021' (DailyMed setid 1698baf3-f895-4c42-a1b1-e9ee3f20da36)",
+   "week48_snapshot": "96% (246/255) CAB+RPV LA vs 97% (250/257) oral ART",
+   "week48_snapshot_source": "PMID 38821073 abstract (ITT-E, Snapshot <50 c/mL)",
+   "week48_alt_endpoint": "Not applicable",
+   "week48_alt_source": "Not applicable",
+   "te_res_any_component": "Week 48: 2 VF on LA, both with drug resistance; 0 on oral ART.",
+   "te_res_new_drug_text": "2/255 LA participants with VF had drug resistance (specific CAB/RPV mutations not stated in abstract)",
+   "res_new_drug_n": 2,
+   "res_N_randomized": 255,
+   "res_N_tested": 2,
+   "resistance_timepoint": "Week 48",
+   "resistance_source": "PMID 38821073 abstract (2 VF on LA, both with drug resistance; 0 oral)",
+   "res_final_text": "Week 96 (Nat Med 2026;32:168-177, PMID 41188524, PMC12823427): Snapshot <50 97% (247/255) vs 97% (250/257); CVF 4 (2%) vs 0; CVF with >=1 major acquired RAM 3 (1%) vs 0.",
+   "notes": "African switch population without baseline resistance testing; not used for FDA approval.",
+   "flags": [
+    "Phase 3b stated in Week 96 paper; no NCT number (PACTR registration)",
+    "Week 48 resistance drug class (CAB vs RPV) not specified in abstract"
+   ],
+   "changes": []
+  },
+  {
+   "product": "CAB/RPV",
+   "existing_row": null,
+   "trial_name": "LATITUDE (ACTG A5359)",
+   "nct_id": "NCT03635788",
+   "population": "Treatment-experienced",
+   "design": "Phase 3, multicentre, open-label, randomised (step 2, 1:1) after oral ART induction with incentives (step 1); persons with HIV and adherence challenges; stopped early for superiority by DSMB",
+   "experimental_arm": "Monthly IM cabotegravir LA + rilpivirine LA",
+   "comparator_arm": "Continued oral standard-of-care ART",
+   "publication_citation": "Rana AI et al. Cabotegravir plus Rilpivirine for Persons with HIV and Adherence Challenges. N Engl J Med. 2026;394:858-871.",
+   "pmid": "41707171",
+   "publication_year": 2026,
+   "approval_year_checked": "2021",
+   "approval_year_source": "Cabenuva US label Highlights 'Initial U.S. Approval: 2021' (DailyMed setid 1698baf3-f895-4c42-a1b1-e9ee3f20da36)",
+   "week48_snapshot": "Not reported",
+   "week48_snapshot_source": "Snapshot not reported; primary endpoint regimen failure",
+   "week48_alt_endpoint": "Cumulative incidence of regimen failure (virologic failure or discontinuation) by Week 48 after randomisation: 22.8% CAB+RPV LA (n=152) vs 41.2% SOC (n=154)",
+   "week48_alt_source": "PMID 41707171 abstract",
+   "te_res_any_component": "RAMs detected in 2 participants with CVF in each group (abstract).",
+   "te_res_new_drug_text": "Not reported by drug (RAMs in 2 LA-arm CVF; classes not specified in abstract)",
+   "res_new_drug_n": null,
+   "res_N_randomized": 152,
+   "res_N_tested": null,
+   "resistance_timepoint": "Through Week 48 of step 2",
+   "resistance_source": "PMID 41707171 abstract (RAMs detected in 2 participants with CVF in each group; drugs not specified)",
+   "res_final_text": "Not reported",
+   "notes": "Adherence-challenged population (non-suppressed at entry), superiority design; DSMB early stop.",
+   "flags": [
+    "Not a suppressed-switch or naive study: population classified Treatment-experienced",
+    "res_new_drug_n not determinable from abstract (RAMs in 2 per arm; drug classes not stated)"
+   ],
+   "changes": []
+  },
+  {
+   "product": "CAB/RPV",
+   "existing_row": null,
+   "trial_name": "IMPALA",
+   "nct_id": "NCT05546242",
+   "population": "Switch",
+   "design": "Phase 3b, multicentre (Africa), open-label, randomised, non-inferiority; adults with adherence challenges but HIV-1 RNA <200 c/mL at screening",
+   "experimental_arm": "Every-2-month IM cabotegravir LA + rilpivirine LA",
+   "comparator_arm": "Oral dolutegravir-based ART",
+   "publication_citation": "Cresswell FV et al. Long-Acting HIV Therapy in African Adults with Adherence Challenges. N Engl J Med. 2026;395:1505-1518.",
+   "pmid": "42874104",
+   "publication_year": 2026,
+   "approval_year_checked": "2021",
+   "approval_year_source": "Cabenuva US label Highlights 'Initial U.S. Approval: 2021' (DailyMed setid 1698baf3-f895-4c42-a1b1-e9ee3f20da36)",
+   "week48_snapshot": "Not reported",
+   "week48_snapshot_source": "Abstract does not state FDA Snapshot algorithm",
+   "week48_alt_endpoint": "HIV-1 RNA <50 c/mL at Week 48: 91.0% (244/268) CAB+RPV LA vs 89.2% (240/269) oral DTG-based ART",
+   "week48_alt_source": "PMID 42874104 abstract",
+   "te_res_any_component": "CVF 5 (1.9%) LA vs 0 oral; resistance Not reported in abstract.",
+   "te_res_new_drug_text": "Not reported",
+   "res_new_drug_n": null,
+   "res_N_randomized": 268,
+   "res_N_tested": null,
+   "resistance_timepoint": "Week 48",
+   "resistance_source": "PMID 42874104 abstract (CVF 5 [1.9%] vs 0; resistance not reported in abstract)",
+   "res_final_text": "Not reported",
+   "notes": "African adults with adherence challenges, suppressed (<200 c/mL) at entry.",
+   "flags": [
+    "Snapshot algorithm not confirmed; value placed in alt endpoint",
+    "Resistance in 5 LA CVF not reported in abstract (full text not open access) - human check required"
+   ],
+   "changes": []
+  },
+  {
+   "product": "CAB/RPV",
+   "existing_row": null,
+   "trial_name": "VOLITION",
+   "nct_id": "NCT05917509",
+   "population": "Treatment-naive",
+   "design": "Phase 3b, multicentre, open-label, nonrandomised; ART-naive adults start oral DTG/3TC and may opt to switch to CAB+RPV LA Q2M after suppression",
+   "experimental_arm": "Every-2-month IM cabotegravir LA + rilpivirine LA (optional switch after DTG/3TC)",
+   "comparator_arm": "Continue DTG/3TC (participant choice; nonrandomised)",
+   "publication_citation": "C\u00f3rdova E et al. Month 11/12 Outcomes From the Phase 3b VOLITION Study. Open Forum Infect Dis. 2026;13:ofag383.",
+   "pmid": "42812355",
+   "publication_year": 2026,
+   "approval_year_checked": "2021",
+   "approval_year_source": "Cabenuva US label Highlights 'Initial U.S. Approval: 2021' (DailyMed setid 1698baf3-f895-4c42-a1b1-e9ee3f20da36)",
+   "week48_snapshot": "Not reported",
+   "week48_snapshot_source": "No Week 48 Snapshot for randomised comparison (nonrandomised)",
+   "week48_alt_endpoint": "Snapshot HIV-1 RNA <50 c/mL at Month 11 on CAB+RPV LA: 88% (113/129)",
+   "week48_alt_source": "PMID 42812355 abstract",
+   "te_res_any_component": "1 CVF on CAB+RPV LA with INSTI + NNRTI resistance (Month 11).",
+   "te_res_new_drug_text": "1/129 with CAB (INSTI) and RPV (NNRTI) resistance",
+   "res_new_drug_n": 1,
+   "res_N_randomized": 129,
+   "res_N_tested": null,
+   "resistance_timepoint": "Month 11",
+   "resistance_source": "PMID 42812355 abstract (1 CVF with INSTI + NNRTI resistance)",
+   "res_final_text": "Not reported",
+   "notes": "Participant-choice switch; citation title truncated in summary - human to confirm full title.",
+   "flags": [
+    "Nonrandomised: no comparator efficacy",
+    "Inclusion borderline (participant-choice switch arm); human review"
+   ],
+   "changes": []
+  },
+  {
+   "product": "CAB",
+   "existing_row": 39,
+   "trial_name": "FLAIR",
+   "nct_id": "NCT02938520",
+   "population": "Treatment-naive",
+   "design": "Phase 3, multicentre, open-label, randomised (1:1), non-inferiority (6% margin); ART-naive adults received 20 weeks of DTG/ABC/3TC induction; those suppressed (<50 c/mL) randomised to switch to monthly IM CAB LA + RPV LA (after 4-week oral CAB+RPV lead-in) or continue DTG/ABC/3TC",
+   "experimental_arm": "Monthly IM cabotegravir LA 400 mg + rilpivirine LA 600 mg (after 600/900 mg loading; oral CAB 30 mg + RPV 25 mg lead-in)",
+   "comparator_arm": "Continue oral dolutegravir/abacavir/lamivudine",
+   "publication_citation": "Orkin C et al. Long-Acting Cabotegravir and Rilpivirine after Oral Induction for HIV-1 Infection. N Engl J Med. 2020;382:1124-1135.",
+   "pmid": "32130806",
+   "publication_year": 2020,
+   "approval_year_checked": "2021",
+   "approval_year_source": "Vocabria US label Highlights 'Initial U.S. Approval: 2021' (DailyMed setid 66d450fb-cca4-476c-b0c7-c0730e3e4cf3)",
+   "week48_snapshot": "93.6% (265/283) CAB+RPV LA vs 93.3% (264/283) DTG/ABC/3TC",
+   "week48_snapshot_source": "PMID 32130806 abstract (ITT-E, Snapshot <50 c/mL); CT.gov NCT02938520 posted results (94 vs 93) and Cabenuva label Table (94% vs 93%) concordant",
+   "week48_alt_endpoint": "Not applicable",
+   "week48_alt_source": "Not applicable",
+   "te_res_any_component": "LA arm 3/283 participants with CVF had treatment-emergent resistance at Week 48: NNRTI E138E/A/K/T + INSTI Q148R; K101E + INSTI G140R; E138K + INSTI Q148R (all Russia, subtype A1, L74I). Comparator DTG/ABC/3TC: 3 CVF, no emergent resistance.",
+   "te_res_new_drug_text": "3/283 with CAB (INSTI) RAMs: Q148R x2, G140R (all with concurrent NNRTI RAMs); CT.gov phenotypic CAB resistance 3/3",
+   "res_new_drug_n": 3,
+   "res_N_randomized": 283,
+   "res_N_tested": 3,
+   "resistance_timepoint": "Week 48",
+   "resistance_source": "Pooled FLAIR/ATLAS Week 48 analysis PMID 33136751 (full text Table 3); CT.gov NCT02938520 posted results (genotypic/phenotypic resistance in CVF)",
+   "res_final_text": "Cabenuva label sec 12.4: pooled FLAIR (Week 124)/ATLAS (Week 96) 8/591 CVF on CAB+RPV; 7 had NNRTI RAMs (6 with reduced RPV susceptibility) and 5 had INSTI RAMs (Q148R x2, G140R, N155H, N155H+R263K). One additional FLAIR participant (direct-to-injection extension) had CVF at Week 112 without INSTI RAMs. Later publications: Week 96 PMID 33794181; Week 124 PMID 34656207.",
+   "notes": "CAB evaluated as the investigational INSTI (with RPV) - component-level record of CAB/RPV program. ART-naive at entry; randomised after 20-week oral DTG/ABC/3TC induction (maintenance after induction); registrational for Cabenuva/Vocabria.",
+   "flags": [
+    "One additional LA-arm CVF occurred during oral lead-in (never injected; subtype AG, no RAMs) and is excluded from the 3 with resistance",
+    "All 3 resistant CVF were in Russia, subtype A1 with baseline integrase L74I polymorphism"
+   ],
+   "changes": [
+    {
+     "column": "I",
+     "field": "Peer-Reviewed Phase 3 Publication",
+     "previous": "Orkin et al., New England Journal of Medicine",
+     "new": "Orkin C et al. Long-Acting Cabotegravir and Rilpivirine after Oral Induction for HIV-1 Infection. N Engl J Med. 2020;382:1124-1135.",
+     "reason": "Full citation (authors, title, journal, volume, pages)",
+     "source": "PMID 32130806"
+    },
+    {
+     "column": "L",
+     "field": "Week 48 FDA Snapshot: HIV-1 RNA <50 copies/mL",
+     "previous": "93.6% vs 93.3% comparator",
+     "new": "93.6% (265/283) CAB+RPV LA vs 93.3% (264/283) DTG/ABC/3TC",
+     "reason": "Verified/added counts and source",
+     "source": "see week48_snapshot_source"
+    },
+    {
+     "column": "M",
+     "field": "Treatment-Emergent Resistance - Any Regimen Component",
+     "previous": "NNRTI and/or INSTI substitutions reported in some confirmed virologic failures",
+     "new": "LA arm 3/283 participants with CVF had treatment-emergent resistance at Week 48: NNRTI E138E/A/K/T + INSTI Q148R; K101E + INSTI G140R; E138K + INSTI Q148R (all Russia, subtype A1, L74I). Comparator DTG/ABC/3TC: 3 CVF, no emergent resistance.",
+     "reason": "Specified counts, mutations, denominator and timepoint",
+     "source": "see resistance_source"
+    },
+    {
+     "column": "N",
+     "field": "Treatment-Emergent Resistance - Newly Approved Drug/Product",
+     "previous": "CAB resistance-associated substitutions reported in some failures",
+     "new": "3/283 with CAB (INSTI) RAMs: Q148R x2, G140R (all with concurrent NNRTI RAMs); CT.gov phenotypic CAB resistance 3/3",
+     "reason": "Specified counts and mutations for evaluated drug",
+     "source": "see resistance_source"
+    },
+    {
+     "column": "O",
+     "field": "Trial/Publication Notes",
+     "previous": "Component-level cross-reference to CAB/RPV registrational program.",
+     "new": "Component-level cross-reference to CAB/RPV program; CAB is investigational INSTI (absent from comparator). ART-naive at entry; randomised after 20-week oral DTG/ABC/3TC induction (maintenance after induction); registrational for Cabenuva/Vocabria.",
+     "reason": "Clarified population/design context",
+     "source": "PMID 32130806"
+    },
+    {
+     "column": "R",
+     "field": "Regulatory/Publication Source Note",
+     "previous": "See NIH source; FDA/peer-reviewed source verification required for blank or Not reported fields.",
+     "new": "Verified: PMID 32130806; CT.gov NCT02938520 posted results; Vocabria US label (approval 2021); Cabenuva label sec 12.4; PMID 33136751",
+     "reason": "Sources now named",
+     "source": "as listed"
+    },
+    {
+     "column": "K",
+     "field": "Original FDA HIV Approval Year",
+     "previous": "2020",
+     "new": "2021",
+     "reason": "Vocabria label Initial U.S. Approval is 2021 (oral CAB approved Jan 2021 with Cabenuva)",
+     "source": "Vocabria US label Highlights 'Initial U.S. Approval: 2021' (DailyMed setid 66d450fb-cca4-476c-b0c7-c0730e3e4cf3)"
+    }
+   ]
+  },
+  {
+   "product": "CAB",
+   "existing_row": 40,
+   "trial_name": "ATLAS",
+   "nct_id": "NCT02951052",
+   "population": "Switch",
+   "design": "Phase 3, multicentre, open-label, randomised (1:1), non-inferiority (6% margin); virologically suppressed adults on oral 2 NRTI + INSTI/NNRTI/PI regimen for >=6 months",
+   "experimental_arm": "Monthly IM cabotegravir LA 400 mg + rilpivirine LA 600 mg (after loading and 4-week oral lead-in)",
+   "comparator_arm": "Continue current oral antiretroviral regimen (CAR)",
+   "publication_citation": "Swindells S et al. Long-Acting Cabotegravir and Rilpivirine for Maintenance of HIV-1 Suppression. N Engl J Med. 2020;382:1112-1123.",
+   "pmid": "32130809",
+   "publication_year": 2020,
+   "approval_year_checked": "2021",
+   "approval_year_source": "Vocabria US label Highlights 'Initial U.S. Approval: 2021' (DailyMed setid 66d450fb-cca4-476c-b0c7-c0730e3e4cf3)",
+   "week48_snapshot": "92.5% (285/308) CAB+RPV LA vs 95.5% (294/308) current oral ART",
+   "week48_snapshot_source": "PMID 32130809 abstract (ITT-E, Snapshot <50 c/mL); counts from CT.gov NCT02951052 posted results; Cabenuva label 93% vs 95%",
+   "week48_alt_endpoint": "Not applicable",
+   "week48_alt_source": "Not applicable",
+   "te_res_any_component": "LA arm 3/308 CVF, all with NNRTI RAMs at failure (E138A; V108I+E138K; E138E/K), 1 also INSTI N155H. CAR arm 4 CVF, 3 with RT mutations (M184I; M184V+G190S; M230M/I).",
+   "te_res_new_drug_text": "1/308 with CAB (INSTI) RAM N155H; CT.gov phenotypic CAB resistance 1/3 tested",
+   "res_new_drug_n": 1,
+   "res_N_randomized": 308,
+   "res_N_tested": 3,
+   "resistance_timepoint": "Week 48",
+   "resistance_source": "Pooled FLAIR/ATLAS Week 48 analysis PMID 33136751 (full text Table 3); CT.gov NCT02951052 posted results",
+   "res_final_text": "Cabenuva label sec 12.4 pooled FLAIR Week 124/ATLAS Week 96: 8/591 CVF on CAB+RPV; 7 with NNRTI RAMs, 5 with INSTI RAMs (see FLAIR). ATLAS Week 96 data reported within ATLAS-2M rollover; no separate ATLAS W96 primary paper verified.",
+   "notes": "CAB evaluated as the investigational INSTI (with RPV) - component-level record of CAB/RPV program. Virologically suppressed switch population; registrational for Cabenuva/Vocabria.",
+   "flags": [
+    "2 of 3 LA-arm CVF had NNRTI RAMs detected at baseline in PBMC proviral DNA (E138E/A; V108V/I+E138K)",
+    "Only 1 of 3 LA CVF had INSTI RAM (N155H); CT.gov phenotypic CAB resistance 1/3"
+   ],
+   "changes": [
+    {
+     "column": "I",
+     "field": "Peer-Reviewed Phase 3 Publication",
+     "previous": "Swindells et al., New England Journal of Medicine",
+     "new": "Swindells S et al. Long-Acting Cabotegravir and Rilpivirine for Maintenance of HIV-1 Suppression. N Engl J Med. 2020;382:1112-1123.",
+     "reason": "Full citation (authors, title, journal, volume, pages)",
+     "source": "PMID 32130809"
+    },
+    {
+     "column": "L",
+     "field": "Week 48 FDA Snapshot: HIV-1 RNA <50 copies/mL",
+     "previous": "92.5% vs 95.5% comparator",
+     "new": "92.5% (285/308) CAB+RPV LA vs 95.5% (294/308) current oral ART",
+     "reason": "Verified/added counts and source",
+     "source": "see week48_snapshot_source"
+    },
+    {
+     "column": "M",
+     "field": "Treatment-Emergent Resistance - Any Regimen Component",
+     "previous": "NNRTI and/or INSTI substitutions reported in some confirmed virologic failures",
+     "new": "LA arm 3/308 CVF, all with NNRTI RAMs at failure (E138A; V108I+E138K; E138E/K), 1 also INSTI N155H. CAR arm 4 CVF, 3 with RT mutations (M184I; M184V+G190S; M230M/I).",
+     "reason": "Specified counts, mutations, denominator and timepoint",
+     "source": "see resistance_source"
+    },
+    {
+     "column": "N",
+     "field": "Treatment-Emergent Resistance - Newly Approved Drug/Product",
+     "previous": "CAB resistance-associated substitutions reported in some failures",
+     "new": "1/308 with CAB (INSTI) RAM N155H; CT.gov phenotypic CAB resistance 1/3 tested",
+     "reason": "Specified counts and mutations for evaluated drug",
+     "source": "see resistance_source"
+    },
+    {
+     "column": "O",
+     "field": "Trial/Publication Notes",
+     "previous": "Component-level cross-reference to CAB/RPV registrational program.",
+     "new": "Component-level cross-reference to CAB/RPV program; CAB is investigational INSTI (absent from comparator). Virologically suppressed switch population; registrational for Cabenuva/Vocabria.",
+     "reason": "Clarified population/design context",
+     "source": "PMID 32130809"
+    },
+    {
+     "column": "R",
+     "field": "Regulatory/Publication Source Note",
+     "previous": "See NIH source; FDA/peer-reviewed source verification required for blank or Not reported fields.",
+     "new": "Verified: PMID 32130809; CT.gov NCT02951052 posted results; Vocabria US label (approval 2021); Cabenuva label sec 12.4; PMID 33136751",
+     "reason": "Sources now named",
+     "source": "as listed"
+    },
+    {
+     "column": "K",
+     "field": "Original FDA HIV Approval Year",
+     "previous": "2020",
+     "new": "2021",
+     "reason": "Vocabria label Initial U.S. Approval is 2021 (oral CAB approved Jan 2021 with Cabenuva)",
+     "source": "Vocabria US label Highlights 'Initial U.S. Approval: 2021' (DailyMed setid 66d450fb-cca4-476c-b0c7-c0730e3e4cf3)"
+    }
+   ]
+  },
+  {
+   "product": "CAB",
+   "existing_row": 41,
+   "trial_name": "ATLAS-2M",
+   "nct_id": "NCT03299049",
+   "population": "Switch",
+   "design": "Phase 3b, multicentre, open-label, randomised (1:1), non-inferiority (10% margin on >=50 c/mL); suppressed adults (oral SOC or ATLAS CAB+RPV Q4W rollover) randomised to Q8W vs Q4W CAB+RPV LA",
+   "experimental_arm": "Every-2-month IM cabotegravir LA 600 mg + rilpivirine LA 900 mg",
+   "comparator_arm": "Monthly IM cabotegravir LA 400 mg + rilpivirine LA 600 mg",
+   "publication_citation": "Overton ET et al. Long-acting cabotegravir and rilpivirine dosed every 2 months in adults with HIV-1 infection (ATLAS-2M), 48-week results: a randomised, multicentre, open-label, phase 3b, non-inferiority study. Lancet. 2020;396(10267):1994-2005.",
+   "pmid": "33308425",
+   "publication_year": 2020,
+   "approval_year_checked": "2021",
+   "approval_year_source": "Vocabria US label Highlights 'Initial U.S. Approval: 2021' (DailyMed setid 66d450fb-cca4-476c-b0c7-c0730e3e4cf3)",
+   "week48_snapshot": "94% Q8W (n=522) vs 93% Q4W (n=523)",
+   "week48_snapshot_source": "CT.gov NCT03299049 posted results (ITT-E Snapshot <50 c/mL: 94 vs 93); Cabenuva label Table reports 94% vs 94%",
+   "week48_alt_endpoint": "Not applicable",
+   "week48_alt_source": "Not applicable",
+   "te_res_any_component": "Q8W: 8/9 CVF had NNRTI RAMs, 6 also INSTI RAMs; Q4W: 2/2 CVF had NNRTI and INSTI RAMs (label, Week 48).",
+   "te_res_new_drug_text": "6/522 Q8W with CAB (INSTI) RAMs (L74I+Q148Q/R+N155N/H x2, L74I+T97A+N155H, L74I+N155H, N155H, L74I+Q148R); Q4W 2/523 (N155N/H; Q148R+E138E/K)",
+   "res_new_drug_n": 6,
+   "res_N_randomized": 522,
+   "res_N_tested": null,
+   "resistance_timepoint": "Week 48",
+   "resistance_source": "Cabenuva US label sec 12.4 (ATLAS-2M Week 48); PMID 33308425 abstract; CT.gov NCT03299049 posted results",
+   "res_final_text": "Week 96 PMID 34648734 (values not extracted). Week 152 PMID 36660819. Label sec 12.4: 8/9 Q8W CVF had NNRTI RAMs (RPV FC 2-30), 6 of these also INSTI RAMs (L74I+Q148Q/R+N155N/H x2, L74I+T97A+N155H, L74I+N155H, N155H, L74I+Q148R); both Q4W CVF had NNRTI (K101E+M230L; Y188F+G190Q) and INSTI (N155N/H; Q148R+E138E/K) RAMs.",
+   "notes": "CAB evaluated as the investigational INSTI (with RPV) - component-level record of CAB/RPV program. Every-8-week vs every-4-week dosing; primary endpoint HIV-1 RNA >=50 c/mL (2% vs 1%); registrational basis for Q2M dosing.",
+   "flags": [
+    "CVF count discrepancy: abstract 8 Q8W vs 2 Q4W; label 9 Q8W vs 2 Q4W through Week 48",
+    "Snapshot <50 discrepancy: CT.gov 94 vs 93; label 94 vs 94",
+    "5 of 8 Q8W CVF had archived NNRTI RAMs at baseline (abstract)",
+    "Publication year: Lancet vol 396 issue dated 19 Dec 2020 (PubMed lists 2021 Dec 19 in parse); 2020 retained"
+   ],
+   "changes": [
+    {
+     "column": "I",
+     "field": "Peer-Reviewed Phase 3 Publication",
+     "previous": "Overton et al., Lancet",
+     "new": "Overton ET et al. Long-acting cabotegravir and rilpivirine dosed every 2 months in adults with HIV-1 infection (ATLAS-2M), 48-week results: a randomised, multicentre, open-label, phase 3b, non-inferiority study. Lancet. 2020;396(10267):1994-2005.",
+     "reason": "Full citation (authors, title, journal, volume, pages)",
+     "source": "PMID 33308425"
+    },
+    {
+     "column": "L",
+     "field": "Week 48 FDA Snapshot: HIV-1 RNA <50 copies/mL",
+     "previous": "Not reported in prior summary",
+     "new": "94% Q8W (n=522) vs 93% Q4W (n=523)",
+     "reason": "Verified/added counts and source",
+     "source": "see week48_snapshot_source"
+    },
+    {
+     "column": "M",
+     "field": "Treatment-Emergent Resistance - Any Regimen Component",
+     "previous": "NNRTI and/or INSTI substitutions reported in some confirmed virologic failures",
+     "new": "Q8W: 8/9 CVF had NNRTI RAMs, 6 also INSTI RAMs; Q4W: 2/2 CVF had NNRTI and INSTI RAMs (label, Week 48).",
+     "reason": "Specified counts, mutations, denominator and timepoint",
+     "source": "see resistance_source"
+    },
+    {
+     "column": "N",
+     "field": "Treatment-Emergent Resistance - Newly Approved Drug/Product",
+     "previous": "CAB resistance-associated substitutions reported in some failures",
+     "new": "6/522 Q8W with CAB (INSTI) RAMs (L74I+Q148Q/R+N155N/H x2, L74I+T97A+N155H, L74I+N155H, N155H, L74I+Q148R); Q4W 2/523 (N155N/H; Q148R+E138E/K)",
+     "reason": "Specified counts and mutations for evaluated drug",
+     "source": "see resistance_source"
+    },
+    {
+     "column": "O",
+     "field": "Trial/Publication Notes",
+     "previous": "Component-level cross-reference to CAB/RPV registrational program.",
+     "new": "Component-level cross-reference to CAB/RPV program; CAB is investigational INSTI (absent from comparator). Every-8-week vs every-4-week dosing; primary endpoint HIV-1 RNA >=50 c/mL (2% vs 1%); registrational basis for Q2M dosing.",
+     "reason": "Clarified population/design context",
+     "source": "PMID 33308425"
+    },
+    {
+     "column": "R",
+     "field": "Regulatory/Publication Source Note",
+     "previous": "See NIH source; FDA/peer-reviewed source verification required for blank or Not reported fields.",
+     "new": "Verified: PMID 33308425; CT.gov NCT03299049 posted results; Vocabria US label (approval 2021); Cabenuva label sec 12.4; PMID 33136751",
+     "reason": "Sources now named",
+     "source": "as listed"
+    },
+    {
+     "column": "K",
+     "field": "Original FDA HIV Approval Year",
+     "previous": "2020",
+     "new": "2021",
+     "reason": "Vocabria label Initial U.S. Approval is 2021 (oral CAB approved Jan 2021 with Cabenuva)",
+     "source": "Vocabria US label Highlights 'Initial U.S. Approval: 2021' (DailyMed setid 66d450fb-cca4-476c-b0c7-c0730e3e4cf3)"
+    }
+   ]
+  },
+  {
+   "product": "CAB",
+   "existing_row": null,
+   "trial_name": "SOLAR",
+   "nct_id": "NCT04542070",
+   "population": "Switch",
+   "design": "Phase 3b, multicentre, open-label, randomised (2:1), non-inferiority (4% margin on >=50 c/mL); suppressed adults on BIC/FTC/TAF",
+   "experimental_arm": "Every-2-month IM cabotegravir LA 600 mg + rilpivirine LA 900 mg (optional oral lead-in)",
+   "comparator_arm": "Continue bictegravir/emtricitabine/tenofovir alafenamide",
+   "publication_citation": "Ramgopal MN et al. Efficacy, safety, and tolerability of switching to long-acting cabotegravir plus rilpivirine versus continuing fixed-dose bictegravir, emtricitabine, and tenofovir alafenamide in virologically suppressed adults with HIV, 12-month results (SOLAR): a randomised, open-label, phase 3b, non-inferiority trial. Lancet HIV. 2023;10:e566-e577.",
+   "pmid": "37567205",
+   "publication_year": 2023,
+   "approval_year_checked": "2021",
+   "approval_year_source": "Vocabria US label Highlights 'Initial U.S. Approval: 2021' (DailyMed setid 66d450fb-cca4-476c-b0c7-c0730e3e4cf3)",
+   "week48_snapshot": "Not reported",
+   "week48_snapshot_source": "No Week 48 Snapshot; primary analysis at Month 11 (LA) / Month 12 (BIC/FTC/TAF)",
+   "week48_alt_endpoint": "Snapshot HIV-1 RNA <50 c/mL at Month 11/12 (mITT-E): 90.2% (n=447) CAB+RPV LA vs 92.8% (n=223) BIC/FTC/TAF; primary >=50 c/mL: 5/447 (1%) vs 1/223 (<1%)",
+   "week48_alt_source": "CT.gov NCT04542070 posted results; PMID 37567205 abstract",
+   "te_res_any_component": "LA arm: 2 participants with CVF, both with emergent NNRTI and INSTI resistance (M230L, K101E, Q148R, G118R). BIC/FTC/TAF: not reported with resistance.",
+   "te_res_new_drug_text": "2/447 with CAB (INSTI) RAMs (Q148R, G118R) with concurrent NNRTI RAMs",
+   "res_new_drug_n": 2,
+   "res_N_randomized": 447,
+   "res_N_tested": 2,
+   "resistance_timepoint": "Month 11/12",
+   "resistance_source": "CT.gov NCT04542070 posted results (resistance in CVF)",
+   "res_final_text": "Not reported",
+   "notes": "CAB evaluated as the investigational INSTI (with RPV) - component-level record of CAB/RPV program. Switch from BIC/FTC/TAF; mITT-E excluded one site (ITT-E 454 LA).",
+   "flags": [
+    "No Week 48 Snapshot; Month 11/12 used as alternative endpoint",
+    "res_N_randomized uses mITT-E (447); ITT-E 454"
+   ],
+   "changes": []
+  },
+  {
+   "product": "CAB",
+   "existing_row": null,
+   "trial_name": "CARES",
+   "nct_id": "Not registered on CT.gov (PACTR202104874490818)",
+   "population": "Switch",
+   "design": "Phase 3b, multicentre (sub-Saharan Africa), open-label, randomised (1:1), non-inferiority; suppressed adults on oral NNRTI- or DTG-based 2NRTI regimen; no baseline genotype",
+   "experimental_arm": "Every-2-month IM cabotegravir LA 600 mg + rilpivirine LA 900 mg",
+   "comparator_arm": "Continue oral 2 NRTI + NNRTI or DTG",
+   "publication_citation": "Kityo C et al. Switch to long-acting cabotegravir and rilpivirine in virologically suppressed adults with HIV in Africa (CARES): week 48 results from a randomised, multicentre, open-label, non-inferiority trial. Lancet Infect Dis. 2024;24:1083-1092.",
+   "pmid": "38821073",
+   "publication_year": 2024,
+   "approval_year_checked": "2021",
+   "approval_year_source": "Vocabria US label Highlights 'Initial U.S. Approval: 2021' (DailyMed setid 66d450fb-cca4-476c-b0c7-c0730e3e4cf3)",
+   "week48_snapshot": "96% (246/255) CAB+RPV LA vs 97% (250/257) oral ART",
+   "week48_snapshot_source": "PMID 38821073 abstract (ITT-E, Snapshot <50 c/mL)",
+   "week48_alt_endpoint": "Not applicable",
+   "week48_alt_source": "Not applicable",
+   "te_res_any_component": "Week 48: 2 VF on LA, both with drug resistance; 0 on oral ART.",
+   "te_res_new_drug_text": "Not reported by drug: 2/255 LA VF with drug resistance (INSTI involvement not stated in abstract)",
+   "res_new_drug_n": null,
+   "res_N_randomized": 255,
+   "res_N_tested": 2,
+   "resistance_timepoint": "Week 48",
+   "resistance_source": "PMID 38821073 abstract (2 VF on LA, both with drug resistance; 0 oral)",
+   "res_final_text": "Week 96 (Nat Med 2026;32:168-177, PMID 41188524, PMC12823427): Snapshot <50 97% (247/255) vs 97% (250/257); CVF 4 (2%) vs 0; CVF with >=1 major acquired RAM 3 (1%) vs 0.",
+   "notes": "CAB evaluated as the investigational INSTI (with RPV) - component-level record of CAB/RPV program. African switch population without baseline resistance testing; not used for FDA approval.",
+   "flags": [
+    "Phase 3b stated in Week 96 paper; no NCT number (PACTR registration)",
+    "Week 48 resistance drug class (CAB vs RPV) not specified in abstract"
+   ],
+   "changes": []
+  },
+  {
+   "product": "CAB",
+   "existing_row": null,
+   "trial_name": "LATITUDE (ACTG A5359)",
+   "nct_id": "NCT03635788",
+   "population": "Treatment-experienced",
+   "design": "Phase 3, multicentre, open-label, randomised (step 2, 1:1) after oral ART induction with incentives (step 1); persons with HIV and adherence challenges; stopped early for superiority by DSMB",
+   "experimental_arm": "Monthly IM cabotegravir LA + rilpivirine LA",
+   "comparator_arm": "Continued oral standard-of-care ART",
+   "publication_citation": "Rana AI et al. Cabotegravir plus Rilpivirine for Persons with HIV and Adherence Challenges. N Engl J Med. 2026;394:858-871.",
+   "pmid": "41707171",
+   "publication_year": 2026,
+   "approval_year_checked": "2021",
+   "approval_year_source": "Vocabria US label Highlights 'Initial U.S. Approval: 2021' (DailyMed setid 66d450fb-cca4-476c-b0c7-c0730e3e4cf3)",
+   "week48_snapshot": "Not reported",
+   "week48_snapshot_source": "Snapshot not reported; primary endpoint regimen failure",
+   "week48_alt_endpoint": "Cumulative incidence of regimen failure (virologic failure or discontinuation) by Week 48 after randomisation: 22.8% CAB+RPV LA (n=152) vs 41.2% SOC (n=154)",
+   "week48_alt_source": "PMID 41707171 abstract",
+   "te_res_any_component": "RAMs detected in 2 participants with CVF in each group (abstract).",
+   "te_res_new_drug_text": "Not reported",
+   "res_new_drug_n": null,
+   "res_N_randomized": 152,
+   "res_N_tested": null,
+   "resistance_timepoint": "Through Week 48 of step 2",
+   "resistance_source": "PMID 41707171 abstract (RAMs detected in 2 participants with CVF in each group; drugs not specified)",
+   "res_final_text": "Not reported",
+   "notes": "CAB evaluated as the investigational INSTI (with RPV) - component-level record of CAB/RPV program. Adherence-challenged population (non-suppressed at entry), superiority design; DSMB early stop.",
+   "flags": [
+    "Not a suppressed-switch or naive study: population classified Treatment-experienced",
+    "res_new_drug_n not determinable from abstract (RAMs in 2 per arm; drug classes not stated)"
+   ],
+   "changes": []
+  },
+  {
+   "product": "CAB",
+   "existing_row": null,
+   "trial_name": "IMPALA",
+   "nct_id": "NCT05546242",
+   "population": "Switch",
+   "design": "Phase 3b, multicentre (Africa), open-label, randomised, non-inferiority; adults with adherence challenges but HIV-1 RNA <200 c/mL at screening",
+   "experimental_arm": "Every-2-month IM cabotegravir LA + rilpivirine LA",
+   "comparator_arm": "Oral dolutegravir-based ART",
+   "publication_citation": "Cresswell FV et al. Long-Acting HIV Therapy in African Adults with Adherence Challenges. N Engl J Med. 2026;395:1505-1518.",
+   "pmid": "42874104",
+   "publication_year": 2026,
+   "approval_year_checked": "2021",
+   "approval_year_source": "Vocabria US label Highlights 'Initial U.S. Approval: 2021' (DailyMed setid 66d450fb-cca4-476c-b0c7-c0730e3e4cf3)",
+   "week48_snapshot": "Not reported",
+   "week48_snapshot_source": "Abstract does not state FDA Snapshot algorithm",
+   "week48_alt_endpoint": "HIV-1 RNA <50 c/mL at Week 48: 91.0% (244/268) CAB+RPV LA vs 89.2% (240/269) oral DTG-based ART",
+   "week48_alt_source": "PMID 42874104 abstract",
+   "te_res_any_component": "CVF 5 (1.9%) LA vs 0 oral; resistance Not reported in abstract.",
+   "te_res_new_drug_text": "Not reported",
+   "res_new_drug_n": null,
+   "res_N_randomized": 268,
+   "res_N_tested": null,
+   "resistance_timepoint": "Week 48",
+   "resistance_source": "PMID 42874104 abstract (CVF 5 [1.9%] vs 0; resistance not reported in abstract)",
+   "res_final_text": "Not reported",
+   "notes": "CAB evaluated as the investigational INSTI (with RPV) - component-level record of CAB/RPV program. African adults with adherence challenges, suppressed (<200 c/mL) at entry.",
+   "flags": [
+    "Snapshot algorithm not confirmed; value placed in alt endpoint",
+    "Resistance in 5 LA CVF not reported in abstract (full text not open access) - human check required"
+   ],
+   "changes": []
+  },
+  {
+   "product": "CAB",
+   "existing_row": null,
+   "trial_name": "VOLITION",
+   "nct_id": "NCT05917509",
+   "population": "Treatment-naive",
+   "design": "Phase 3b, multicentre, open-label, nonrandomised; ART-naive adults start oral DTG/3TC and may opt to switch to CAB+RPV LA Q2M after suppression",
+   "experimental_arm": "Every-2-month IM cabotegravir LA + rilpivirine LA (optional switch after DTG/3TC)",
+   "comparator_arm": "Continue DTG/3TC (participant choice; nonrandomised)",
+   "publication_citation": "C\u00f3rdova E et al. Month 11/12 Outcomes From the Phase 3b VOLITION Study. Open Forum Infect Dis. 2026;13:ofag383.",
+   "pmid": "42812355",
+   "publication_year": 2026,
+   "approval_year_checked": "2021",
+   "approval_year_source": "Vocabria US label Highlights 'Initial U.S. Approval: 2021' (DailyMed setid 66d450fb-cca4-476c-b0c7-c0730e3e4cf3)",
+   "week48_snapshot": "Not reported",
+   "week48_snapshot_source": "No Week 48 Snapshot for randomised comparison (nonrandomised)",
+   "week48_alt_endpoint": "Snapshot HIV-1 RNA <50 c/mL at Month 11 on CAB+RPV LA: 88% (113/129)",
+   "week48_alt_source": "PMID 42812355 abstract",
+   "te_res_any_component": "1 CVF on CAB+RPV LA with INSTI + NNRTI resistance (Month 11).",
+   "te_res_new_drug_text": "1/129 with INSTI resistance (with NNRTI)",
+   "res_new_drug_n": 1,
+   "res_N_randomized": 129,
+   "res_N_tested": null,
+   "resistance_timepoint": "Month 11",
+   "resistance_source": "PMID 42812355 abstract (1 CVF with INSTI + NNRTI resistance)",
+   "res_final_text": "Not reported",
+   "notes": "CAB evaluated as the investigational INSTI (with RPV) - component-level record of CAB/RPV program. Participant-choice switch; citation title truncated in summary - human to confirm full title.",
+   "flags": [
+    "Nonrandomised: no comparator efficacy",
+    "Inclusion borderline (participant-choice switch arm); human review"
+   ],
+   "changes": []
+  },
+  {
+   "product": "RPV/TAF/FTC",
+   "existing_row": 22,
+   "trial_name": "Study 1160 (GS-US-366-1160)",
+   "nct_id": "NCT02345226",
+   "population": "Switch",
+   "design": "Phase 3b, multicentre, randomised (1:1), double-blind, non-inferiority (8% margin); suppressed adults on EFV/FTC/TDF",
+   "experimental_arm": "Rilpivirine/emtricitabine/tenofovir alafenamide 25/200/25 mg once daily",
+   "comparator_arm": "Continue efavirenz/emtricitabine/tenofovir DF",
+   "publication_citation": "DeJesus E et al. Switching from efavirenz, emtricitabine, and tenofovir disoproxil fumarate to tenofovir alafenamide coformulated with rilpivirine and emtricitabine in virally suppressed adults with HIV-1 infection: a randomised, double-blind, multicentre, phase 3b, non-inferiority study. Lancet HIV. 2017;4:e205-e213.",
+   "pmid": "28259776",
+   "publication_year": 2017,
+   "approval_year_checked": "2016",
+   "approval_year_source": "Odefsey US label Highlights 'Initial U.S. Approval: 2016' (DailyMed setid ea3b9ec8-e04a-412c-8b3f-e5cbc7e641d5)",
+   "week48_snapshot": "90% (394/438) RPV/FTC/TAF vs 92% (402/437) EFV/FTC/TDF",
+   "week48_snapshot_source": "PMID 28259776 abstract (FDA Snapshot <50 c/mL)",
+   "week48_alt_endpoint": "Not applicable",
+   "week48_alt_source": "Not applicable",
+   "te_res_any_component": "Through Week 96: 8 RPV/FTC/TAF participants met resistance-analysis criteria, none with treatment-emergent resistance (Hagins 2018).",
+   "te_res_new_drug_text": "0 RPV/FTC/TAF participants with treatment-emergent RPV/FTC/TAF resistance (0/8 analysed) through Week 96",
+   "res_new_drug_n": 0,
+   "res_N_randomized": 438,
+   "res_N_tested": 8,
+   "resistance_timepoint": "Through Week 96 (Week 48 primary-paper resistance not verified; not open access)",
+   "resistance_source": "Hagins D et al. HIV Med 2018;19:724-733 (PMID 30101539, PMC6221083) full text",
+   "res_final_text": "Week 96 Snapshot <50: 85.2% vs 85.1%; no emergent resistance in RPV/FTC/TAF arm (PMID 30101539).",
+   "notes": "Switch from EFV/FTC/TDF; registrational (bridging) for Odefsey.",
+   "flags": [
+    "Week 48 resistance per primary Lancet HIV paper not verified (not open access); W96 data used"
+   ],
+   "changes": [
+    {
+     "column": "I",
+     "field": "Peer-Reviewed Phase 3 Publication",
+     "previous": "DeJesus et al. Switching from TDF- to TAF-containing regimens, Lancet HIV",
+     "new": "DeJesus E et al. Switching from efavirenz, emtricitabine, and tenofovir disoproxil fumarate to tenofovir alafenamide coformulated with rilpivirine and emtricitabine in virally suppressed adults with HIV-1 infection: a randomised, double-blind, multicentre, phase 3b, non-inferiority study. Lancet HIV. 2017;4:e205-e213.",
+     "reason": "Full citation; title corrected (EFV/FTC/TDF switch)",
+     "source": "PMID 28259776"
+    },
+    {
+     "column": "L",
+     "field": "Week 48 FDA Snapshot: HIV-1 RNA <50 copies/mL",
+     "previous": "90% vs 92% comparator",
+     "new": "90% (394/438) RPV/FTC/TAF vs 92% (402/437) EFV/FTC/TDF",
+     "reason": "Added counts",
+     "source": "PMID 28259776"
+    },
+    {
+     "column": "M",
+     "field": "Treatment-Emergent Resistance - Any Regimen Component",
+     "previous": "Few RPV and/or NRTI resistance-associated substitutions reported",
+     "new": "Through Week 96: 8 RPV/FTC/TAF participants met resistance-analysis criteria, none with treatment-emergent resistance (Hagins 2018).",
+     "reason": "Prior text implied resistance; W96 analysis found none",
+     "source": "PMID 30101539"
+    },
+    {
+     "column": "N",
+     "field": "Treatment-Emergent Resistance - Newly Approved Drug/Product",
+     "previous": "RPV resistance-associated substitutions reported in few failures",
+     "new": "0 RPV/FTC/TAF participants with treatment-emergent RPV/FTC/TAF resistance (0/8 analysed) through Week 96",
+     "reason": "Prior text implied RPV resistance; none emergent",
+     "source": "PMID 30101539"
+    },
+    {
+     "column": "O",
+     "field": "Trial/Publication Notes",
+     "previous": "Switch study.",
+     "new": "Switch from EFV/FTC/TDF; registrational (bridging) for Odefsey.",
+     "reason": "Added context",
+     "source": "Odefsey US label Highlights 'Initial U.S. Approval: 2016' (DailyMed setid ea3b9ec8-e04a-412c-8b3f-e5cbc7e641d5)"
+    },
+    {
+     "column": "R",
+     "field": "Regulatory/Publication Source Note",
+     "previous": "See NIH source; FDA/peer-reviewed source verification required for blank or Not reported fields.",
+     "new": "Verified: PMID 28259776 abstract; PMID 30101539 full text; Odefsey US label (approval 2016)",
+     "reason": "Sources now named",
+     "source": "as listed"
+    }
+   ]
+  },
+  {
+   "product": "RPV/TAF/FTC",
+   "existing_row": 23,
+   "trial_name": "Study 1216 (GS-US-366-1216)",
+   "nct_id": "NCT02345252",
+   "population": "Switch",
+   "design": "Phase 3b, multicentre, randomised (1:1), double-blind, non-inferiority (8% margin); suppressed adults on RPV/FTC/TDF",
+   "experimental_arm": "Rilpivirine/emtricitabine/tenofovir alafenamide 25/200/25 mg once daily",
+   "comparator_arm": "Continue rilpivirine/emtricitabine/tenofovir DF",
+   "publication_citation": "Orkin C et al. Switching from tenofovir disoproxil fumarate to tenofovir alafenamide coformulated with rilpivirine and emtricitabine in virally suppressed adults with HIV-1 infection: a randomised, double-blind, multicentre, phase 3b, non-inferiority study. Lancet HIV. 2017;4:e195-e204.",
+   "pmid": "28259777",
+   "publication_year": 2017,
+   "approval_year_checked": "2016",
+   "approval_year_source": "Odefsey US label Highlights 'Initial U.S. Approval: 2016' (DailyMed setid ea3b9ec8-e04a-412c-8b3f-e5cbc7e641d5)",
+   "week48_snapshot": "94% (296/316) RPV/FTC/TAF vs 94% (294/313) RPV/FTC/TDF",
+   "week48_snapshot_source": "PMID 28259777 abstract (FDA Snapshot <50 c/mL)",
+   "week48_alt_endpoint": "Not applicable",
+   "week48_alt_source": "Not applicable",
+   "te_res_any_component": "Through Week 96: 3 RPV/FTC/TAF participants in resistance analysis, none with treatment-emergent resistance (one had pre-existing K103N detected at W84).",
+   "te_res_new_drug_text": "0 RPV/FTC/TAF participants with treatment-emergent resistance (0/3 analysed) through Week 96",
+   "res_new_drug_n": 0,
+   "res_N_randomized": 316,
+   "res_N_tested": 3,
+   "resistance_timepoint": "Through Week 96 (Week 48 primary-paper resistance not verified; not open access)",
+   "resistance_source": "Hagins D et al. HIV Med 2018 (PMID 30101539, PMC6221083) full text",
+   "res_final_text": "Week 96 Snapshot <50: 89.2% vs 88.5%; no emergent resistance (PMID 30101539).",
+   "notes": "Switch from RPV/FTC/TDF (TDF->TAF); registrational for Odefsey.",
+   "flags": [
+    "Master NCT02345211 is incorrect (CT.gov 404); correct NCT02345252",
+    "Abstract registry listing cites NCT01815736 - human to confirm",
+    "Master citation attributed to DeJesus; first author is Orkin"
+   ],
+   "changes": [
+    {
+     "column": "H",
+     "field": "ClinicalTrials.gov ID",
+     "previous": "NCT02345211",
+     "new": "NCT02345252",
+     "reason": "Master NCT not found on CT.gov; Study 1216 registered as NCT02345252",
+     "source": "CT.gov; PMID 30101539"
+    },
+    {
+     "column": "I",
+     "field": "Peer-Reviewed Phase 3 Publication",
+     "previous": "DeJesus et al. Switch studies 1160/1216, Lancet HIV",
+     "new": "Orkin C et al. Switching from tenofovir disoproxil fumarate to tenofovir alafenamide coformulated with rilpivirine and emtricitabine in virally suppressed adults with HIV-1 infection: a randomised, double-blind, multicentre, phase 3b, non-inferiority study. Lancet HIV. 2017;4:e195-e204.",
+     "reason": "Corrected first author (Orkin, not DeJesus) and full citation",
+     "source": "PMID 28259777"
+    },
+    {
+     "column": "L",
+     "field": "Week 48 FDA Snapshot: HIV-1 RNA <50 copies/mL",
+     "previous": "94% vs 94% comparator",
+     "new": "94% (296/316) RPV/FTC/TAF vs 94% (294/313) RPV/FTC/TDF",
+     "reason": "Added counts",
+     "source": "PMID 28259777"
+    },
+    {
+     "column": "M",
+     "field": "Treatment-Emergent Resistance - Any Regimen Component",
+     "previous": "Few RPV and/or NRTI resistance-associated substitutions reported",
+     "new": "Through Week 96: 3 RPV/FTC/TAF participants in resistance analysis, none with treatment-emergent resistance (one had pre-existing K103N detected at W84).",
+     "reason": "No emergent resistance found",
+     "source": "PMID 30101539"
+    },
+    {
+     "column": "N",
+     "field": "Treatment-Emergent Resistance - Newly Approved Drug/Product",
+     "previous": "RPV resistance-associated substitutions reported in few failures",
+     "new": "0 RPV/FTC/TAF participants with treatment-emergent resistance (0/3 analysed) through Week 96",
+     "reason": "No emergent resistance found",
+     "source": "PMID 30101539"
+    },
+    {
+     "column": "O",
+     "field": "Trial/Publication Notes",
+     "previous": "Switch study.",
+     "new": "Switch from RPV/FTC/TDF (TDF->TAF); registrational for Odefsey.",
+     "reason": "Added context",
+     "source": "Odefsey US label Highlights 'Initial U.S. Approval: 2016' (DailyMed setid ea3b9ec8-e04a-412c-8b3f-e5cbc7e641d5)"
+    },
+    {
+     "column": "Q",
+     "field": "ClinicalTrials.gov URL",
+     "previous": "https://clinicaltrials.gov/study/NCT02345211",
+     "new": "https://clinicaltrials.gov/study/NCT02345252",
+     "reason": "NCT corrected",
+     "source": "CT.gov"
+    },
+    {
+     "column": "R",
+     "field": "Regulatory/Publication Source Note",
+     "previous": "See NIH source; FDA/peer-reviewed source verification required for blank or Not reported fields.",
+     "new": "Verified: PMID 28259777 abstract; PMID 30101539 full text; Odefsey US label (approval 2016)",
+     "reason": "Sources now named",
+     "source": "as listed"
+    }
+   ]
+  },
+  {
+   "product": "RPV/TDF/FTC",
+   "existing_row": 24,
+   "trial_name": "STaR (GS-US-264-0110)",
+   "nct_id": "NCT01309243",
+   "population": "Treatment-naive",
+   "design": "Phase 3b, multicentre, open-label, randomised (1:1), non-inferiority (12% margin); ART-naive adults with HIV-1 RNA >=2500 c/mL",
+   "experimental_arm": "Rilpivirine/emtricitabine/tenofovir DF single tablet once daily",
+   "comparator_arm": "Efavirenz/emtricitabine/tenofovir DF single tablet once daily",
+   "publication_citation": "Cohen C et al. Week 48 results from a randomized clinical trial of rilpivirine/emtricitabine/tenofovir disoproxil fumarate vs. efavirenz/emtricitabine/tenofovir disoproxil fumarate in treatment-naive HIV-1-infected adults. AIDS. 2014;28:989-997.",
+   "pmid": "24508782",
+   "publication_year": 2014,
+   "approval_year_checked": "2011",
+   "approval_year_source": "Complera US label Highlights 'Initial U.S. Approval: 2011' (DailyMed setid 9176bf31-c889-47bd-861c-f2d3fc37ab8d)",
+   "week48_snapshot": "85.8% RPV/FTC/TDF (n=394) vs 81.6% EFV/FTC/TDF (n=392)",
+   "week48_snapshot_source": "PMID 24508782 abstract (FDA Snapshot <50 c/mL)",
+   "week48_alt_endpoint": "Not applicable",
+   "week48_alt_source": "Not applicable",
+   "te_res_any_component": "Week 48: 17/394 (4.3%) RPV/FTC/TDF participants developed NNRTI and/or NRTI RAMs (16/17 both) among 20 in resistance-analysis population; EFV/FTC/TDF 3/392.",
+   "te_res_new_drug_text": "17/394 (4.3%) with emergent NNRTI (RPV) and/or NRTI RAMs; specific mutations (master: E138K, M184I) not verified from abstract",
+   "res_new_drug_n": 17,
+   "res_N_randomized": 394,
+   "res_N_tested": 20,
+   "resistance_timepoint": "Week 48",
+   "resistance_source": "Porter DP et al. J Acquir Immune Defic Syndr 2014;65:318-326 (PMID 24525469) abstract",
+   "res_final_text": "Week 96 (van Lunzen, AIDS 2016;30:251-259, PMID 26684822): Snapshot <50 77.9% vs 72.4%; resistance after W48 1.0% vs 0.3%; CT.gov through W96 5.3% RPV arm with emergent resistance.",
+   "notes": "Treatment-naive; not registrational for Complera (bioequivalence-based approval); post-approval Phase 3b.",
+   "flags": [
+    "Specific mutations E138K/M184I retained from master but not verified in abstracts read"
+   ],
+   "changes": [
+    {
+     "column": "I",
+     "field": "Peer-Reviewed Phase 3 Publication",
+     "previous": "Cohen et al. Week 48 comparison of RPV/FTC/TDF and EFV/FTC/TDF, AIDS",
+     "new": "Cohen C et al. Week 48 results from a randomized clinical trial of rilpivirine/emtricitabine/tenofovir disoproxil fumarate vs. efavirenz/emtricitabine/tenofovir disoproxil fumarate in treatment-naive HIV-1-infected adults. AIDS. 2014;28:989-997.",
+     "reason": "Full citation",
+     "source": "PMID 24508782"
+    },
+    {
+     "column": "L",
+     "field": "Week 48 FDA Snapshot: HIV-1 RNA <50 copies/mL",
+     "previous": "85.8% vs 81.6% comparator",
+     "new": "85.8% RPV/FTC/TDF (n=394) vs 81.6% EFV/FTC/TDF (n=392)",
+     "reason": "Added counts",
+     "source": "PMID 24508782"
+    },
+    {
+     "column": "M",
+     "field": "Treatment-Emergent Resistance - Any Regimen Component",
+     "previous": "4.3% NNRTI plus NRTI resistance reported in RPV arm",
+     "new": "Week 48: 17/394 (4.3%) RPV/FTC/TDF participants developed NNRTI and/or NRTI RAMs (16/17 both) among 20 in resistance-analysis population; EFV/FTC/TDF 3/392.",
+     "reason": "Specified counts/denominator/timepoint",
+     "source": "PMID 24525469"
+    },
+    {
+     "column": "N",
+     "field": "Treatment-Emergent Resistance - Newly Approved Drug/Product",
+     "previous": "E138K and M184I reported",
+     "new": "17/394 (4.3%) with emergent NNRTI (RPV) and/or NRTI RAMs; specific mutations (master: E138K, M184I) not verified from abstract",
+     "reason": "Added counts; flagged unverified mutations",
+     "source": "PMID 24525469"
+    },
+    {
+     "column": "O",
+     "field": "Trial/Publication Notes",
+     "previous": "Treatment-naive.",
+     "new": "Treatment-naive; not registrational for Complera (bioequivalence-based approval); post-approval Phase 3b.",
+     "reason": "Added context",
+     "source": "Complera US label Highlights 'Initial U.S. Approval: 2011' (DailyMed setid 9176bf31-c889-47bd-861c-f2d3fc37ab8d)"
+    },
+    {
+     "column": "R",
+     "field": "Regulatory/Publication Source Note",
+     "previous": "See NIH source; FDA/peer-reviewed source verification required for blank or Not reported fields.",
+     "new": "Verified: PMID 24508782 and 24525469 abstracts; PMID 26684822; CT.gov NCT01309243; Complera US label (approval 2011)",
+     "reason": "Sources now named",
+     "source": "as listed"
+    }
+   ]
+  },
+  {
+   "product": "RPV/TDF/FTC",
+   "existing_row": null,
+   "trial_name": "SPIRIT (GS-US-264-0106)",
+   "nct_id": "NCT01252940",
+   "population": "Switch",
+   "design": "Phase 3b, multicentre, open-label, randomised (2:1) immediate vs delayed (Week 24) switch, non-inferiority (12% margin) at Week 24; suppressed adults on ritonavir-boosted PI + 2 NRTIs",
+   "experimental_arm": "Immediate switch to rilpivirine/emtricitabine/tenofovir DF",
+   "comparator_arm": "Stay on baseline ritonavir-boosted PI regimen for 24 weeks, then switch",
+   "publication_citation": "Palella FJ Jr et al. Simplification to rilpivirine/emtricitabine/tenofovir disoproxil fumarate from ritonavir-boosted protease inhibitor antiretroviral therapy in a randomized trial of HIV-1 RNA-suppressed participants. AIDS. 2014;28:335-344.",
+   "pmid": "24670520",
+   "publication_year": 2014,
+   "approval_year_checked": "2011",
+   "approval_year_source": "Complera US label Highlights 'Initial U.S. Approval: 2011' (DailyMed setid 9176bf31-c889-47bd-861c-f2d3fc37ab8d)",
+   "week48_snapshot": "Not reported",
+   "week48_snapshot_source": "Week 48 Snapshot without randomised comparator: 89.3% (n=317) RPV/FTC/TDF; delayed arm had only 24 weeks on RPV/FTC/TDF (92.1%, n=152) - not a randomised comparison (CT.gov)",
+   "week48_alt_endpoint": "Primary Week 24 Snapshot <50 c/mL: 93.7% RPV/FTC/TDF vs 89.9% stay on PI regimen",
+   "week48_alt_source": "PMID 24670520 abstract; Complera label Table (Study 106)",
+   "te_res_any_component": "Resistance described as low in abstract; counts Not reported in sources read",
+   "te_res_new_drug_text": "Not reported",
+   "res_new_drug_n": null,
+   "res_N_randomized": 317,
+   "res_N_tested": null,
+   "resistance_timepoint": "Week 48",
+   "resistance_source": "PMID 24670520 abstract (qualitative only)",
+   "res_final_text": "Not reported",
+   "notes": "Switch from boosted PI; supports Complera switch labelling.",
+   "flags": [
+    "Week 48 Snapshot exists only for single arm (CT.gov 89.3%); comparator crossed over at W24",
+    "Resistance counts not extracted (full text not read) - human check"
+   ],
+   "changes": []
+  },
+  {
+   "product": "RPV/TDF/FTC",
+   "existing_row": null,
+   "trial_name": "SALIF",
+   "nct_id": "NCT01709084",
+   "population": "Switch",
+   "design": "Phase 3b, multicentre (low/middle-income countries), open-label, randomised (1:1), non-inferiority; first-line suppressed adults on EFV-based ART",
+   "experimental_arm": "Switch to rilpivirine/emtricitabine/tenofovir DF",
+   "comparator_arm": "Efavirenz/emtricitabine/tenofovir DF",
+   "publication_citation": "Munderi P et al. Switching at Low HIV-1 RNA into Fixed Dose Combinations: TDF/FTC/RPV is non-inferior to TDF/FTC/EFV in first-line suppressed patients living with HIV. South Afr J HIV Med. 2019;20:949.",
+   "pmid": "31392036",
+   "publication_year": 2019,
+   "approval_year_checked": "2011",
+   "approval_year_source": "Complera US label Highlights 'Initial U.S. Approval: 2011' (DailyMed setid 9176bf31-c889-47bd-861c-f2d3fc37ab8d)",
+   "week48_snapshot": "Not reported",
+   "week48_snapshot_source": "Primary endpoint <400 c/mL (modified Snapshot); not FDA Snapshot <50",
+   "week48_alt_endpoint": "HIV-1 RNA <400 c/mL at Week 48 (modified Snapshot): 93.9% (200/213) vs 96.2% (203/211); CT.gov also lists <50 at W48 93.9 vs 96.2",
+   "week48_alt_source": "PMID 31392036 abstract; CT.gov NCT01709084",
+   "te_res_any_component": "1 virologic failure per arm; no treatment-emergent resistance",
+   "te_res_new_drug_text": "0 with emergent RPV resistance",
+   "res_new_drug_n": 0,
+   "res_N_randomized": 213,
+   "res_N_tested": null,
+   "resistance_timepoint": "Week 48",
+   "resistance_source": "PMID 31392036 abstract",
+   "res_final_text": "Not reported",
+   "notes": "Investigator-initiated LMIC switch trial.",
+   "flags": [
+    "Identical <400 and <50 percentages on CT.gov - human check",
+    "Modified Snapshot, not FDA Snapshot"
+   ],
+   "changes": []
+  },
+  {
+   "product": "RPV",
+   "existing_row": 58,
+   "trial_name": "ECHO (TMC278-C209)",
+   "nct_id": "NCT00540449",
+   "population": "Treatment-naive",
+   "design": "Phase 3, multicentre, randomised (1:1), double-blind, double-dummy, non-inferiority (12% margin); ART-naive adults, HIV-1 RNA >=5000 c/mL",
+   "experimental_arm": "Rilpivirine 25 mg once daily + TDF/FTC",
+   "comparator_arm": "Efavirenz 600 mg + TDF/FTC",
+   "publication_citation": "Molina JM et al. Rilpivirine versus efavirenz with tenofovir and emtricitabine in treatment-naive adults infected with HIV-1 (ECHO): a phase 3 randomised double-blind active-controlled trial. Lancet. 2011;378:238-246.",
+   "pmid": "21763936",
+   "publication_year": 2011,
+   "approval_year_checked": "2011",
+   "approval_year_source": "Edurant US label Highlights 'Initial U.S. Approval: 2011' (DailyMed setid 03880372-2c68-45c6-a53a-f420c49541d6)",
+   "week48_snapshot": "82.4% (285/346) RPV vs 81.7% (281/344) EFV",
+   "week48_snapshot_source": "CT.gov NCT00540449 posted results (secondary: ITT Snapshot <50 c/mL at Week 48); percentages computed from counts",
+   "week48_alt_endpoint": "ITT-TLOVR confirmed <50 c/mL at Week 48 (primary): 83% (287/346) vs 83% (285/344)",
+   "week48_alt_source": "PMID 21763936 abstract; CT.gov NCT00540449 primary outcome",
+   "te_res_any_component": "Pooled ECHO+THRIVE Week 48 (Rimsky 2012): treatment-emergent NNRTI RAMs in 39/62 RPV VF genotyped (most commonly E138K, K101E) vs 15/28 EFV; NRTI RAMs 42/62 vs 9/28 (M184I/V); trial-specific counts Not reported",
+   "te_res_new_drug_text": "Pooled ECHO+THRIVE: 39/62 RPV VF with emergent NNRTI RAMs (E138K, K101E most common; E138K+M184I frequent); trial-specific count Not reported",
+   "res_new_drug_n": null,
+   "res_N_randomized": 346,
+   "res_N_tested": null,
+   "resistance_timepoint": "Week 48 (pooled)",
+   "resistance_source": "Rimsky L et al. J Acquir Immune Defic Syndr 2012;59:39-46 (PMID 22067667) abstract; Edurant label sec 12.4",
+   "res_final_text": "Edurant label sec 12.4: Week 96 pooled resistance analysis, 58% (57/98) RPV resistance-analysis subjects had genotypic/phenotypic RPV resistance vs 45% (25/56) EFV; Week 96 pooled outcomes in label Table 15.",
+   "notes": "Treatment-naive; registrational for Edurant (pooled analyses in label).",
+   "flags": [
+    "Resistance only available pooled across ECHO/THRIVE; per-trial res_new_drug_n not reported",
+    "Master value 84% vs 82% was pooled ITT-TLOVR, not trial-level Snapshot"
+   ],
+   "changes": [
+    {
+     "column": "I",
+     "field": "Peer-Reviewed Phase 3 Publication",
+     "previous": "Molina et al., Lancet",
+     "new": "Molina JM et al. Rilpivirine versus efavirenz with tenofovir and emtricitabine in treatment-naive adults infected with HIV-1 (ECHO): a phase 3 randomised double-blind active-controlled trial. Lancet. 2011;378:238-246.",
+     "reason": "Full citation",
+     "source": "PMID 21763936"
+    },
+    {
+     "column": "L",
+     "field": "Week 48 FDA Snapshot: HIV-1 RNA <50 copies/mL",
+     "previous": "84% vs 82% efavirenz (pooled)",
+     "new": "82.4% (285/346) RPV vs 81.7% (281/344) EFV",
+     "reason": "Replaced pooled TLOVR value with trial-level FDA Snapshot",
+     "source": "CT.gov NCT00540449"
+    },
+    {
+     "column": "M",
+     "field": "Treatment-Emergent Resistance - Any Regimen Component",
+     "previous": "More NNRTI and NRTI resistance than comparator; E138K/M184I reported",
+     "new": "Pooled ECHO+THRIVE Week 48 (Rimsky 2012): treatment-emergent NNRTI RAMs in 39/62 RPV VF genotyped (most commonly E138K, K101E) vs 15/28 EFV; NRTI RAMs 42/62 vs 9/28 (M184I/V); trial-specific counts Not reported",
+     "reason": "Specified counts (pooled), mutations and timepoint",
+     "source": "PMID 22067667"
+    },
+    {
+     "column": "N",
+     "field": "Treatment-Emergent Resistance - Newly Approved Drug/Product",
+     "previous": "Treatment-emergent RPV resistance including E138K reported",
+     "new": "Pooled ECHO+THRIVE: 39/62 RPV VF with emergent NNRTI RAMs (E138K, K101E most common; E138K+M184I frequent); trial-specific count Not reported",
+     "reason": "Specified counts (pooled) and mutations",
+     "source": "PMID 22067667"
+    },
+    {
+     "column": "O",
+     "field": "Trial/Publication Notes",
+     "previous": "Pooled Week 48 value.",
+     "new": "Treatment-naive; trial-level Snapshot from CT.gov; primary endpoint ITT-TLOVR (83% (287/346) vs 83% (285/344)); resistance pooled",
+     "reason": "Clarified",
+     "source": "PMID 21763936"
+    },
+    {
+     "column": "R",
+     "field": "Regulatory/Publication Source Note",
+     "previous": "See NIH source; FDA/peer-reviewed source verification required for blank or Not reported fields.",
+     "new": "Verified: PMID 21763936 abstract; CT.gov NCT00540449 posted results; PMID 22067667; Edurant US label (approval 2011)",
+     "reason": "Sources now named",
+     "source": "as listed"
+    }
+   ]
+  },
+  {
+   "product": "RPV",
+   "existing_row": 59,
+   "trial_name": "THRIVE (TMC278-C215)",
+   "nct_id": "NCT00543725",
+   "population": "Treatment-naive",
+   "design": "Phase 3, multicentre, randomised (1:1), double-blind, double-dummy, non-inferiority (12% margin); ART-naive adults, HIV-1 RNA >=5000 c/mL",
+   "experimental_arm": "Rilpivirine 25 mg once daily + investigator-selected N(t)RTIs (TDF/FTC, ZDV/3TC or ABC/3TC)",
+   "comparator_arm": "Efavirenz 600 mg + background N(t)RTIs",
+   "publication_citation": "Cohen CJ et al. Rilpivirine versus efavirenz with two background nucleoside or nucleotide reverse transcriptase inhibitors in treatment-naive adults infected with HIV-1 (THRIVE): a phase 3, randomised, non-inferiority trial. Lancet. 2011;378:229-237.",
+   "pmid": "21763935",
+   "publication_year": 2011,
+   "approval_year_checked": "2011",
+   "approval_year_source": "Edurant US label Highlights 'Initial U.S. Approval: 2011' (DailyMed setid 03880372-2c68-45c6-a53a-f420c49541d6)",
+   "week48_snapshot": "82.6% (281/340) RPV vs 78.4% (265/338) EFV",
+   "week48_snapshot_source": "CT.gov NCT00543725 posted results (secondary: ITT Snapshot <50 c/mL at Week 48); percentages computed from counts",
+   "week48_alt_endpoint": "ITT-TLOVR confirmed <50 c/mL at Week 48 (primary): 86% (291/340) vs 82% (276/338)",
+   "week48_alt_source": "PMID 21763935 abstract; CT.gov NCT00543725 primary outcome",
+   "te_res_any_component": "Pooled ECHO+THRIVE Week 48 (Rimsky 2012): treatment-emergent NNRTI RAMs in 39/62 RPV VF genotyped (most commonly E138K, K101E) vs 15/28 EFV; NRTI RAMs 42/62 vs 9/28 (M184I/V); trial-specific counts Not reported",
+   "te_res_new_drug_text": "Pooled ECHO+THRIVE: 39/62 RPV VF with emergent NNRTI RAMs (E138K, K101E most common; E138K+M184I frequent); trial-specific count Not reported",
+   "res_new_drug_n": null,
+   "res_N_randomized": 340,
+   "res_N_tested": null,
+   "resistance_timepoint": "Week 48 (pooled)",
+   "resistance_source": "Rimsky L et al. J Acquir Immune Defic Syndr 2012;59:39-46 (PMID 22067667) abstract; Edurant label sec 12.4",
+   "res_final_text": "Edurant label sec 12.4: Week 96 pooled resistance analysis, 58% (57/98) RPV resistance-analysis subjects had genotypic/phenotypic RPV resistance vs 45% (25/56) EFV; Week 96 pooled outcomes in label Table 15.",
+   "notes": "Treatment-naive; registrational for Edurant (pooled analyses in label).",
+   "flags": [
+    "Resistance only available pooled across ECHO/THRIVE; per-trial res_new_drug_n not reported",
+    "Master value 84% vs 82% was pooled ITT-TLOVR, not trial-level Snapshot"
+   ],
+   "changes": [
+    {
+     "column": "I",
+     "field": "Peer-Reviewed Phase 3 Publication",
+     "previous": "Cohen et al., Lancet",
+     "new": "Cohen CJ et al. Rilpivirine versus efavirenz with two background nucleoside or nucleotide reverse transcriptase inhibitors in treatment-naive adults infected with HIV-1 (THRIVE): a phase 3, randomised, non-inferiority trial. Lancet. 2011;378:229-237.",
+     "reason": "Full citation",
+     "source": "PMID 21763935"
+    },
+    {
+     "column": "L",
+     "field": "Week 48 FDA Snapshot: HIV-1 RNA <50 copies/mL",
+     "previous": "84% vs 82% efavirenz (pooled)",
+     "new": "82.6% (281/340) RPV vs 78.4% (265/338) EFV",
+     "reason": "Replaced pooled TLOVR value with trial-level FDA Snapshot",
+     "source": "CT.gov NCT00543725"
+    },
+    {
+     "column": "M",
+     "field": "Treatment-Emergent Resistance - Any Regimen Component",
+     "previous": "More NNRTI and NRTI resistance than comparator; E138K/M184I reported",
+     "new": "Pooled ECHO+THRIVE Week 48 (Rimsky 2012): treatment-emergent NNRTI RAMs in 39/62 RPV VF genotyped (most commonly E138K, K101E) vs 15/28 EFV; NRTI RAMs 42/62 vs 9/28 (M184I/V); trial-specific counts Not reported",
+     "reason": "Specified counts (pooled), mutations and timepoint",
+     "source": "PMID 22067667"
+    },
+    {
+     "column": "N",
+     "field": "Treatment-Emergent Resistance - Newly Approved Drug/Product",
+     "previous": "Treatment-emergent RPV resistance including E138K reported",
+     "new": "Pooled ECHO+THRIVE: 39/62 RPV VF with emergent NNRTI RAMs (E138K, K101E most common; E138K+M184I frequent); trial-specific count Not reported",
+     "reason": "Specified counts (pooled) and mutations",
+     "source": "PMID 22067667"
+    },
+    {
+     "column": "O",
+     "field": "Trial/Publication Notes",
+     "previous": "Pooled Week 48 value.",
+     "new": "Treatment-naive; trial-level Snapshot from CT.gov; primary endpoint ITT-TLOVR (86% (291/340) vs 82% (276/338)); resistance pooled",
+     "reason": "Clarified",
+     "source": "PMID 21763935"
+    },
+    {
+     "column": "R",
+     "field": "Regulatory/Publication Source Note",
+     "previous": "See NIH source; FDA/peer-reviewed source verification required for blank or Not reported fields.",
+     "new": "Verified: PMID 21763935 abstract; CT.gov NCT00543725 posted results; PMID 22067667; Edurant US label (approval 2011)",
+     "reason": "Sources now named",
+     "source": "as listed"
+    }
+   ]
+  }
+ ],
+ "excluded": [
+  {
+   "product": "RPV/TAF/FTC",
+   "trial": "Co-STARs",
+   "nct_id": "NCT02707601",
+   "pmid": "",
+   "reason": "Primary endpoint HCV SVR12 in HIV/HCV coinfection (not HIV efficacy)"
+  },
+  {
+   "product": "RPV/TDF/FTC",
+   "trial": "Near-Rwanda",
+   "nct_id": "NCT02104700",
+   "pmid": "27704000",
+   "reason": "Registered Phase 2/3; publication does not state phase; primary <200 c/mL at Week 24"
+  },
+  {
+   "product": "RPV/TDF/FTC",
+   "trial": "GS-US-264-0111",
+   "nct_id": "",
+   "pmid": "24144898",
+   "reason": "Phase 2b single-arm switch (not Phase 3/3b) - not fully verified"
+  },
+  {
+   "product": "RPV/TDF/FTC",
+   "trial": "NCT01701882 pilot",
+   "nct_id": "NCT01701882",
+   "pmid": "",
+   "reason": "Pilot; primary endpoint toxicity resolution"
+  },
+  {
+   "product": "RPV/TDF/FTC",
+   "trial": "Wiriyatanakorn 2019",
+   "nct_id": "",
+   "pmid": "31341931",
+   "reason": "Phase not stated"
+  },
+  {
+   "product": "RPV",
+   "trial": "DUAL (Di Cristo)",
+   "nct_id": "NCT01792570",
+   "pmid": "32129161",
+   "reason": "Pilot exploratory; not Phase 3"
+  },
+  {
+   "product": "RPV",
+   "trial": "PROBE 2",
+   "nct_id": "NCT04064632",
+   "pmid": "",
+   "reason": "Phase 4"
+  },
+  {
+   "product": "RPV",
+   "trial": "Palanuphap",
+   "nct_id": "",
+   "pmid": "32277868",
+   "reason": "Phase not stated"
+  },
+  {
+   "product": "RPV",
+   "trial": "Petchkum",
+   "nct_id": "",
+   "pmid": "31041351",
+   "reason": "Phase not stated"
+  },
+  {
+   "product": "RPV",
+   "trial": "Kajeekul 2026",
+   "nct_id": "",
+   "pmid": "42774926",
+   "reason": "Phase not stated"
+  },
+  {
+   "product": "RPV",
+   "trial": "Rokx",
+   "nct_id": "",
+   "pmid": "25247434",
+   "reason": "Nonrandomised; phase not stated"
+  },
+  {
+   "product": "RPV",
+   "trial": "RISE",
+   "nct_id": "NCT03563742",
+   "pmid": "",
+   "reason": "Terminated; no results"
+  },
+  {
+   "product": "RPV",
+   "trial": "C222 rollover",
+   "nct_id": "NCT01266902",
+   "pmid": "",
+   "reason": "Rollover; safety primary"
+  },
+  {
+   "product": "RPV",
+   "trial": "SWORD-1/2",
+   "nct_id": "",
+   "pmid": "",
+   "reason": "DTG/RPV product (covered in g1)"
+  },
+  {
+   "product": "RPV",
+   "trial": "PAINT",
+   "nct_id": "",
+   "pmid": "",
+   "reason": "Adolescents"
+  },
+  {
+   "product": "RPV",
+   "trial": "NCT03033368",
+   "nct_id": "NCT03033368",
+   "pmid": "",
+   "reason": "Adolescents"
+  },
+  {
+   "product": "RPV",
+   "trial": "RPV pregnancy PK",
+   "nct_id": "NCT00855335",
+   "pmid": "",
+   "reason": "PK study"
+  },
+  {
+   "product": "RPV",
+   "trial": "QUATUOR / ANRS 4D / TRULIGHT",
+   "nct_id": "NCT02302547",
+   "pmid": "",
+   "reason": "Intermittent/dual strategy; RPV not the evaluated agent (not fully screened)"
+  },
+  {
+   "product": "CAB/RPV",
+   "trial": "CARISEL",
+   "nct_id": "NCT04399551",
+   "pmid": "38985445",
+   "reason": "Implementation-science primary endpoint (not efficacy); M12 <50 87% (373/430), 1 CVF"
+  },
+  {
+   "product": "CAB/RPV",
+   "trial": "CUSTOMIZE",
+   "nct_id": "NCT04001803",
+   "pmid": "",
+   "reason": "Implementation primary endpoint"
+  },
+  {
+   "product": "CAB/RPV",
+   "trial": "CAPRI",
+   "nct_id": "NCT05601128",
+   "pmid": "",
+   "reason": "PK in renal impairment"
+  },
+  {
+   "product": "CAB/RPV",
+   "trial": "Thigh injection substudy",
+   "nct_id": "NCT05896761",
+   "pmid": "",
+   "reason": "PK substudy"
+  },
+  {
+   "product": "CAB/RPV",
+   "trial": "SC substudy (D'Amico)",
+   "nct_id": "NCT05896748",
+   "pmid": "40779489",
+   "reason": "PK substudy"
+  },
+  {
+   "product": "CAB/RPV",
+   "trial": "POLAR",
+   "nct_id": "",
+   "pmid": "",
+   "reason": "Phase 2b"
+  },
+  {
+   "product": "CAB/RPV",
+   "trial": "LATTE",
+   "nct_id": "",
+   "pmid": "26201299",
+   "reason": "Phase 2b"
+  },
+  {
+   "product": "CAB/RPV",
+   "trial": "LATTE-2",
+   "nct_id": "",
+   "pmid": "28750935",
+   "reason": "Phase 2b"
+  },
+  {
+   "product": "CAB/RPV",
+   "trial": "MOCHA",
+   "nct_id": "",
+   "pmid": "",
+   "reason": "Adolescents"
+  },
+  {
+   "product": "CAB/RPV",
+   "trial": "LATA",
+   "nct_id": "NCT05154747",
+   "pmid": "",
+   "reason": "Adolescents"
+  },
+  {
+   "product": "CAB/RPV",
+   "trial": "OPERA",
+   "nct_id": "",
+   "pmid": "",
+   "reason": "Observational cohort"
+  },
+  {
+   "product": "CAB/RPV",
+   "trial": "ULA / CROWN / SUPLA / NCT07682961",
+   "nct_id": "NCT07650916; NCT06694805; NCT06507059; NCT07682961",
+   "pmid": "",
+   "reason": "No results reported"
+  },
+  {
+   "product": "CAB",
+   "trial": "HPTN 083 / HPTN 084",
+   "nct_id": "NCT02720094; NCT03164564",
+   "pmid": "",
+   "reason": "PrEP (not treatment)"
+  }
+ ],
+ "product_notes": {
+  "CAB/RPV": "8 records (FLAIR, ATLAS, ATLAS-2M, SOLAR, CARES, LATITUDE, IMPALA, VOLITION). Approval 2021 per Cabenuva label. Screened via ctsearch cabotegravir + PubMed. Week 48 resistance for FLAIR/ATLAS from open-access pooled paper; ATLAS-2M from label. Not fully assessed: IMPALA and LATITUDE resistance details (full text not open access); trials with no results yet (ULA NCT07650916, CROWN NCT06694805, SUPLA NCT06507059, NCT07682961).",
+  "CAB": "8 component records mirroring CAB/RPV trials (CAB is the investigational INSTI in each). Approval corrected 2020->2021 per Vocabria label. Excluded HPTN 083/084 and other PrEP studies.",
+  "RPV/TAF/FTC": "2 records (1160, 1216). Approval 2016 per Odefsey label. No other adult Phase 3 RPV/FTC/TAF efficacy trial with results found; Co-STARs excluded (HCV primary endpoint).",
+  "RPV/TDF/FTC": "3 records (STaR, SPIRIT, SALIF). Approval 2011 per Complera label. Not fully screened: GS-US-264-0111 (Mills 2013, PMID 24144898; reported as phase 2b), Wiriyatanakorn 2019 (phase not stated), other investigator-initiated studies.",
+  "RPV": "2 records (ECHO, THRIVE). Approval 2011 per Edurant label. Not fully screened: TRULIGHT NCT02302547, QUATUOR, ANRS 4D (strategy trials where RPV not evaluated agent); investigator-initiated Thai trials (phase not stated)."
+ }
+}
