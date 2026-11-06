@@ -153,3 +153,25 @@ committed `out/*.json` and `session2/*.json` files.
   - DOR/ISL 019, which enrolled adolescents ≥12 years.
 - **Agent extraction:** values were extracted by AI agents and spot-checked only through the
   automated checks above. No human has verified them against the sources.
+
+## Figures (`make_figures.py`)
+
+Run after `build_final.py`, using a Python environment with openpyxl and matplotlib:
+`python hiv_review/make_figures.py`. This writes the PNGs to `hiv_review/figures/` and adds two sheets to the workbook, **Plot Data** and **Figures**.
+
+- **fig1_efficacy_over_time.png**: product-arm Week 48 FDA Snapshot HIV-1 RNA <50 copies/mL (%) by publication year.
+- **fig2_resistance_over_time.png**: treatment-emergent resistance to the product, as a % of randomized/treated participants, by publication year.
+  - Hollow markers are resistance results that were not reported at Week 48–52.
+- **fig3_efficacy_vs_resistance.png**, two panels:
+  - (a) efficacy by year, with marker size showing resistance %;
+  - (b) efficacy vs resistance.
+
+Symbol colour and shape show the drug class (column B).
+
+Rules: values are plotted only as stated in the workbook; nothing is extrapolated.
+- "Not reported", "Not applicable", pooled and non-Snapshot efficacy values are not plotted.
+- Resistance % is plotted only when the source states the counts.
+- A trial listed under several products is plotted once, using the coformulated row.
+- The x axis is the peer-reviewed publication year, not the year the trial was conducted.
+
+Treatment population (naive, switch, experienced) strongly affects both metrics, so compare classes with caution. These figures are AI-assisted and have not been scientifically validated.
