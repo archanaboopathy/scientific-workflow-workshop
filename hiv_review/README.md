@@ -168,6 +168,10 @@ Run after `build_final.py`, using a Python environment with openpyxl and matplot
 
 Symbol colour and shape show the drug class (column B).
 
+**fig4_efficacy_vs_resistance_BFTAF.png** is panel iii-b (efficacy vs resistance) with the B/F/TAF (BIC/TAF/FTC) trials GS-US-380-1489, -1490, -1844, -1878, -4030, -4449 and -4458 (ALLIANCE) drawn as filled maroon INSTI + NRTI symbols. Two of them need special handling:
+- **Study 4030** states 0 participants with emergent resistance but gives no per-arm denominator, so it is plotted at 0% and marked *.
+- **ALLIANCE** has a Week 48 Snapshot value, but the workbook row has no emergent-resistance count. It is shown in a separate "Resistance not reported" strip below the axis and marked †; no resistance value is assigned.
+
 Each figure also has a `*_trendline.png` version with an unweighted ordinary least-squares line of best fit (one point per trial). The line is drawn only across the observed data range. The slope, R² and n are shown in the panel title. These lines are descriptive, not statistical tests. Fits through the 2026 build: efficacy +0.55 %-points/year (R² 0.14, n 64); resistance −0.09 %-points/year (R² 0.02, n 62); resistance vs efficacy −0.02 per efficacy %-point (R² 0.03, n 41). Both versions are embedded in the workbook's Figures sheet.
 
 Rules: values are plotted only as stated in the workbook; nothing is extrapolated.
@@ -177,3 +181,28 @@ Rules: values are plotted only as stated in the workbook; nothing is extrapolate
 - The x axis is the peer-reviewed publication year, not the year the trial was conducted.
 
 Treatment population (naive, switch, experienced) strongly affects both metrics, so compare classes with caution. These figures are AI-assisted and have not been scientifically validated.
+
+## Network plots (`network/`)
+
+Figure-2-style network plots, modelled on Figure 2 of the RSV mAb review, built from the 'Phase 3 Master' sheet of the final master workbook (`HIV_Phase3_Trial_Review_from_GitHub_AB_110526.xlsx`). Run `python hiv_review/network/build_network.py <path-to-workbook>` with openpyxl and matplotlib installed.
+
+- **network_1_regimen.png**: one node per full regimen (96 nodes, 122 edges).
+- **network_2_anchor.png**: one node per anchor (third) agent, or per regimen for 2-drug and NRTI-sparing regimens (36 nodes, 67 edges).
+- **network_3_class.png**: one node per regimen class (14 nodes, 30 edges).
+- **HIV_Phase3_network_data.xlsx**: Read Me, Arms, plus the nodes and edges for each level.
+
+Node area is proportional to total participants across included arms. Edge width and edge label give the number of trials that directly compare the two nodes; a multi-arm trial adds one edge per pair of arms. Arms in the same node (within-node comparisons) are not drawn, but each plot's caption lists them. "Continued baseline ART" is placed at the centre.
+
+Rules:
+- Only randomized trials with at least 2 arms are included (122 trials).
+- Excluded:
+  - single-arm studies;
+  - VOLITION (participants chose their arm, so not randomized);
+  - the WAVES open-label extension;
+  - placeholder product rows.
+- Arm N is taken as stated in the workbook. Where the per-arm N is not stated, the arm counts as 0 and the node label is marked `*`. A few arm Ns are derived as a stated total minus a stated arm N (TITAN, ARTEMIS, DUET-2).
+
+These need human review:
+- how regimens are mapped to anchors and classes;
+- including strategy and non-registrational trials;
+- the analysis populations used for Ns (DolPHIN-2, MANET at Week 24, SOLAR mITT-E).
