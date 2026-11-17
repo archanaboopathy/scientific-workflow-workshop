@@ -206,3 +206,12 @@ These need human review:
 - how regimens are mapped to anchors and classes;
 - including strategy and non-registrational trials;
 - the analysis populations used for Ns (DolPHIN-2, MANET at Week 24, SOLAR mITT-E).
+
+## Pipeline schematic (`make_schematic.py`)
+
+`figures/schematic_pipeline.png` is a one-page flowchart of the whole pipeline. It covers:
+- building the master workbook, including the 7 research sub-agents, one per ARV-class group;
+- the efficacy and resistance figures (`make_figures.py`);
+- network Figure 1 (`network/build_network.py`).
+
+Regenerate it with `python hiv_review/make_schematic.py` (requires matplotlib).
